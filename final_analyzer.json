@@ -1,0 +1,34 @@
+[
+    {
+        "FAST++": [
+            {
+                "Total Detected Deleted Testfiles": 2,
+                "Total Failed To Detect Deleted Testfiles": 41
+            }
+        ],
+        "FAST-all": [
+            {
+                "Total Detected Deleted Testfiles": 0,
+                "Total Failed To Detect Deleted Testfiles": 43
+            }
+        ],
+        "FAST-CS": [
+            {
+                "Total Detected Deleted Testfiles": 2,
+                "Total Failed To Detect Deleted Testfiles": 41
+            }
+        ],
+        "FAST-pw": [
+            {
+                "Total Detected Deleted Testfiles": 2,
+                "Total Failed To Detect Deleted Testfiles": 41
+            }
+        ]
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+]

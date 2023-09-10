@@ -39,13 +39,14 @@ OPTIONS:
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 5:
-        print(usage)
-        exit()
+    # if len(sys.argv) != 5:
+    #     print(usage)
+    #     exit()
 
-    SIR = [("flex", "v3"), ("grep", "v3"), ("gzip", "v1"), ("sed", "v6"), ("make", "v1")]
-    D4J = [("math", "v1"), ("closure", "v1"), ("time", "v1"), ("lang", "v1"), ("chart", "v1")]
+    # SIR = [("flex", "v3"), ("grep", "v3"), ("gzip", "v1"), ("sed", "v6"), ("make", "v1")]
+    # D4J = [("math", "v1"), ("closure", "v1"), ("time", "v1"), ("lang", "v1"), ("chart", "v1")]
     script, covType, prog, v, rep = sys.argv
+    print(script, covType, prog, prog, prog)
     repetitions = int(rep)
     repeats = 50
     # repeats = 2
@@ -83,19 +84,19 @@ if __name__ == "__main__":
     sPath = outpath + "selections/"
     tPath = outpath + "measures/"
 
-    numOfTCS = sum((1 for _ in open(inputFile)))
+    # numOfTCS = sum((1 for _ in open(inputFile)))
 
-    for reduction in range(1, repetitions+1):
-        B = int(numOfTCS * reduction / 100)
+    # for reduction in range(1, repetitions+1):
+    #     B = int(numOfTCS * reduction / 100)
 
-        for run in range(repeats):
-            pTime, rTime, sel = fastr.fastPlusPlus(inputFile, dim=dim, B=B)
-            print("FAST++", sel)
-            if reduction == repetitions and run == repeats-1:
-                print("Final FAST++", sel)
+    #     for run in range(repeats):
+    #         pTime, rTime, sel = fastr.fastPlusPlus(inputFile, dim=dim, B=B)
+    #         print("FAST++", sel)
+            # if reduction == repetitions and run == repeats-1:
+            #     print("Final FAST++", sel)
             # fdl = metric.fdl(sel, faultMatrix, javaFlag)
-            sOut = "{}/{}-{}-{}.pickle".format(sPath, "FAST++", reduction, run+1)
-            pickle.dump(sel, open(sOut, "wb"))
+            # sOut = "{}/{}-{}-{}.pickle".format(sPath, "FAST++", reduction, run+1)
+            # pickle.dump(sel, open(sOut, "wb"))
             # tOut = "{}/{}-{}-{}.pickle".format(tPath, "FAST++", reduction, run+1)
             # pickle.dump((pTime, rTime, fdl), open(tOut, "wb"))
             # print("FAST++", reduction, pTime, rTime, fdl)
