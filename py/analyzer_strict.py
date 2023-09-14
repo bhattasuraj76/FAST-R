@@ -24,10 +24,6 @@ comparing with developer reduced test sutie in strict scenario.
 """
 
 
-usage = """USAGE: python3 py/analyzer.py <program> 
-  """
-
-
 def get_line_no_history_deleted_testfiles(program, commit, deleted_testfiles):
     testcase_history_file_path = (
         "{}/all_commits_all_testcases/{}/{}-{}-tsh.json".format(
@@ -44,13 +40,13 @@ def get_line_no_history_deleted_testfiles(program, commit, deleted_testfiles):
 
 
 projects_list = [
-    # "commons-lang",
+    "commons-lang",
     "gson",
-    # "commons-math",
-    # "jfreechart",
-    # "joda-time",
-    # "pmd",
-    # "cts",
+    "commons-math",
+    "jfreechart",
+    "joda-time",
+    "pmd",
+    "cts",
 ]
 
 for index, prog in enumerate(projects_list):

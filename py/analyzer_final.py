@@ -3,19 +3,17 @@ from functools import reduce
 from experimentBudgetModified import (
     get_deleted_testcases_with_whole_file_df,
     get_whole_file_test_deletion_parent_commits,
-    get_deleted_testfiles_in_test_deletion_commit_parent,
-    ROOT_DIR,
 )
 
 algos = ["FAST++", "FAST-all", "FAST-CS", "FAST-pw"]
 projects_list = [
-    # "commons-lang",
+    "commons-lang",
     "gson",
-    # "commons-math",
-    # "jfreechart",
-    # "joda-time",
-    # "pmd",
-    # "cts",
+    "commons-math",
+    "jfreechart",
+    "joda-time",
+    "pmd",
+    "cts",
 ]
 data = {"Strict": {}, "Loose": {}}
 
@@ -56,7 +54,7 @@ for index, project in enumerate(projects_list):
                 "Total Failed To Detect Deleted Testfiles": total_failed_to_detect,
             },
         )
-        
+
         total_detected = 0
         total_failed_to_detect = 0
         for algo_analyzer_commit in algo_analyzer_loose["details"]:
@@ -70,7 +68,7 @@ for index, project in enumerate(projects_list):
 
         if project not in data["Loose"]:
             data["Loose"][project] = {}
-            
+
         data["Loose"][project][algo] = (
             {
                 "Total Detected Deleted Testfiles": total_detected,

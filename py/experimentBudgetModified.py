@@ -76,15 +76,15 @@ def get_no_of_deleted_testfiles_in_test_deletion_commit_parent(project, parent_c
 
 LOOSE_BUDGET={}
 #REPEATS = 50 # No. of times the computation step is repeated; 50 to ensure better predictability
-REPEATS =1
+REPEATS =50
 projects_list = [
-    # "commons-lang",
+    "commons-lang",
     "gson",
-    # "commons-math",
-    # "jfreechart",
-    # "joda-time",
-    # "pmd",
-    # "cts",
+    "commons-math",
+    "jfreechart",
+    "joda-time",
+    "pmd",
+    "cts",
 ]
 
 
