@@ -11,24 +11,20 @@ import pandas as pd
 from utils import *
 import json
 
+all_projects_loose_budget = json.load(open(f'./loose_budget.json')) 
+
+
 from experimentBudgetModified import (
     get_deleted_testcases_with_whole_file_df,
     get_whole_file_test_deletion_parent_commits,
     get_deleted_testfiles_in_test_deletion_commit_parent,
-    ROOT_DIR,
+    ROOT_DIR, REPEATS
 )
 
 """
 This file analyzes the reduced test suite and computes the success ratio for all Fast-R algorithms 
-comparing with developer reduced test sutie.
+comparing with developer reduced test sutie in loose scenario.
 """
-
-
-usage = """USAGE: python3 py/analyzer.py <program> 
-OPTIONS:
-  <program>: the target project.
-    options: commons-lang, gson, commons-math, jfreechart, joda-time, cts
-  """
 
 
 def get_line_no_history_deleted_testfiles(program, commit, deleted_testfiles):
@@ -46,8 +42,18 @@ def get_line_no_history_deleted_testfiles(program, commit, deleted_testfiles):
     return line_no
 
 
-if __name__ == "__main__":
-    script, prog = sys.argv
+projects_list = [
+    # "commons-lang",
+    "gson",
+    # "commons-math",
+    # "jfreechart",
+    # "joda-time",
+    # "pmd",
+    # "cts",
+]
+
+
+for index, prog in enumerate(projects_list):
     analyzer_data = {}
 
     commits_list = get_whole_file_test_deletion_parent_commits(prog)
@@ -61,7 +67,7 @@ if __name__ == "__main__":
     analyzer_data["details"] = []
     for index, commit in enumerate(commits_list):
         commit = strip_commit_url(commit)
-        directory = "{}/outputBudget/{}/{}/".format(ROOT_DIR, prog, commit)
+        directory = "{}/outputBudgetLoose/{}/{}/".format(ROOT_DIR, prog, commit)
         selection_dir = directory + "selections"
         measurement_dir = directory + "measures"
 
@@ -86,18 +92,12 @@ if __name__ == "__main__":
         deleted_testfiles_line_no_history = get_line_no_history_deleted_testfiles(
             prog, commit, deleted_testfiles
         )
-
         no_of_preserved_testfiles = numOfTCS - no_of_deleted_testfiles
         print("No. of preserved test files: ", no_of_preserved_testfiles)
-        FINAL_BUDGET = int(
-            no_of_preserved_testfiles / numOfTCS * 100
-        )  # Final budget[no. of testcases remaining] in percentage
+        FINAL_BUDGET = all_projects_loose_budget[prog] # Final budget[no. of testcases remaining] in percentage is fixed for loose scenario
         print("Computed Final Budget: ", FINAL_BUDGET)
-        # REPEATS = 50 # 50 is constant no. of repeats
-        REPEATS = 1
-
+        
         algo_data = {}
-
         for algo in ["FAST++", "FAST-all", "FAST-CS", "FAST-pw"]:
             selection_path = "{}/{}-{}-{}.pickle".format(
                 selection_dir, algo, FINAL_BUDGET, REPEATS
@@ -138,5 +138,5 @@ if __name__ == "__main__":
             }
         )
 
-        f = open(f"./{prog}_analyzer.json", "w")
+        f = open(f"./output-loose/{prog}_analyzer.json", "w")
         f.write(json.dumps(analyzer_data))

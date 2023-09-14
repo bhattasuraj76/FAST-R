@@ -1,34 +1,58 @@
-[
-    {
-        "FAST++": [
-            {
-                "Total Detected Deleted Testfiles": 2,
-                "Total Failed To Detect Deleted Testfiles": 41
-            }
-        ],
-        "FAST-all": [
-            {
-                "Total Detected Deleted Testfiles": 0,
-                "Total Failed To Detect Deleted Testfiles": 43
-            }
-        ],
-        "FAST-CS": [
-            {
-                "Total Detected Deleted Testfiles": 2,
-                "Total Failed To Detect Deleted Testfiles": 41
-            }
-        ],
-        "FAST-pw": [
-            {
-                "Total Detected Deleted Testfiles": 2,
-                "Total Failed To Detect Deleted Testfiles": 41
-            }
-        ]
+{
+    "Strict": {
+        "gson": {
+            "FAST++": [
+                {
+                    "Total Detected Deleted Testfiles": 0,
+                    "Total Failed To Detect Deleted Testfiles": 43
+                }
+            ],
+            "FAST-all": [
+                {
+                    "Total Detected Deleted Testfiles": 3,
+                    "Total Failed To Detect Deleted Testfiles": 40
+                }
+            ],
+            "FAST-CS": [
+                {
+                    "Total Detected Deleted Testfiles": 2,
+                    "Total Failed To Detect Deleted Testfiles": 41
+                }
+            ],
+            "FAST-pw": [
+                {
+                    "Total Detected Deleted Testfiles": 6,
+                    "Total Failed To Detect Deleted Testfiles": 37
+                }
+            ]
+        }
     },
-    {},
-    {},
-    {},
-    {},
-    {},
-    {}
-]
+    "Loose": {
+        "gson": {
+            "FAST++": [
+                {
+                    "Total Detected Deleted Testfiles": 2,
+                    "Total Failed To Detect Deleted Testfiles": 41
+                }
+            ],
+            "FAST-all": [
+                {
+                    "Total Detected Deleted Testfiles": 4,
+                    "Total Failed To Detect Deleted Testfiles": 39
+                }
+            ],
+            "FAST-CS": [
+                {
+                    "Total Detected Deleted Testfiles": 4,
+                    "Total Failed To Detect Deleted Testfiles": 39
+                }
+            ],
+            "FAST-pw": [
+                {
+                    "Total Detected Deleted Testfiles": 6,
+                    "Total Failed To Detect Deleted Testfiles": 37
+                }
+            ]
+        }
+    }
+}

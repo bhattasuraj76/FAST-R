@@ -7,16 +7,7 @@ from experimentBudgetModified import (
     ROOT_DIR,
 )
 
-
-
 algos = ["FAST++", "FAST-all", "FAST-CS", "FAST-pw"]
-
-# def sum(a, b):
-#     return a["Total Deleted Testfiles"] + b["Total Deleted Testfiles"]
-
-# total_deleted_testfiles = reduce(sum, algo_analyzer)
-# print("Total deleted files:", total_deleted_testfiles)
-
 projects_list = [
     # "commons-lang",
     "gson",
@@ -26,21 +17,29 @@ projects_list = [
     # "pmd",
     # "cts",
 ]
-data = [{}, {}, {}, {}, {}, {}, {}]
+data = {"Strict": {}, "Loose": {}}
+
 for index, project in enumerate(projects_list):
-    file = open(f"./{project}_analyzer.json")
-    algo_analyzer = json.load(file)
+    loose_file = open(f"./output-loose/{project}_analyzer.json")
+    strict_file = open(f"./output-strict/{project}_analyzer.json")
+    algo_analyzer_strict = json.load(strict_file)
+    algo_analyzer_loose = json.load(loose_file)
 
     commits_list = get_whole_file_test_deletion_parent_commits(project)
     print("Total whole file test deletion parent commits:", len(commits_list))
 
-    deleted_testcases_with_whole_file = get_deleted_testcases_with_whole_file_df(project)
-    print("Total test cases deleted with whole file:", len(deleted_testcases_with_whole_file))
-    
+    deleted_testcases_with_whole_file = get_deleted_testcases_with_whole_file_df(
+        project
+    )
+    print(
+        "Total test cases deleted with whole file:",
+        len(deleted_testcases_with_whole_file),
+    )
+
     for algo in algos:
         total_detected = 0
         total_failed_to_detect = 0
-        for algo_analyzer_commit in algo_analyzer["details"]:
+        for algo_analyzer_commit in algo_analyzer_strict["details"]:
             alog_analyzer_commit_each_algo = algo_analyzer_commit["Algorithm"][algo]
             total_detected += alog_analyzer_commit_each_algo[
                 "Total Detected Deleted Testfiles"
@@ -49,7 +48,30 @@ for index, project in enumerate(projects_list):
                 "Total Failed To Detect Deleted Testfiles"
             ]
 
-        data[index][algo] = (
+        if project not in data["Strict"]:
+            data["Strict"][project] = {}
+        data["Strict"][project][algo] = (
+            {
+                "Total Detected Deleted Testfiles": total_detected,
+                "Total Failed To Detect Deleted Testfiles": total_failed_to_detect,
+            },
+        )
+        
+        total_detected = 0
+        total_failed_to_detect = 0
+        for algo_analyzer_commit in algo_analyzer_loose["details"]:
+            alog_analyzer_commit_each_algo = algo_analyzer_commit["Algorithm"][algo]
+            total_detected += alog_analyzer_commit_each_algo[
+                "Total Detected Deleted Testfiles"
+            ]
+            total_failed_to_detect += alog_analyzer_commit_each_algo[
+                "Total Failed To Detect Deleted Testfiles"
+            ]
+
+        if project not in data["Loose"]:
+            data["Loose"][project] = {}
+            
+        data["Loose"][project][algo] = (
             {
                 "Total Detected Deleted Testfiles": total_detected,
                 "Total Failed To Detect Deleted Testfiles": total_failed_to_detect,
