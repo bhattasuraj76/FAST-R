@@ -1,1 +1,26 @@
-{"gson": 89}
+{
+    "commons-lang": [
+        92,
+        "452a6c0cd87ed01dc6f60ab65578c6353c0d0522"
+    ],
+    "gson": [
+        89,
+        "f777a192ee13fd59048aa7ba640cc8023051c89d"
+    ],
+    "commons-math": [
+        30,
+        "991078eceb9479657094c8a4ee062d816f132446"
+    ],
+    "jfreechart": [
+        98,
+        "293b2021b7befc0fb331c035fa5b4642da8bc1f2"
+    ],
+    "joda-time": [
+        92,
+        "f1a476f463c62b736e4a641aba4c59d9629814d1"
+    ],
+    "pmd": [
+        70,
+        "24c9bb9de98f55520c53efc065a3b2581ad87fbf"
+    ]
+}

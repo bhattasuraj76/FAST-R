@@ -77,4 +77,4 @@ for index, project in enumerate(projects_list):
         )
 
 f = open("./final_analyzer.json", "w")
-f.write(json.dumps(data))
+f.write(json.dumps(data,  indent=2))

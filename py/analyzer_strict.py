@@ -139,4 +139,4 @@ for index, prog in enumerate(projects_list):
         )
 
         f = open(f"./output-strict/{prog}_analyzer.json", "w")
-        f.write(json.dumps(analyzer_data))
+        f.write(json.dumps(analyzer_data, indent=2))

@@ -53,6 +53,7 @@ def get_deleted_testcases_with_whole_file_df(project):
 
     df = pd.read_csv(validated_tests_file_path)
     deleted_tc_with_whole_file_df = df[df["Deleted With Whole File"] == "yes"]
+    print("Total deleted testcases", len(deleted_tc_with_whole_file_df))
     return deleted_tc_with_whole_file_df
 
 def get_whole_file_test_deletion_parent_commits(project):
@@ -69,11 +70,11 @@ def get_deleted_testfiles_in_test_deletion_commit_parent(project, parent_commit)
     return classes_deleted
 
 def get_no_of_deleted_testfiles_in_test_deletion_commit_parent(project, parent_commit):
-    classes_deleted = get_deleted_testfiles_in_test_deletion_commit_parent(project, commit)
+    classes_deleted = get_deleted_testfiles_in_test_deletion_commit_parent(project, parent_commit)
     return len(classes_deleted)
 
 
-
+#df = df.drop_duplicates('COL2', keep='first')
 LOOSE_BUDGET={}
 REPEATS = 50 # No. of times the computation step is repeated; 50 to ensure better predictability
 MIN_PERCENTAGE_OF_TEST_PRESERVED = 100
@@ -253,4 +254,4 @@ if MIN_PERCENTAGE_OF_TEST_PRESERVED < 100:
             print("FAST-all", reduction, pTime, rTime)
 
 f = open(f"./loose_budget.json", "w")
-f.write(json.dumps(LOOSE_BUDGET))
+f.write(json.dumps(LOOSE_BUDGET,  indent=2))
