@@ -116,7 +116,6 @@ for index, prog in enumerate(projects_list):
 
     # Strict Scenario
     MIN_PERCENTAGE_OF_TEST_PRESERVED = 100
-    MIN_PERCENTAGE_OF_TEST_PRESERVED_HASH = ''
     ALL_BUDGETS= []
     for commit in commits_list:
         commit = strip_commit_url(commit)
@@ -141,16 +140,18 @@ for index, prog in enumerate(projects_list):
 
         if repetitions < MIN_PERCENTAGE_OF_TEST_PRESERVED:
             MIN_PERCENTAGE_OF_TEST_PRESERVED = repetitions
-            MIN_PERCENTAGE_OF_TEST_PRESERVED_HASH = commit
+            min_data = {
+                "numOfTCS": numOfTCS,
+                "no_of_deleted_testfiles": no_of_deleted_testfiles,
+                "hash": commit
+            }
         ALL_BUDGETS.append(repetitions)
     # Loose Scenario
     if MIN_PERCENTAGE_OF_TEST_PRESERVED < 100:
         # print("Budget:" , MIN_PERCENTAGE_OF_TEST_PRESERVED)
         LOOSE_BUDGET[prog] = {
             "Min Budget": MIN_PERCENTAGE_OF_TEST_PRESERVED,
-            "Min Budget Hash " : MIN_PERCENTAGE_OF_TEST_PRESERVED_HASH,
-            "No. of test class files": numOfTCS,
-            "No. of deleted testfiles": no_of_deleted_testfiles,
+            "Min data":  min_data,
             "Max Budget": int(np.max(ALL_BUDGETS)),
             "Average Budget": int(np.mean(ALL_BUDGETS))
         }

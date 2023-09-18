@@ -1,49 +1,61 @@
 {
   "commons-lang": {
     "Min Budget": 92,
-    "Min Budget Hash ": "e329c3556ce0b4a87568f3783adc193719670560",
-    "No. of test class files": 93,
-    "No. of deleted testfiles": 7,
+    "Min data": {
+      "numOfTCS": 53,
+      "no_of_deleted_testfiles": 4,
+      "hash": "e329c3556ce0b4a87568f3783adc193719670560"
+    },
     "Max Budget": 99,
     "Average Budget": 97
   },
   "gson": {
     "Min Budget": 89,
-    "Min Budget Hash ": "f777a192ee13fd59048aa7ba640cc8023051c89d",
-    "No. of test class files": 74,
-    "No. of deleted testfiles": 1,
+    "Min data": {
+      "numOfTCS": 85,
+      "no_of_deleted_testfiles": 9,
+      "hash": "f777a192ee13fd59048aa7ba640cc8023051c89d"
+    },
     "Max Budget": 99,
     "Average Budget": 97
   },
   "commons-math": {
     "Min Budget": 30,
-    "Min Budget Hash ": "991078eceb9479657094c8a4ee062d816f132446",
-    "No. of test class files": 272,
-    "No. of deleted testfiles": 1,
+    "Min data": {
+      "numOfTCS": 63,
+      "no_of_deleted_testfiles": 44,
+      "hash": "991078eceb9479657094c8a4ee062d816f132446"
+    },
     "Max Budget": 99,
     "Average Budget": 97
   },
   "jfreechart": {
     "Min Budget": 98,
-    "Min Budget Hash ": "293b2021b7befc0fb331c035fa5b4642da8bc1f2",
-    "No. of test class files": 359,
-    "No. of deleted testfiles": 3,
+    "Min data": {
+      "numOfTCS": 356,
+      "no_of_deleted_testfiles": 6,
+      "hash": "293b2021b7befc0fb331c035fa5b4642da8bc1f2"
+    },
     "Max Budget": 99,
     "Average Budget": 98
   },
   "joda-time": {
     "Min Budget": 92,
-    "Min Budget Hash ": "f1a476f463c62b736e4a641aba4c59d9629814d1",
-    "No. of test class files": 300,
-    "No. of deleted testfiles": 3,
+    "Min data": {
+      "numOfTCS": 70,
+      "no_of_deleted_testfiles": 5,
+      "hash": "f1a476f463c62b736e4a641aba4c59d9629814d1"
+    },
     "Max Budget": 99,
     "Average Budget": 97
   },
   "pmd": {
     "Min Budget": 70,
-    "Min Budget Hash ": "24c9bb9de98f55520c53efc065a3b2581ad87fbf",
-    "No. of test class files": 741,
-    "No. of deleted testfiles": 1,
+    "Min data": {
+      "numOfTCS": 310,
+      "no_of_deleted_testfiles": 93,
+      "hash": "24c9bb9de98f55520c53efc065a3b2581ad87fbf"
+    },
     "Max Budget": 99,
     "Average Budget": 97
   }
