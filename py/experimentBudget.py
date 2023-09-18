@@ -48,7 +48,7 @@ if __name__ == "__main__":
     script, covType, prog, v, rep = sys.argv
     print(script, covType, prog, prog, prog)
     repetitions = int(rep)
-    repeats = 50
+    repeats = 1
     # repeats = 2
 
     directory = "outputBudget-{}/{}_{}/".format(covType, prog, v)
