@@ -19,10 +19,10 @@
     "Max Budget": 99,
     "Average Budget": 97
   },
-  "commons-math": {
-    "Min Budget": 30,
+"commons-math": {
+    "Min Budget": 29,
     "Min data": {
-      "numOfTCS": 63,
+      "numOfTCS": 62,
       "no_of_deleted_testfiles": 44,
       "hash": "991078eceb9479657094c8a4ee062d816f132446"
     },
@@ -50,13 +50,24 @@
     "Average Budget": 97
   },
   "pmd": {
-    "Min Budget": 70,
+    "Min Budget": 69,
     "Min data": {
-      "numOfTCS": 310,
+      "numOfTCS": 309,
       "no_of_deleted_testfiles": 93,
       "hash": "24c9bb9de98f55520c53efc065a3b2581ad87fbf"
     },
     "Max Budget": 99,
     "Average Budget": 97
+  },
+  "cts": {
+    "Min Budget": 78,
+    "Min data": {
+      "numOfTCS": 3144,
+      "no_of_deleted_testfiles": 681,
+      "hash": "976971e382bbe4a0d6528bf5690baa449fde61ce"
+    },
+    "Max Budget": 99,
+    "Average Budget": 98
   }
 }
+  

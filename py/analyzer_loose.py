@@ -11,7 +11,7 @@ import pandas as pd
 from utils import *
 import json
 
-all_projects_loose_budget = json.load(open(f'./loose_budget.json')) 
+all_projects_loose_budget = json.load(open(f'./stat_loose_budget.json')) 
 
 
 from experimentBudgetModified import (
@@ -43,13 +43,13 @@ def get_line_no_history_deleted_testfiles(program, commit, deleted_testfiles):
 
 
 projects_list = [
-    "commons-lang",
+    # "commons-lang",
     "gson",
-    "commons-math",
-    "jfreechart",
-    "joda-time",
-    "pmd",
-    "cts",
+    # "commons-math",
+    # "jfreechart",
+    # "joda-time",
+    # "pmd",
+    # "cts",
 ]
 
 
@@ -94,7 +94,7 @@ for index, prog in enumerate(projects_list):
         )
         no_of_preserved_testfiles = numOfTCS - no_of_deleted_testfiles
         print("No. of preserved test files: ", no_of_preserved_testfiles)
-        FINAL_BUDGET = all_projects_loose_budget[prog] # Final budget[no. of testcases remaining] in percentage is fixed for loose scenario
+        FINAL_BUDGET = all_projects_loose_budget[prog]["Min Budget"] # Final budget[no. of testcases remaining] in percentage is fixed for loose scenario
         print("Computed Final Budget: ", FINAL_BUDGET)
         
         algo_data = {}

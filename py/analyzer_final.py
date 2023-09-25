@@ -7,13 +7,13 @@ from experimentBudgetModified import (
 
 algos = ["FAST++", "FAST-all", "FAST-CS", "FAST-pw"]
 projects_list = [
-    "commons-lang",
+    # "commons-lang",
     "gson",
-    "commons-math",
-    "jfreechart",
-    "joda-time",
-    "pmd",
-    "cts",
+    # "commons-math",
+    # "jfreechart",
+    # "joda-time",
+    # "pmd",
+    # "cts",
 ]
 data = {"Strict": {}, "Loose": {}}
 

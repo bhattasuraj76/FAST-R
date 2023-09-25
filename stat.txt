@@ -40,3 +40,9 @@ Total Unique testclass files deleted:  512
 Total parent commits:  137
 -----------------------
 ================================================================
+cts
+Total deleted testcases with whole file:  15161
+Total Unique testcases deleted with whole file:  15160
+Total Unique testclass files deleted:  2548
+Total parent commits:  485
+-----------------------

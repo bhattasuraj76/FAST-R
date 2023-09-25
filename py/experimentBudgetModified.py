@@ -75,104 +75,16 @@ def get_no_of_deleted_testfiles_in_test_deletion_commit_parent(project, parent_c
 
 
 #df = df.drop_duplicates('COL2', keep='first')
-LOOSE_BUDGET={}
 REPEATS = 50 # No. of times the computation step is repeated; 50 to ensure better predictability
 MIN_PERCENTAGE_OF_TEST_PRESERVED = 100
 
-script, prog= sys.argv
-commits_list = get_whole_file_test_deletion_parent_commits(prog)
-# Strict Scenario
-for commit in commits_list:
-    commit = strip_commit_url(commit)
-    directory = "{}/outputBudgetStrict/{}/{}/".format(ROOT_DIR, prog, commit)
-    if not os.path.exists(directory):
-        os.makedirs(directory)
-    if not os.path.exists(directory + "selections/"):
-        os.makedirs(directory + "selections/")
-    if not os.path.exists(directory + "measures/"):
-        os.makedirs(directory + "measures/")
-    
-    # FAST-R parameters
-    k, n, r, b = 5, 10, 1, 10
-    dim = 10
-
-    # FAST-f sample size
-    def all_(x): return x
-    def sqrt_(x): return int(math.sqrt(x)) + 1
-    def log_(x): return int(math.log(x, 2)) + 1
-    def one_(x): return 1
-
-    inputFile = "{}/all_commits_all_testcases/{}/{}-{}-ts.txt".format(ROOT_DIR, prog, prog, commit)
-    outpath = "{}/outputBudgetStrict/{}/{}/".format(ROOT_DIR, prog, commit)
-    sPath = outpath + "selections/"
-    tPath = outpath + "measures/"
-
-    numOfTCS = sum((1 for _ in open(inputFile))) # Total no. of testclass in particular commit history
-    no_of_deleted_testfiles = get_no_of_deleted_testfiles_in_test_deletion_commit_parent(prog, commit)
-    no_of_preserved_testfiles = (numOfTCS-no_of_deleted_testfiles)
-    print("Total test files: ", numOfTCS)
-    print("No. of deleted test files: ", no_of_deleted_testfiles)
-    print("No. of preserved test files: ", no_of_preserved_testfiles)
-    repetitions = int(no_of_preserved_testfiles/numOfTCS * 100 ) # Final budget[no. of testcases remaining] in percentage
-    print("Computed Repetitions: ", repetitions)
-
-    if repetitions < MIN_PERCENTAGE_OF_TEST_PRESERVED:
-        MIN_PERCENTAGE_OF_TEST_PRESERVED = repetitions
-    # for reduction in range(1, repetitions+1):
-    # B = int(numOfTCS * reduction / 100) # Current budget for each step
-    B= int(numOfTCS * repetitions / 100)
-    reduction = repetitions
-
-    for run in range(REPEATS):
-        sOut = "{}/{}-{}-{}.pickle".format(sPath, "FAST++", reduction, run+1)
-        tOut = "{}/{}-{}-{}.pickle".format(tPath, "FAST++", reduction, run+1)
-        if os.path.exists(sOut) and os.path.exists(tOut):
-            continue
-        pTime, rTime, sel = fastr.fastPlusPlus(inputFile, dim=dim, B=B)
-        pickle.dump(sel, open(sOut, "wb"))
-        pickle.dump((pTime, rTime), open(tOut, "wb"))
-        print("FAST++", reduction, pTime, rTime, run)
-
-    for run in range(REPEATS):
-        sOut = "{}/{}-{}-{}.pickle".format(sPath, "FAST-CS", reduction, run+1)
-        tOut = "{}/{}-{}-{}.pickle".format(tPath, "FAST-CS", reduction, run+1)
-        if os.path.exists(sOut) and os.path.exists(tOut):
-            continue
-        pTime, rTime, sel = fastr.fastCS(inputFile, dim=dim, B=B)
-        pickle.dump(sel, open(sOut, "wb"))
-        pickle.dump((pTime, rTime), open(tOut, "wb"))
-        print("FAST-CS", reduction, pTime, rTime, run)
-
-
-    for run in range(REPEATS):
-        sOut = "{}/{}-{}-{}.pickle".format(sPath, "FAST-pw", reduction, run+1)
-        tOut = "{}/{}-{}-{}.pickle".format(tPath, "FAST-pw", reduction, run+1)
-        if os.path.exists(sOut) and os.path.exists(tOut):
-            continue
-        pTime, rTime, sel = fastr.fast_pw(inputFile, r, b, bbox=True, k=k, memory=True, B=B)
-        pickle.dump(sel, open(sOut, "wb"))
-        pickle.dump((pTime, rTime), open(tOut, "wb"))
-        print("FAST-pw", reduction, pTime, rTime, run)
-
-
-    for run in range(REPEATS):
-        sOut = "{}/{}-{}-{}.pickle".format(sPath, "FAST-all", reduction, run+1)
-        tOut = "{}/{}-{}-{}.pickle".format(tPath, "FAST-all", reduction, run+1)
-        if os.path.exists(sOut) and os.path.exists(tOut):
-            continue
-        pTime, rTime, sel = fastr.fast_(inputFile, all_, r=r, b=b, bbox=True, k=k, memory=True, B=B)
-        pickle.dump(sel, open(sOut, "wb"))
-        pickle.dump((pTime, rTime), open(tOut, "wb"))
-        print("FAST-all", reduction, pTime, rTime, run)
-
-
-# Loose Scenario
-if MIN_PERCENTAGE_OF_TEST_PRESERVED < 100:
-    print("Budget:" , MIN_PERCENTAGE_OF_TEST_PRESERVED)
-    LOOSE_BUDGET[prog] = MIN_PERCENTAGE_OF_TEST_PRESERVED
+def main():
+    script, prog= sys.argv
+    commits_list = get_whole_file_test_deletion_parent_commits(prog)
+    # Strict Scenario
     for commit in commits_list:
         commit = strip_commit_url(commit)
-        directory = "{}/outputBudgetLoose/{}/{}/".format(ROOT_DIR, prog, commit)
+        directory = "{}/outputBudgetStrict/{}/{}/".format(ROOT_DIR, prog, commit)
         if not os.path.exists(directory):
             os.makedirs(directory)
         if not os.path.exists(directory + "selections/"):
@@ -191,7 +103,7 @@ if MIN_PERCENTAGE_OF_TEST_PRESERVED < 100:
         def one_(x): return 1
 
         inputFile = "{}/all_commits_all_testcases/{}/{}-{}-ts.txt".format(ROOT_DIR, prog, prog, commit)
-        outpath = "{}/outputBudgetLoose/{}/{}/".format(ROOT_DIR, prog, commit)
+        outpath = "{}/outputBudgetStrict/{}/{}/".format(ROOT_DIR, prog, commit)
         sPath = outpath + "selections/"
         tPath = outpath + "measures/"
 
@@ -204,13 +116,13 @@ if MIN_PERCENTAGE_OF_TEST_PRESERVED < 100:
         repetitions = int(no_of_preserved_testfiles/numOfTCS * 100 ) # Final budget[no. of testcases remaining] in percentage
         print("Computed Repetitions: ", repetitions)
 
+        if repetitions < MIN_PERCENTAGE_OF_TEST_PRESERVED:
+            MIN_PERCENTAGE_OF_TEST_PRESERVED = repetitions
         # for reduction in range(1, repetitions+1):
         # B = int(numOfTCS * reduction / 100) # Current budget for each step
-        # Budget is calculated using MIN_PERCENTAGE_OF_TEST_PRESERVED across all test deletion commits and fixed in loose scenario
-        B= int(numOfTCS * MIN_PERCENTAGE_OF_TEST_PRESERVED / 100)
-        # reduction = repetitions
-        reduction = MIN_PERCENTAGE_OF_TEST_PRESERVED
-        
+        B= int(numOfTCS * repetitions / 100)
+        reduction = repetitions
+
         for run in range(REPEATS):
             sOut = "{}/{}-{}-{}.pickle".format(sPath, "FAST++", reduction, run+1)
             tOut = "{}/{}-{}-{}.pickle".format(tPath, "FAST++", reduction, run+1)
@@ -219,7 +131,7 @@ if MIN_PERCENTAGE_OF_TEST_PRESERVED < 100:
             pTime, rTime, sel = fastr.fastPlusPlus(inputFile, dim=dim, B=B)
             pickle.dump(sel, open(sOut, "wb"))
             pickle.dump((pTime, rTime), open(tOut, "wb"))
-            print("FAST++", reduction, pTime, rTime)
+            print("FAST++", reduction, pTime, rTime, run)
 
         for run in range(REPEATS):
             sOut = "{}/{}-{}-{}.pickle".format(sPath, "FAST-CS", reduction, run+1)
@@ -229,7 +141,7 @@ if MIN_PERCENTAGE_OF_TEST_PRESERVED < 100:
             pTime, rTime, sel = fastr.fastCS(inputFile, dim=dim, B=B)
             pickle.dump(sel, open(sOut, "wb"))
             pickle.dump((pTime, rTime), open(tOut, "wb"))
-            print("FAST-CS", reduction, pTime, rTime)
+            print("FAST-CS", reduction, pTime, rTime, run)
 
 
         for run in range(REPEATS):
@@ -240,7 +152,7 @@ if MIN_PERCENTAGE_OF_TEST_PRESERVED < 100:
             pTime, rTime, sel = fastr.fast_pw(inputFile, r, b, bbox=True, k=k, memory=True, B=B)
             pickle.dump(sel, open(sOut, "wb"))
             pickle.dump((pTime, rTime), open(tOut, "wb"))
-            print("FAST-pw", reduction, pTime, rTime)
+            print("FAST-pw", reduction, pTime, rTime, run)
 
 
         for run in range(REPEATS):
@@ -251,7 +163,95 @@ if MIN_PERCENTAGE_OF_TEST_PRESERVED < 100:
             pTime, rTime, sel = fastr.fast_(inputFile, all_, r=r, b=b, bbox=True, k=k, memory=True, B=B)
             pickle.dump(sel, open(sOut, "wb"))
             pickle.dump((pTime, rTime), open(tOut, "wb"))
-            print("FAST-all", reduction, pTime, rTime)
+            print("FAST-all", reduction, pTime, rTime, run)
 
-f = open(f"./loose_budget.json", "w")
-f.write(json.dumps(LOOSE_BUDGET,  indent=2))
+
+    # Loose Scenario
+    if MIN_PERCENTAGE_OF_TEST_PRESERVED < 100:
+        print("Budget:" , MIN_PERCENTAGE_OF_TEST_PRESERVED)
+        
+        for commit in commits_list:
+            commit = strip_commit_url(commit)
+            directory = "{}/outputBudgetLoose/{}/{}/".format(ROOT_DIR, prog, commit)
+            if not os.path.exists(directory):
+                os.makedirs(directory)
+            if not os.path.exists(directory + "selections/"):
+                os.makedirs(directory + "selections/")
+            if not os.path.exists(directory + "measures/"):
+                os.makedirs(directory + "measures/")
+            
+            # FAST-R parameters
+            k, n, r, b = 5, 10, 1, 10
+            dim = 10
+
+            # FAST-f sample size
+            def all_(x): return x
+            def sqrt_(x): return int(math.sqrt(x)) + 1
+            def log_(x): return int(math.log(x, 2)) + 1
+            def one_(x): return 1
+
+            inputFile = "{}/all_commits_all_testcases/{}/{}-{}-ts.txt".format(ROOT_DIR, prog, prog, commit)
+            outpath = "{}/outputBudgetLoose/{}/{}/".format(ROOT_DIR, prog, commit)
+            sPath = outpath + "selections/"
+            tPath = outpath + "measures/"
+
+            numOfTCS = sum((1 for _ in open(inputFile))) # Total no. of testclass in particular commit history
+            no_of_deleted_testfiles = get_no_of_deleted_testfiles_in_test_deletion_commit_parent(prog, commit)
+            no_of_preserved_testfiles = (numOfTCS-no_of_deleted_testfiles)
+            print("Total test files: ", numOfTCS)
+            print("No. of deleted test files: ", no_of_deleted_testfiles)
+            print("No. of preserved test files: ", no_of_preserved_testfiles)
+            repetitions = int(no_of_preserved_testfiles/numOfTCS * 100 ) # Final budget[no. of testcases remaining] in percentage
+            print("Computed Repetitions: ", repetitions)
+
+            # for reduction in range(1, repetitions+1):
+            # B = int(numOfTCS * reduction / 100) # Current budget for each step
+            # Budget is calculated using MIN_PERCENTAGE_OF_TEST_PRESERVED across all test deletion commits and fixed in loose scenario
+            B= int(numOfTCS * MIN_PERCENTAGE_OF_TEST_PRESERVED / 100)
+            # reduction = repetitions
+            reduction = MIN_PERCENTAGE_OF_TEST_PRESERVED
+            
+            for run in range(REPEATS):
+                sOut = "{}/{}-{}-{}.pickle".format(sPath, "FAST++", reduction, run+1)
+                tOut = "{}/{}-{}-{}.pickle".format(tPath, "FAST++", reduction, run+1)
+                if os.path.exists(sOut) and os.path.exists(tOut):
+                    continue
+                pTime, rTime, sel = fastr.fastPlusPlus(inputFile, dim=dim, B=B)
+                pickle.dump(sel, open(sOut, "wb"))
+                pickle.dump((pTime, rTime), open(tOut, "wb"))
+                print("FAST++", reduction, pTime, rTime)
+
+            for run in range(REPEATS):
+                sOut = "{}/{}-{}-{}.pickle".format(sPath, "FAST-CS", reduction, run+1)
+                tOut = "{}/{}-{}-{}.pickle".format(tPath, "FAST-CS", reduction, run+1)
+                if os.path.exists(sOut) and os.path.exists(tOut):
+                    continue
+                pTime, rTime, sel = fastr.fastCS(inputFile, dim=dim, B=B)
+                pickle.dump(sel, open(sOut, "wb"))
+                pickle.dump((pTime, rTime), open(tOut, "wb"))
+                print("FAST-CS", reduction, pTime, rTime)
+
+
+            for run in range(REPEATS):
+                sOut = "{}/{}-{}-{}.pickle".format(sPath, "FAST-pw", reduction, run+1)
+                tOut = "{}/{}-{}-{}.pickle".format(tPath, "FAST-pw", reduction, run+1)
+                if os.path.exists(sOut) and os.path.exists(tOut):
+                    continue
+                pTime, rTime, sel = fastr.fast_pw(inputFile, r, b, bbox=True, k=k, memory=True, B=B)
+                pickle.dump(sel, open(sOut, "wb"))
+                pickle.dump((pTime, rTime), open(tOut, "wb"))
+                print("FAST-pw", reduction, pTime, rTime)
+
+
+            for run in range(REPEATS):
+                sOut = "{}/{}-{}-{}.pickle".format(sPath, "FAST-all", reduction, run+1)
+                tOut = "{}/{}-{}-{}.pickle".format(tPath, "FAST-all", reduction, run+1)
+                if os.path.exists(sOut) and os.path.exists(tOut):
+                    continue
+                pTime, rTime, sel = fastr.fast_(inputFile, all_, r=r, b=b, bbox=True, k=k, memory=True, B=B)
+                pickle.dump(sel, open(sOut, "wb"))
+                pickle.dump((pTime, rTime), open(tOut, "wb"))
+                print("FAST-all", reduction, pTime, rTime)
+
+if __name__ == "__main__":
+    main()
