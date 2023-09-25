@@ -43,12 +43,12 @@ def get_line_no_history_deleted_testfiles(program, commit, deleted_testfiles):
 
 
 projects_list = [
-    # "commons-lang",
+     "commons-lang",
     "gson",
-    # "commons-math",
-    # "jfreechart",
-    # "joda-time",
-    # "pmd",
+     "commons-math",
+     "jfreechart",
+     "joda-time",
+     "pmd",
     # "cts",
 ]
 

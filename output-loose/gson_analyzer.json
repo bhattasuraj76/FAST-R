@@ -3,39 +3,76 @@
   "Total test cases deleted with whole file:": 226,
   "details": [
     {
-      "Parent": "7d055fcb517a25e3cf141a867ec2b53264c40a19",
-      "Total Testfiles": 84,
-      "Total Deleted Testfiles": 4,
-      "Total Preserved Testfiles": 80,
+      "Parent": "0d9f6b677ae67cbd749ebca817139041d1977831",
+      "Total Testfiles": 114,
+      "Total Deleted Testfiles": 2,
+      "Total Preserved Testfiles": 112,
       "Computed Final Budget": 89,
       "Algorithm": {
         "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 4,
-          "Detected Testfiles Line No": []
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [
+            22
+          ]
         },
         "FAST-all": {
           "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 4,
+          "Total Failed To Detect Deleted Testfiles": 2,
           "Detected Testfiles Line No": []
         },
         "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 4,
-          "Detected Testfiles Line No": []
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [
+            2
+          ]
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 4,
+          "Total Failed To Detect Deleted Testfiles": 2,
           "Detected Testfiles Line No": []
         }
       }
     },
     {
-      "Parent": "041d499a7c4af1b70617001ded11dbc01732d97f",
-      "Total Testfiles": 86,
+      "Parent": "0ff7d980c5430be317aca0405477dec74ab0390c",
+      "Total Testfiles": 77,
       "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 85,
+      "Total Preserved Testfiles": 76,
+      "Computed Final Budget": 89,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": []
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            72
+          ]
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": []
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            72
+          ]
+        }
+      }
+    },
+    {
+      "Parent": "ea48a1debfaa863d29dac8ddee9a4dd5a55ed785",
+      "Total Testfiles": 79,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 78,
       "Computed Final Budget": 89,
       "Algorithm": {
         "FAST++": {
@@ -52,21 +89,23 @@
           "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 0,
           "Detected Testfiles Line No": [
-            45
+            75
           ]
         },
         "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            75
+          ]
         }
       }
     },
     {
-      "Parent": "7d53113ebc9ef6921c6238f013aabd10890611a0",
-      "Total Testfiles": 81,
+      "Parent": "3f261441651fe6a5f57cf4e6aa655f9661dc606a",
+      "Total Testfiles": 83,
       "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 80,
+      "Total Preserved Testfiles": 82,
       "Computed Final Budget": 89,
       "Algorithm": {
         "FAST++": {
@@ -92,16 +131,18 @@
       }
     },
     {
-      "Parent": "774c751a9ee026c6d7e4b0ca44dac6ad526de557",
-      "Total Testfiles": 114,
+      "Parent": "bf549f0589105a42f159c78a621fc28087561d16",
+      "Total Testfiles": 84,
       "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 113,
+      "Total Preserved Testfiles": 83,
       "Computed Final Budget": 89,
       "Algorithm": {
         "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            31
+          ]
         },
         "FAST-all": {
           "Total Detected Deleted Testfiles": 0,
@@ -150,6 +191,37 @@
       }
     },
     {
+      "Parent": "25f0014305b8418da278629ee9726f9b3aa79b48",
+      "Total Testfiles": 76,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 75,
+      "Computed Final Budget": 89,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            1
+          ]
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": []
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": []
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": []
+        }
+      }
+    },
+    {
       "Parent": "fed332906debe74d0879c77a03825b66f7970c41",
       "Total Testfiles": 76,
       "Total Deleted Testfiles": 1,
@@ -179,305 +251,32 @@
       }
     },
     {
-      "Parent": "0ff7d980c5430be317aca0405477dec74ab0390c",
-      "Total Testfiles": 77,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 76,
-      "Computed Final Budget": 89,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "bf549f0589105a42f159c78a621fc28087561d16",
+      "Parent": "7d055fcb517a25e3cf141a867ec2b53264c40a19",
       "Total Testfiles": 84,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 83,
+      "Total Deleted Testfiles": 4,
+      "Total Preserved Testfiles": 80,
       "Computed Final Budget": 89,
       "Algorithm": {
         "FAST++": {
           "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 4,
           "Detected Testfiles Line No": []
         },
         "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "25f0014305b8418da278629ee9726f9b3aa79b48",
-      "Total Testfiles": 76,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 75,
-      "Computed Final Budget": 89,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
           "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            4
-          ]
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "f777a192ee13fd59048aa7ba640cc8023051c89d",
-      "Total Testfiles": 85,
-      "Total Deleted Testfiles": 9,
-      "Total Preserved Testfiles": 76,
-      "Computed Final Budget": 89,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 3,
-          "Total Failed To Detect Deleted Testfiles": 6,
-          "Detected Testfiles Line No": [
-            82,
-            72,
-            73
-          ]
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 9,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 9,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 2,
-          "Total Failed To Detect Deleted Testfiles": 7,
-          "Detected Testfiles Line No": [
-            82,
-            76
-          ]
-        }
-      }
-    },
-    {
-      "Parent": "0d9f6b677ae67cbd749ebca817139041d1977831",
-      "Total Testfiles": 114,
-      "Total Deleted Testfiles": 2,
-      "Total Preserved Testfiles": 112,
-      "Computed Final Budget": 89,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "3f261441651fe6a5f57cf4e6aa655f9661dc606a",
-      "Total Testfiles": 83,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 82,
-      "Computed Final Budget": 89,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "9245bebdba9a3227674f3c0b08d86165891f02cc",
-      "Total Testfiles": 53,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 52,
-      "Computed Final Budget": 89,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "faa5464e848ab9c6afc46e38eb416e7a156a23e1",
-      "Total Testfiles": 80,
-      "Total Deleted Testfiles": 5,
-      "Total Preserved Testfiles": 75,
-      "Computed Final Budget": 89,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 5,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 5,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 2,
           "Total Failed To Detect Deleted Testfiles": 3,
           "Detected Testfiles Line No": [
-            67,
-            41
+            3
           ]
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 5,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "0d8150fe52eba34a0472c47be71587885ba4a94c",
-      "Total Testfiles": 52,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 51,
-      "Computed Final Budget": 89,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            28
-          ]
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "abe244c099b8c0f0e4c33921a55b27755564713a",
-      "Total Testfiles": 83,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 82,
-      "Computed Final Budget": 89,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
         },
         "FAST-CS": {
           "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 4,
           "Detected Testfiles Line No": []
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 4,
           "Detected Testfiles Line No": []
         }
       }
@@ -505,27 +304,23 @@
           "Detected Testfiles Line No": []
         },
         "FAST-pw": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            70
-          ]
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": []
         }
       }
     },
     {
-      "Parent": "ea48a1debfaa863d29dac8ddee9a4dd5a55ed785",
+      "Parent": "411c5c0b502401c7af381a64e94253972b7db5f2",
       "Total Testfiles": 79,
       "Total Deleted Testfiles": 1,
       "Total Preserved Testfiles": 78,
       "Computed Final Budget": 89,
       "Algorithm": {
         "FAST++": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            54
-          ]
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": []
         },
         "FAST-all": {
           "Total Detected Deleted Testfiles": 0,
@@ -545,10 +340,176 @@
       }
     },
     {
-      "Parent": "3b0f8f4340c68d8fde0840befbc1b89afa14933f",
-      "Total Testfiles": 64,
+      "Parent": "f777a192ee13fd59048aa7ba640cc8023051c89d",
+      "Total Testfiles": 85,
+      "Total Deleted Testfiles": 9,
+      "Total Preserved Testfiles": 76,
+      "Computed Final Budget": 89,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 9,
+          "Detected Testfiles Line No": []
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 8,
+          "Detected Testfiles Line No": [
+            78
+          ]
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 8,
+          "Detected Testfiles Line No": [
+            53
+          ]
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 7,
+          "Detected Testfiles Line No": [
+            76,
+            78
+          ]
+        }
+      }
+    },
+    {
+      "Parent": "faa5464e848ab9c6afc46e38eb416e7a156a23e1",
+      "Total Testfiles": 80,
+      "Total Deleted Testfiles": 5,
+      "Total Preserved Testfiles": 75,
+      "Computed Final Budget": 89,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 4,
+          "Detected Testfiles Line No": [
+            55
+          ]
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 5,
+          "Detected Testfiles Line No": []
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 4,
+          "Detected Testfiles Line No": [
+            48
+          ]
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 4,
+          "Detected Testfiles Line No": [
+            72
+          ]
+        }
+      }
+    },
+    {
+      "Parent": "774c751a9ee026c6d7e4b0ca44dac6ad526de557",
+      "Total Testfiles": 114,
       "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 63,
+      "Total Preserved Testfiles": 113,
+      "Computed Final Budget": 89,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": []
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": []
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": []
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            106
+          ]
+        }
+      }
+    },
+    {
+      "Parent": "0d8150fe52eba34a0472c47be71587885ba4a94c",
+      "Total Testfiles": 52,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 51,
+      "Computed Final Budget": 89,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": []
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            52
+          ]
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            52
+          ]
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            52
+          ]
+        }
+      }
+    },
+    {
+      "Parent": "3cbe355cb6b1ab5d84ddb75837430c3d9584119b",
+      "Total Testfiles": 75,
+      "Total Deleted Testfiles": 2,
+      "Total Preserved Testfiles": 73,
+      "Computed Final Budget": 89,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": []
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": []
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": []
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": []
+        }
+      }
+    },
+    {
+      "Parent": "7d53113ebc9ef6921c6238f013aabd10890611a0",
+      "Total Testfiles": 81,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 80,
       "Computed Final Budget": 89,
       "Algorithm": {
         "FAST++": {
@@ -591,11 +552,9 @@
           "Detected Testfiles Line No": []
         },
         "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            54
-          ]
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": []
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
@@ -605,10 +564,10 @@
       }
     },
     {
-      "Parent": "411c5c0b502401c7af381a64e94253972b7db5f2",
-      "Total Testfiles": 79,
+      "Parent": "041d499a7c4af1b70617001ded11dbc01732d97f",
+      "Total Testfiles": 86,
       "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 78,
+      "Total Preserved Testfiles": 85,
       "Computed Final Budget": 89,
       "Algorithm": {
         "FAST++": {
@@ -622,11 +581,9 @@
           "Detected Testfiles Line No": []
         },
         "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            1
-          ]
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": []
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
@@ -648,58 +605,115 @@
           "Detected Testfiles Line No": []
         },
         "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 3,
+          "Detected Testfiles Line No": [
+            81
+          ]
+        },
+        "FAST-CS": {
           "Total Detected Deleted Testfiles": 0,
           "Total Failed To Detect Deleted Testfiles": 4,
           "Detected Testfiles Line No": []
         },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 2,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": [
-            81,
-            75
-          ]
-        },
         "FAST-pw": {
-          "Total Detected Deleted Testfiles": 3,
-          "Total Failed To Detect Deleted Testfiles": 1,
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 3,
           "Detected Testfiles Line No": [
-            81,
-            80,
-            75
+            81
           ]
         }
       }
     },
     {
-      "Parent": "3cbe355cb6b1ab5d84ddb75837430c3d9584119b",
-      "Total Testfiles": 75,
-      "Total Deleted Testfiles": 2,
-      "Total Preserved Testfiles": 73,
+      "Parent": "abe244c099b8c0f0e4c33921a55b27755564713a",
+      "Total Testfiles": 83,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 82,
       "Computed Final Budget": 89,
       "Algorithm": {
         "FAST++": {
-          "Total Detected Deleted Testfiles": 1,
+          "Total Detected Deleted Testfiles": 0,
           "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [
-            7
-          ]
+          "Detected Testfiles Line No": []
         },
         "FAST-all": {
           "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 1,
           "Detected Testfiles Line No": []
         },
         "FAST-CS": {
           "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
           "Detected Testfiles Line No": [
-            53
+            45
           ]
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": []
+        }
+      }
+    },
+    {
+      "Parent": "3b0f8f4340c68d8fde0840befbc1b89afa14933f",
+      "Total Testfiles": 64,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 63,
+      "Computed Final Budget": 89,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            29
+          ]
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            29
+          ]
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": []
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": []
+        }
+      }
+    },
+    {
+      "Parent": "9245bebdba9a3227674f3c0b08d86165891f02cc",
+      "Total Testfiles": 53,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 52,
+      "Computed Final Budget": 89,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": []
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": []
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": []
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
           "Detected Testfiles Line No": []
         }
       }
