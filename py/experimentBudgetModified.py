@@ -79,6 +79,7 @@ REPEATS = 50 # No. of times the computation step is repeated; 50 to ensure bette
 MIN_PERCENTAGE_OF_TEST_PRESERVED = 100
 
 def main():
+    global MIN_PERCENTAGE_OF_TEST_PRESERVED, REPEATS
     script, prog= sys.argv
     commits_list = get_whole_file_test_deletion_parent_commits(prog)
     # Strict Scenario
