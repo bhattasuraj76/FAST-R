@@ -2,48 +2,48 @@ commons-lang
 Total deleted testcases with whole file:  688
 Total Unique testcases deleted with whole file:  688
 Total Unique testclass files deleted:  70
+Total test deletion commits deleting whole file:  38
 Total parent commits:  38
 -----------------------
-================================================================
 gson
 Total deleted testcases with whole file:  226
 Total Unique testcases deleted with whole file:  226
 Total Unique testclass files deleted:  43
+Total test deletion commits deleting whole file:  23
 Total parent commits:  23
 -----------------------
-================================================================
 commons-math
 Total deleted testcases with whole file:  2738
 Total Unique testcases deleted with whole file:  2738
 Total Unique testclass files deleted:  339
+Total test deletion commits deleting whole file:  105
 Total parent commits:  105
 -----------------------
-================================================================
 jfreechart
 Total deleted testcases with whole file:  122
 Total Unique testcases deleted with whole file:  122
 Total Unique testclass files deleted:  21
+Total test deletion commits deleting whole file:  9
 Total parent commits:  9
 -----------------------
-================================================================
 joda-time
 Total deleted testcases with whole file:  291
 Total Unique testcases deleted with whole file:  291
 Total Unique testclass files deleted:  20
+Total test deletion commits deleting whole file:  7
 Total parent commits:  7
 -----------------------
-================================================================
 pmd
 Total deleted testcases with whole file:  1548
 Total Unique testcases deleted with whole file:  1548
 Total Unique testclass files deleted:  512
+Total test deletion commits deleting whole file:  137
 Total parent commits:  137
 -----------------------
-================================================================
 cts
-Total deleted testcases with whole file:  15161
-Total Unique testcases deleted with whole file:  15160
-Total Unique testclass files deleted:  2548
-Total parent commits:  485
+Total deleted testcases with whole file:  14723
+Total Unique testcases deleted with whole file:  14722
+Total Unique testclass files deleted:  2452
+Total test deletion commits deleting whole file:  427
+Total parent commits:  423
 -----------------------
-================================================================
