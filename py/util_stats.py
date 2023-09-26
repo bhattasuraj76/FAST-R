@@ -42,30 +42,33 @@ def print_stats(project):
     deleted_tc_df = get_deleted_testcases_with_whole_file_df(project)
     print("Total deleted testcases with whole file: ", len(deleted_tc_df))
     unique_deleted_testcases_df = deleted_tc_df[
-        ["Parent", "Filepath", "Removed Test Case"]
+        ["Hash", "Filepath", "Removed Test Case"]
     ].drop_duplicates()
     print(
         "Total Unique testcases deleted with whole file: ",
         len(unique_deleted_testcases_df),
     )
+    
+    # To get parent TDC with multiple children TDC [sorting]
+    # df = deleted_tc_df.drop_duplicates(subset=['Parent', 'Hash'], keep='first')
+    # df = df.groupby(['Parent']).size().sort_values(ascending=False)
+    # print(df)
 
     # Condensed formula; useful in future
     # unique_deleted_testcase_with_whole_file_df = deleted_tc_df.loc[
     #     deleted_tc_df["Deleted With Whole File"] == "yes",
-    #     ["Parent", "Filepath", "Removed Test Case"],
+    #     ["Hash", "Filepath", "Removed Test Case"],
     # ].drop_duplicates()
     # print( "Total Unique testcases deleted with whole file: ", len(unique_deleted_testcase_with_whole_file_df))
 
-    unique_deleted_testfile_df = deleted_tc_df[["Parent", "Filepath"]].drop_duplicates()
+    unique_deleted_testfile_df = deleted_tc_df[["Hash", "Filepath"]].drop_duplicates()
     print("Total Unique testclass files deleted: ", len(unique_deleted_testfile_df))
-    unique_tdc_df = deleted_tc_df[["Hash"]].drop_duplicates()
-    print("Total test deletion commits deleting whole file: ", len(unique_tdc_df))
-    whole_file_test_deletion_parent_commits_df = deleted_tc_df[
+    unique_whole_file_tdc_df = deleted_tc_df[["Hash"]].drop_duplicates()
+    print("Total test deletion commits deleting whole file: ", len(unique_whole_file_tdc_df))
+    unique_whole_file_test_deletion_parent_commits_df = deleted_tc_df[
         ["Parent"]
     ].drop_duplicates()
-    print("Total parent commits: ", len(whole_file_test_deletion_parent_commits_df))
-
-
+    print("Total parent commits: ", len(unique_whole_file_test_deletion_parent_commits_df))
 
 projects_list = [
     "commons-lang",
