@@ -38,8 +38,12 @@ def get_line_no_history_deleted_testfiles(program, commit, deleted_testfiles):
     line_no = []
     for deleted_testfile in deleted_testfiles:
         testfilepath = "./" + deleted_testfile
-        print(deleted_testfile, testfilepath, program, commit)
-        line_no.append(testcase_history[testfilepath])
+        
+        if testfilepath in testcase_history:
+            line_no.append(testcase_history[testfilepath])
+        else:
+            print("deleted file not found in TSH JSON")
+            print(deleted_testfile, testfilepath, program, commit)
     return line_no
 
 
