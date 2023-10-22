@@ -3,46 +3,46 @@
     "commons-lang": {
       "FAST++": [
         {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 69
-        }
-      ],
-      "FAST-all": [
-        {
           "Total Detected Deleted Testfiles": 0,
           "Total Failed To Detect Deleted Testfiles": 70
         }
       ],
+      "FAST-all": [
+        {
+          "Total Detected Deleted Testfiles": 7,
+          "Total Failed To Detect Deleted Testfiles": 63
+        }
+      ],
       "FAST-CS": [
         {
-          "Total Detected Deleted Testfiles": 5,
-          "Total Failed To Detect Deleted Testfiles": 65
+          "Total Detected Deleted Testfiles": 6,
+          "Total Failed To Detect Deleted Testfiles": 64
         }
       ],
       "FAST-pw": [
         {
-          "Total Detected Deleted Testfiles": 4,
-          "Total Failed To Detect Deleted Testfiles": 66
+          "Total Detected Deleted Testfiles": 3,
+          "Total Failed To Detect Deleted Testfiles": 67
         }
       ]
     },
     "gson": {
       "FAST++": [
         {
-          "Total Detected Deleted Testfiles": 4,
-          "Total Failed To Detect Deleted Testfiles": 39
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 42
         }
       ],
       "FAST-all": [
         {
-          "Total Detected Deleted Testfiles": 5,
-          "Total Failed To Detect Deleted Testfiles": 38
+          "Total Detected Deleted Testfiles": 3,
+          "Total Failed To Detect Deleted Testfiles": 40
         }
       ],
       "FAST-CS": [
         {
-          "Total Detected Deleted Testfiles": 4,
-          "Total Failed To Detect Deleted Testfiles": 39
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 41
         }
       ],
       "FAST-pw": [
@@ -55,26 +55,26 @@
     "commons-math": {
       "FAST++": [
         {
-          "Total Detected Deleted Testfiles": 37,
-          "Total Failed To Detect Deleted Testfiles": 302
+          "Total Detected Deleted Testfiles": 44,
+          "Total Failed To Detect Deleted Testfiles": 295
         }
       ],
       "FAST-all": [
         {
-          "Total Detected Deleted Testfiles": 45,
-          "Total Failed To Detect Deleted Testfiles": 294
+          "Total Detected Deleted Testfiles": 47,
+          "Total Failed To Detect Deleted Testfiles": 292
         }
       ],
       "FAST-CS": [
         {
-          "Total Detected Deleted Testfiles": 51,
-          "Total Failed To Detect Deleted Testfiles": 288
+          "Total Detected Deleted Testfiles": 53,
+          "Total Failed To Detect Deleted Testfiles": 286
         }
       ],
       "FAST-pw": [
         {
-          "Total Detected Deleted Testfiles": 54,
-          "Total Failed To Detect Deleted Testfiles": 285
+          "Total Detected Deleted Testfiles": 56,
+          "Total Failed To Detect Deleted Testfiles": 283
         }
       ]
     },
@@ -93,8 +93,8 @@
       ],
       "FAST-CS": [
         {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 21
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 20
         }
       ],
       "FAST-pw": [
@@ -107,20 +107,20 @@
     "joda-time": {
       "FAST++": [
         {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 20
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 19
         }
       ],
       "FAST-all": [
         {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 20
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 19
         }
       ],
       "FAST-CS": [
         {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 19
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 20
         }
       ],
       "FAST-pw": [
@@ -133,20 +133,20 @@
     "pmd": {
       "FAST++": [
         {
-          "Total Detected Deleted Testfiles": 102,
-          "Total Failed To Detect Deleted Testfiles": 410
+          "Total Detected Deleted Testfiles": 61,
+          "Total Failed To Detect Deleted Testfiles": 451
         }
       ],
       "FAST-all": [
         {
-          "Total Detected Deleted Testfiles": 67,
-          "Total Failed To Detect Deleted Testfiles": 445
+          "Total Detected Deleted Testfiles": 60,
+          "Total Failed To Detect Deleted Testfiles": 452
         }
       ],
       "FAST-CS": [
         {
-          "Total Detected Deleted Testfiles": 65,
-          "Total Failed To Detect Deleted Testfiles": 447
+          "Total Detected Deleted Testfiles": 69,
+          "Total Failed To Detect Deleted Testfiles": 443
         }
       ],
       "FAST-pw": [
@@ -155,84 +155,110 @@
           "Total Failed To Detect Deleted Testfiles": 422
         }
       ]
+    },
+    "cts": {
+      "FAST++": [
+        {
+          "Total Detected Deleted Testfiles": 3,
+          "Total Failed To Detect Deleted Testfiles": 2545
+        }
+      ],
+      "FAST-all": [
+        {
+          "Total Detected Deleted Testfiles": 42,
+          "Total Failed To Detect Deleted Testfiles": 2506
+        }
+      ],
+      "FAST-CS": [
+        {
+          "Total Detected Deleted Testfiles": 45,
+          "Total Failed To Detect Deleted Testfiles": 2503
+        }
+      ],
+      "FAST-pw": [
+        {
+          "Total Detected Deleted Testfiles": 132,
+          "Total Failed To Detect Deleted Testfiles": 2416
+        }
+      ]
     }
   },
   "Loose": {
     "commons-lang": {
       "FAST++": [
         {
-          "Total Detected Deleted Testfiles": 3,
-          "Total Failed To Detect Deleted Testfiles": 67
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 69
         }
       ],
       "FAST-all": [
         {
-          "Total Detected Deleted Testfiles": 2,
-          "Total Failed To Detect Deleted Testfiles": 68
+          "Total Detected Deleted Testfiles": 3,
+          "Total Failed To Detect Deleted Testfiles": 67
         }
       ],
       "FAST-CS": [
         {
-          "Total Detected Deleted Testfiles": 10,
-          "Total Failed To Detect Deleted Testfiles": 60
+          "Total Detected Deleted Testfiles": 9,
+          "Total Failed To Detect Deleted Testfiles": 61
         }
       ],
       "FAST-pw": [
         {
-          "Total Detected Deleted Testfiles": 6,
-          "Total Failed To Detect Deleted Testfiles": 64
+          "Total Detected Deleted Testfiles": 5,
+          "Total Failed To Detect Deleted Testfiles": 65
         }
       ]
     },
     "gson": {
       "FAST++": [
         {
-          "Total Detected Deleted Testfiles": 5,
-          "Total Failed To Detect Deleted Testfiles": 38
+          "Total Detected Deleted Testfiles": 8,
+          "Total Failed To Detect Deleted Testfiles": 35
         }
       ],
       "FAST-all": [
         {
-          "Total Detected Deleted Testfiles": 6,
-          "Total Failed To Detect Deleted Testfiles": 37
+          "Total Detected Deleted Testfiles": 3,
+          "Total Failed To Detect Deleted Testfiles": 40
         }
       ],
       "FAST-CS": [
         {
-          "Total Detected Deleted Testfiles": 6,
-          "Total Failed To Detect Deleted Testfiles": 37
+          "Total Detected Deleted Testfiles": 5,
+          "Total Failed To Detect Deleted Testfiles": 38
         }
       ],
       "FAST-pw": [
         {
-          "Total Detected Deleted Testfiles": 8,
-          "Total Failed To Detect Deleted Testfiles": 35
+          "Total Detected Deleted Testfiles": 7,
+          "Total Failed To Detect Deleted Testfiles": 36
         }
       ]
     },
     "commons-math": {
       "FAST++": [
         {
-          "Total Detected Deleted Testfiles": 244,
-          "Total Failed To Detect Deleted Testfiles": 95
+          "Total Detected Deleted Testfiles": 234,
+          "Total Failed To Detect Deleted Testfiles": 105
         }
       ],
       "FAST-all": [
         {
-          "Total Detected Deleted Testfiles": 214,
-          "Total Failed To Detect Deleted Testfiles": 125
+          "Total Detected Deleted Testfiles": 231,
+          "Total Failed To Detect Deleted Testfiles": 108
         }
       ],
       "FAST-CS": [
         {
-          "Total Detected Deleted Testfiles": 240,
-          "Total Failed To Detect Deleted Testfiles": 99
+          "Total Detected Deleted Testfiles": 242,
+          "Total Failed To Detect Deleted Testfiles": 97
         }
       ],
       "FAST-pw": [
         {
-          "Total Detected Deleted Testfiles": 242,
-          "Total Failed To Detect Deleted Testfiles": 97
+          "Total Detected Deleted Testfiles": 239,
+          "Total Failed To Detect Deleted Testfiles": 100
         }
       ]
     },
@@ -251,8 +277,8 @@
       ],
       "FAST-CS": [
         {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 20
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 21
         }
       ],
       "FAST-pw": [
@@ -265,52 +291,78 @@
     "joda-time": {
       "FAST++": [
         {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 19
-        }
-      ],
-      "FAST-all": [
-        {
-          "Total Detected Deleted Testfiles": 4,
-          "Total Failed To Detect Deleted Testfiles": 16
-        }
-      ],
-      "FAST-CS": [
-        {
           "Total Detected Deleted Testfiles": 0,
           "Total Failed To Detect Deleted Testfiles": 20
         }
       ],
+      "FAST-all": [
+        {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 19
+        }
+      ],
+      "FAST-CS": [
+        {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 19
+        }
+      ],
       "FAST-pw": [
         {
-          "Total Detected Deleted Testfiles": 7,
-          "Total Failed To Detect Deleted Testfiles": 13
+          "Total Detected Deleted Testfiles": 8,
+          "Total Failed To Detect Deleted Testfiles": 12
         }
       ]
     },
     "pmd": {
       "FAST++": [
         {
-          "Total Detected Deleted Testfiles": 139,
-          "Total Failed To Detect Deleted Testfiles": 373
+          "Total Detected Deleted Testfiles": 117,
+          "Total Failed To Detect Deleted Testfiles": 395
         }
       ],
       "FAST-all": [
         {
-          "Total Detected Deleted Testfiles": 145,
-          "Total Failed To Detect Deleted Testfiles": 367
+          "Total Detected Deleted Testfiles": 164,
+          "Total Failed To Detect Deleted Testfiles": 348
         }
       ],
       "FAST-CS": [
         {
-          "Total Detected Deleted Testfiles": 167,
-          "Total Failed To Detect Deleted Testfiles": 345
+          "Total Detected Deleted Testfiles": 160,
+          "Total Failed To Detect Deleted Testfiles": 352
         }
       ],
       "FAST-pw": [
         {
-          "Total Detected Deleted Testfiles": 144,
-          "Total Failed To Detect Deleted Testfiles": 368
+          "Total Detected Deleted Testfiles": 145,
+          "Total Failed To Detect Deleted Testfiles": 367
+        }
+      ]
+    },
+    "cts": {
+      "FAST++": [
+        {
+          "Total Detected Deleted Testfiles": 140,
+          "Total Failed To Detect Deleted Testfiles": 2408
+        }
+      ],
+      "FAST-all": [
+        {
+          "Total Detected Deleted Testfiles": 84,
+          "Total Failed To Detect Deleted Testfiles": 2464
+        }
+      ],
+      "FAST-CS": [
+        {
+          "Total Detected Deleted Testfiles": 82,
+          "Total Failed To Detect Deleted Testfiles": 2466
+        }
+      ],
+      "FAST-pw": [
+        {
+          "Total Detected Deleted Testfiles": 247,
+          "Total Failed To Detect Deleted Testfiles": 2301
         }
       ]
     }
