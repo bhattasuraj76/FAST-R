@@ -38,6 +38,7 @@ def get_line_no_history_deleted_testfiles(program, commit, deleted_testfiles):
     line_no = []
     for deleted_testfile in deleted_testfiles:
         testfilepath = "./" + deleted_testfile
+        print(deleted_testfile, testfilepath, program, commit)
         line_no.append(testcase_history[testfilepath])
     return line_no
 

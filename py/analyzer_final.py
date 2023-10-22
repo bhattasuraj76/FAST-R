@@ -7,13 +7,13 @@ from experimentBudgetModified import (
 
 algos = ["FAST++", "FAST-all", "FAST-CS", "FAST-pw"]
 projects_list = [
-     "commons-lang",
+    "commons-lang",
     "gson",
-     "commons-math",
-     "jfreechart",
-     "joda-time",
-      "pmd",
-     "cts",
+    "commons-math",
+    "jfreechart",
+    "joda-time",
+    "pmd",
+    "cts",
 ]
 data = {"Strict": {}, "Loose": {}}
 
@@ -77,4 +77,4 @@ for index, project in enumerate(projects_list):
         )
 
 f = open("./final_analyzer.json", "w")
-f.write(json.dumps(data,  indent=2))
+f.write(json.dumps(data, indent=2))
