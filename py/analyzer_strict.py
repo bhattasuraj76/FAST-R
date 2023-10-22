@@ -46,7 +46,7 @@ projects_list = [
      "jfreechart",
      "joda-time",
      "pmd",
-    # "cts",
+     "cts",
 ]
 
 for index, prog in enumerate(projects_list):

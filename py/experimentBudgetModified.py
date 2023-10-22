@@ -75,7 +75,7 @@ def get_no_of_deleted_testfiles_in_test_deletion_commit_parent(project, parent_c
 
 
 #df = df.drop_duplicates('COL2', keep='first')
-REPEATS = 50 # No. of times the computation step is repeated; 50 to ensure better predictability
+REPEATS = 1 # No. of times the computation step is repeated; 50 to ensure better predictability
 MIN_PERCENTAGE_OF_TEST_PRESERVED = 100
 
 def main():
