@@ -4,6 +4,14 @@ Total Unique testcases deleted with whole file:  688
 Total Unique testclass files deleted:  70
 Total test deletion commits deleting whole file:  38
 Total parent commits:  38
+Parent commit 2%:  =HYPERLINK("https://github.com/apache/commons-lang/commit/8ebe30ba3091b05ae28f70ba235c558e9a1b4235", "8ebe30ba3091b05ae28f70ba235c558e9a1b4235")
+Parent commit 5%:  =HYPERLINK("https://github.com/apache/commons-lang/commit/e329c3556ce0b4a87568f3783adc193719670560", "e329c3556ce0b4a87568f3783adc193719670560")
+Parent commit 10%:  =HYPERLINK("https://github.com/apache/commons-lang/commit/5e7cf0ed0e5a457e6e180e83ffbafa0b582e2759", "5e7cf0ed0e5a457e6e180e83ffbafa0b582e2759")
+Parent commit 15%:  =HYPERLINK("https://github.com/apache/commons-lang/commit/7952a5525444ab03243a9f80375050caf2419770", "7952a5525444ab03243a9f80375050caf2419770")
+Parent commit 25%:  =HYPERLINK("https://github.com/apache/commons-lang/commit/5df3e1aad76a65c6e437e1f6c441601039742368", "5df3e1aad76a65c6e437e1f6c441601039742368")
+Parent commit 50%:  =HYPERLINK("https://github.com/apache/commons-lang/commit/26b587c7babccea6ff3f79cc43e1ad2da6c6b3cb", "26b587c7babccea6ff3f79cc43e1ad2da6c6b3cb")
+Parent commit 75%:  =HYPERLINK("https://github.com/apache/commons-lang/commit/e5b0844c4f49d5913f54bb5982284f5e7b76240a", "e5b0844c4f49d5913f54bb5982284f5e7b76240a")
+Parent commit 100%:  =HYPERLINK("https://github.com/apache/commons-lang/commit/324363816774a1f9bca998950081130be6756611", "324363816774a1f9bca998950081130be6756611")
 -----------------------
 gson
 Total deleted testcases with whole file:  226
@@ -11,6 +19,14 @@ Total Unique testcases deleted with whole file:  226
 Total Unique testclass files deleted:  43
 Total test deletion commits deleting whole file:  23
 Total parent commits:  23
+Parent commit 2%:  =HYPERLINK("https://github.com/google/gson/commit/9245bebdba9a3227674f3c0b08d86165891f02cc", "9245bebdba9a3227674f3c0b08d86165891f02cc")
+Parent commit 5%:  =HYPERLINK("https://github.com/google/gson/commit/0d8150fe52eba34a0472c47be71587885ba4a94c", "0d8150fe52eba34a0472c47be71587885ba4a94c")
+Parent commit 10%:  =HYPERLINK("https://github.com/google/gson/commit/3b0f8f4340c68d8fde0840befbc1b89afa14933f", "3b0f8f4340c68d8fde0840befbc1b89afa14933f")
+Parent commit 15%:  =HYPERLINK("https://github.com/google/gson/commit/abe244c099b8c0f0e4c33921a55b27755564713a", "abe244c099b8c0f0e4c33921a55b27755564713a")
+Parent commit 25%:  =HYPERLINK("https://github.com/google/gson/commit/25f0014305b8418da278629ee9726f9b3aa79b48", "25f0014305b8418da278629ee9726f9b3aa79b48")
+Parent commit 50%:  =HYPERLINK("https://github.com/google/gson/commit/f777a192ee13fd59048aa7ba640cc8023051c89d", "f777a192ee13fd59048aa7ba640cc8023051c89d")
+Parent commit 75%:  =HYPERLINK("https://github.com/google/gson/commit/411c5c0b502401c7af381a64e94253972b7db5f2", "411c5c0b502401c7af381a64e94253972b7db5f2")
+Parent commit 100%:  =HYPERLINK("https://github.com/google/gson/commit/774c751a9ee026c6d7e4b0ca44dac6ad526de557", "774c751a9ee026c6d7e4b0ca44dac6ad526de557")
 -----------------------
 commons-math
 Total deleted testcases with whole file:  2738
@@ -18,6 +34,14 @@ Total Unique testcases deleted with whole file:  2738
 Total Unique testclass files deleted:  339
 Total test deletion commits deleting whole file:  105
 Total parent commits:  105
+Parent commit 2%:  =HYPERLINK("https://github.com/apache/commons-math/commit/dc115509c871b36a9bda8af3d6655dc5869d7078", "dc115509c871b36a9bda8af3d6655dc5869d7078")
+Parent commit 5%:  =HYPERLINK("https://github.com/apache/commons-math/commit/5f543b9e930b56844f5a5627f9ed24242509d154", "5f543b9e930b56844f5a5627f9ed24242509d154")
+Parent commit 10%:  =HYPERLINK("https://github.com/apache/commons-math/commit/2a4219105eb7abc98bc393ebae4422cbcad11b1e", "2a4219105eb7abc98bc393ebae4422cbcad11b1e")
+Parent commit 15%:  =HYPERLINK("https://github.com/apache/commons-math/commit/2c1d911e2acef6bc216adfccbe91e034c2e47a17", "2c1d911e2acef6bc216adfccbe91e034c2e47a17")
+Parent commit 25%:  =HYPERLINK("https://github.com/apache/commons-math/commit/c9a24d392f1eefd6e2a0c15b584fc0eb18ec594c", "c9a24d392f1eefd6e2a0c15b584fc0eb18ec594c")
+Parent commit 50%:  =HYPERLINK("https://github.com/apache/commons-math/commit/e31fde875c6075ae3da9572c6f910cc29ceaf6c3", "e31fde875c6075ae3da9572c6f910cc29ceaf6c3")
+Parent commit 75%:  =HYPERLINK("https://github.com/apache/commons-math/commit/3e24c28e68e617735b25791b0bc3f67f31624ebf", "3e24c28e68e617735b25791b0bc3f67f31624ebf")
+Parent commit 100%:  =HYPERLINK("https://github.com/apache/commons-math/commit/50977290cdda79896ccb6304067341486fe104d2", "50977290cdda79896ccb6304067341486fe104d2")
 -----------------------
 jfreechart
 Total deleted testcases with whole file:  122
@@ -25,6 +49,14 @@ Total Unique testcases deleted with whole file:  122
 Total Unique testclass files deleted:  21
 Total test deletion commits deleting whole file:  9
 Total parent commits:  9
+Parent commit 2%:  =HYPERLINK("https://github.com/jfree/jfreechart/commit/9473d89fe2e5b3c0586e502af7ecce1f7a43a3bc", "9473d89fe2e5b3c0586e502af7ecce1f7a43a3bc")
+Parent commit 5%:  =HYPERLINK("https://github.com/jfree/jfreechart/commit/9473d89fe2e5b3c0586e502af7ecce1f7a43a3bc", "9473d89fe2e5b3c0586e502af7ecce1f7a43a3bc")
+Parent commit 10%:  =HYPERLINK("https://github.com/jfree/jfreechart/commit/07059fb93ed38147f8ded82ec8d1bf5400be1952", "07059fb93ed38147f8ded82ec8d1bf5400be1952")
+Parent commit 15%:  =HYPERLINK("https://github.com/jfree/jfreechart/commit/07059fb93ed38147f8ded82ec8d1bf5400be1952", "07059fb93ed38147f8ded82ec8d1bf5400be1952")
+Parent commit 25%:  =HYPERLINK("https://github.com/jfree/jfreechart/commit/293b2021b7befc0fb331c035fa5b4642da8bc1f2", "293b2021b7befc0fb331c035fa5b4642da8bc1f2")
+Parent commit 50%:  =HYPERLINK("https://github.com/jfree/jfreechart/commit/6a67a2027cb181c8d00b88145a1b4b0116c38805", "6a67a2027cb181c8d00b88145a1b4b0116c38805")
+Parent commit 75%:  =HYPERLINK("https://github.com/jfree/jfreechart/commit/93078512157362e7584af9a67a23a75b55b2f239", "93078512157362e7584af9a67a23a75b55b2f239")
+Parent commit 100%:  =HYPERLINK("https://github.com/jfree/jfreechart/commit/ee91627a19d9bafde058ea2663dc6405f9f01e3b", "ee91627a19d9bafde058ea2663dc6405f9f01e3b")
 -----------------------
 joda-time
 Total deleted testcases with whole file:  291
@@ -32,6 +64,14 @@ Total Unique testcases deleted with whole file:  291
 Total Unique testclass files deleted:  20
 Total test deletion commits deleting whole file:  7
 Total parent commits:  7
+Parent commit 2%:  =HYPERLINK("https://github.com/JodaOrg/joda-time/commit/f1a476f463c62b736e4a641aba4c59d9629814d1", "f1a476f463c62b736e4a641aba4c59d9629814d1")
+Parent commit 5%:  =HYPERLINK("https://github.com/JodaOrg/joda-time/commit/f1a476f463c62b736e4a641aba4c59d9629814d1", "f1a476f463c62b736e4a641aba4c59d9629814d1")
+Parent commit 10%:  =HYPERLINK("https://github.com/JodaOrg/joda-time/commit/d21736df31ca4888e76ccbdc7d31f406cf68b645", "d21736df31ca4888e76ccbdc7d31f406cf68b645")
+Parent commit 15%:  =HYPERLINK("https://github.com/JodaOrg/joda-time/commit/d21736df31ca4888e76ccbdc7d31f406cf68b645", "d21736df31ca4888e76ccbdc7d31f406cf68b645")
+Parent commit 25%:  =HYPERLINK("https://github.com/JodaOrg/joda-time/commit/6bdd176eed470329a73d7ee08498183e579cea60", "6bdd176eed470329a73d7ee08498183e579cea60")
+Parent commit 50%:  =HYPERLINK("https://github.com/JodaOrg/joda-time/commit/028e01cbba9c1c7824f6c5a576a96fcacad81b61", "028e01cbba9c1c7824f6c5a576a96fcacad81b61")
+Parent commit 75%:  =HYPERLINK("https://github.com/JodaOrg/joda-time/commit/8fb9bae65a1ad986cec1a01a90cbbceebc4a5d6e", "8fb9bae65a1ad986cec1a01a90cbbceebc4a5d6e")
+Parent commit 100%:  =HYPERLINK("https://github.com/JodaOrg/joda-time/commit/49558a5286c3b7eb6c85d5f26e5ae94f11f7a892", "49558a5286c3b7eb6c85d5f26e5ae94f11f7a892")
 -----------------------
 pmd
 Total deleted testcases with whole file:  1548
@@ -39,6 +79,14 @@ Total Unique testcases deleted with whole file:  1548
 Total Unique testclass files deleted:  512
 Total test deletion commits deleting whole file:  137
 Total parent commits:  137
+Parent commit 2%:  =HYPERLINK("https://github.com/pmd/pmd/commit/4dc2bcbac3587ce9ee429bc5e37308febae35241", "4dc2bcbac3587ce9ee429bc5e37308febae35241")
+Parent commit 5%:  =HYPERLINK("https://github.com/pmd/pmd/commit/3ed605c62b672897be32db455dd5b9aa7071b6d6", "3ed605c62b672897be32db455dd5b9aa7071b6d6")
+Parent commit 10%:  =HYPERLINK("https://github.com/pmd/pmd/commit/950d67c55ef8469da841ae9f1f38c3fa56a9d853", "950d67c55ef8469da841ae9f1f38c3fa56a9d853")
+Parent commit 15%:  =HYPERLINK("https://github.com/pmd/pmd/commit/b5731b6858c6bb508f70b7b8f2ad3951442fdf4f", "b5731b6858c6bb508f70b7b8f2ad3951442fdf4f")
+Parent commit 25%:  =HYPERLINK("https://github.com/pmd/pmd/commit/f1f10c94622eb7134e557d0c8795967d2a9af8d3", "f1f10c94622eb7134e557d0c8795967d2a9af8d3")
+Parent commit 50%:  =HYPERLINK("https://github.com/pmd/pmd/commit/32002664f7cf908d1a522a21e8fa306f4485c70e", "32002664f7cf908d1a522a21e8fa306f4485c70e")
+Parent commit 75%:  =HYPERLINK("https://github.com/pmd/pmd/commit/d650c87d8d4a60d4ad6fe2a514524d952a50bd94", "d650c87d8d4a60d4ad6fe2a514524d952a50bd94")
+Parent commit 100%:  =HYPERLINK("https://github.com/pmd/pmd/commit/675710d0e790def5ffdb521d95ab3e3892b0f5b7", "675710d0e790def5ffdb521d95ab3e3892b0f5b7")
 -----------------------
 cts
 Total deleted testcases with whole file:  14723
@@ -46,4 +94,12 @@ Total Unique testcases deleted with whole file:  14723
 Total Unique testclass files deleted:  2453
 Total test deletion commits deleting whole file:  427
 Total parent commits:  423
+Parent commit 2%:  =HYPERLINK("https://android.googlesource.com/platform/cts/+/e0550b02f42dfa086e9515ee0ab9909aefd68473", "e0550b02f42dfa086e9515ee0ab9909aefd68473")
+Parent commit 5%:  =HYPERLINK("https://android.googlesource.com/platform/cts/+/64011e7a0c6eb6945db3730652db792978ebfda0", "64011e7a0c6eb6945db3730652db792978ebfda0")
+Parent commit 10%:  =HYPERLINK("https://android.googlesource.com/platform/cts/+/7cf81f86af29125b792e4f29aa0780298232d004", "7cf81f86af29125b792e4f29aa0780298232d004")
+Parent commit 15%:  =HYPERLINK("https://android.googlesource.com/platform/cts/+/a97a16bee3277b96ba836a8f1b653d7d638a2b41", "a97a16bee3277b96ba836a8f1b653d7d638a2b41")
+Parent commit 25%:  =HYPERLINK("https://android.googlesource.com/platform/cts/+/e38e6229bfe5502698b5d51f5beff3a1b179b4e8", "e38e6229bfe5502698b5d51f5beff3a1b179b4e8")
+Parent commit 50%:  =HYPERLINK("https://android.googlesource.com/platform/cts/+/b815e0a71d5a411f640b614bc9a4b4d3fe26dc00", "b815e0a71d5a411f640b614bc9a4b4d3fe26dc00")
+Parent commit 75%:  =HYPERLINK("https://android.googlesource.com/platform/cts/+/9971c5affac56ee76095f5aa38bad11719b1947c", "9971c5affac56ee76095f5aa38bad11719b1947c")
+Parent commit 100%:  =HYPERLINK("https://android.googlesource.com/platform/cts/+/ba912b1574ed9407132c69e18dcbbc57bc44dcc7", "ba912b1574ed9407132c69e18dcbbc57bc44dcc7")
 -----------------------

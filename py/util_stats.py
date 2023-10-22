@@ -68,8 +68,17 @@ def print_stats(project):
     unique_whole_file_test_deletion_parent_commits_df = deleted_tc_df[
         ["Parent"]
     ].drop_duplicates()
-    print("Total parent commits: ", len(unique_whole_file_test_deletion_parent_commits_df))
-
+    total = len(unique_whole_file_test_deletion_parent_commits_df)
+    commits_list = list(unique_whole_file_test_deletion_parent_commits_df["Parent"])
+    print("Total parent commits: ", total)
+    print("Parent commit 2%: ", commits_list[round(0.02*total)])
+    print("Parent commit 5%: ", commits_list[round(0.05*total)])
+    print("Parent commit 10%: ", commits_list[round(0.1*total)])
+    print("Parent commit 15%: ", commits_list[round(0.15*total)])
+    print("Parent commit 25%: ", commits_list[round(0.25*total)])
+    print("Parent commit 50%: ", commits_list[round(0.5*total)])
+    print("Parent commit 75%: ", commits_list[round(0.75*total)])
+    print("Parent commit 100%: ", commits_list[-1])
 projects_list = [
     "commons-lang",
     "gson",
