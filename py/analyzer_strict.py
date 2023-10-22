@@ -51,6 +51,8 @@ projects_list = [
 
 for index, prog in enumerate(projects_list):
     analyzer_data = {}
+    if prog == "cts":
+        REPEATS = 1
 
     commits_list = get_whole_file_test_deletion_parent_commits(prog)
     print("Total whole file test deletion parent commits:", len(commits_list))

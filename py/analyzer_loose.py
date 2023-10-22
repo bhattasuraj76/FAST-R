@@ -49,11 +49,13 @@ projects_list = [
      "jfreechart",
      "joda-time",
      "pmd",
-    # "cts",
+    "cts",
 ]
 
 
 for index, prog in enumerate(projects_list):
+    if prog == "cts":
+        REPEATS = 1
     analyzer_data = {}
 
     commits_list = get_whole_file_test_deletion_parent_commits(prog)
