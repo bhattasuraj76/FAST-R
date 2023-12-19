@@ -28,6 +28,8 @@ from utils import *
 import json
 import numpy as np
 
+""" This file calculates budget """
+
 # Redirect console ouput to a file
 sys.stdout = open("./stat.txt", "w")
 
@@ -131,7 +133,6 @@ if __name__ == "__main__":
             }
 
         print("================================================================")
-
 
     f = open(f"./stat_loose_budget.json", "w")
     f.write(json.dumps(LOOSE_BUDGET, indent=2))
