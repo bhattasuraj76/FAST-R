@@ -22,7 +22,7 @@ from experimentBudgetModified import (
 )
 
 """
-This file analyzes the reduced test suite and computes the success ratio for all Fast-R algorithms 
+This file analyzes the [all available - 1 to repetitions ~ 50/commit]reduced test suite and computes the success ratio for all Fast-R algorithms 
 comparing with developer reduced test sutie in loose scenario.
 """
 
@@ -48,19 +48,19 @@ def get_line_no_history_deleted_testfiles(program, commit, deleted_testfiles):
 
 
 projects_list = [
-     "commons-lang",
+    #  "commons-lang",
      "gson",
-     "commons-math",
-     "jfreechart",
-     "joda-time",
-     "pmd",
-     "cts" 
+    #  "commons-math",
+    #  "jfreechart",
+    #  "joda-time",
+    #  "pmd",
+    #  "cts" 
 ]
 
 
 for index, prog in enumerate(projects_list):
-    if prog == "cts":
-        REPEATS = 1
+    # if prog == "cts":
+    #     REPEATS = 1
     analyzer_data = {}
 
     commits_list = get_whole_file_test_deletion_parent_commits(prog)
@@ -106,29 +106,48 @@ for index, prog in enumerate(projects_list):
         
         algo_data = {}
         for algo in ["FAST++", "FAST-all", "FAST-CS", "FAST-pw"]:
-            selection_path = "{}/{}-{}-{}.pickle".format(
-                selection_dir, algo, FINAL_BUDGET, REPEATS
-            )
-            measurement_path = "{}/{}-{}-{}.pickle".format(
-                measurement_dir, algo, FINAL_BUDGET, REPEATS
-            )
-            with open(selection_path, "rb") as pickle_file:
-                reduced_testfiles_line_no = pickle.load(pickle_file)
-
-            # Check if removed testfile from parent commit exists in reduced testsuite
-            # Increase no. of detected deleted testfiles if does not exist
-            no_of_detected_deleted_testfiles = 0
-            detected_deleted_testfiles_line_no = []
-            for deleted_each_testfiles_line_no in deleted_testfiles_line_no_history:
-                if deleted_each_testfiles_line_no not in reduced_testfiles_line_no:
-                    no_of_detected_deleted_testfiles += 1
-                    detected_deleted_testfiles_line_no.append(deleted_each_testfiles_line_no)
+            # Max Detects from 1 to repetition
+            max_detects = 0
+            max_detects_line_no = []
+            max_repetition = 0
             
+            for i in range(1, REPEATS+1):
+                # selection_path = "{}/{}-{}-{}.pickle".format(
+                #     selection_dir, algo, FINAL_BUDGET, REPEATS
+                # )
+                # measurement_path = "{}/{}-{}-{}.pickle".format(
+                #     measurement_dir, algo, FINAL_BUDGET, REPEATS
+                # )
+                selection_path = "{}/{}-{}-{}.pickle".format(
+                    selection_dir, algo, FINAL_BUDGET, i
+                )
+                measurement_path = "{}/{}-{}-{}.pickle".format(
+                    measurement_dir, algo, FINAL_BUDGET, i
+                )
+                with open(selection_path, "rb") as pickle_file:
+                    reduced_testfiles_line_no = pickle.load(pickle_file)
+
+                # Check if removed testfile from parent commit exists in reduced testsuite
+                # Increase no. of detected deleted testfiles if does not exist
+                no_of_detected_deleted_testfiles = 0
+                detected_deleted_testfiles_line_no =[]
+                for deleted_each_testfiles_line_no in deleted_testfiles_line_no_history:
+                    if deleted_each_testfiles_line_no not in reduced_testfiles_line_no:
+                        no_of_detected_deleted_testfiles += 1
+                        detected_deleted_testfiles_line_no.append(deleted_each_testfiles_line_no)
+              
+                
+                # Select the Max detection repetition step among 1 to repetitions
+                if no_of_detected_deleted_testfiles > max_detects:
+                    max_detects = no_of_detected_deleted_testfiles
+                    max_detects_line_no = detected_deleted_testfiles_line_no
+                    max_repetition = i
 
             reduction_info = {
-                "Total Detected Deleted Testfiles": no_of_detected_deleted_testfiles,
-                "Total Failed To Detect Deleted Testfiles": no_of_deleted_testfiles - no_of_detected_deleted_testfiles,
-                "Detected Testfiles Line No": detected_deleted_testfiles_line_no
+                "Total Detected Deleted Testfiles": max_detects,
+                "Total Failed To Detect Deleted Testfiles": no_of_deleted_testfiles - max_detects,
+                "Detected Testfiles Line No": max_detects_line_no,
+                "Max_repetition": max_repetition
             }
             algo_data[algo] = reduction_info
 
@@ -143,5 +162,5 @@ for index, prog in enumerate(projects_list):
             }
         )
 
-        f = open(f"./output-loose/{prog}_analyzer.json", "w")
+        f = open(f"./output-loose-extended/{prog}_analyzer.json", "w")
         f.write(json.dumps(analyzer_data,  indent=2))

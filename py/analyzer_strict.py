@@ -122,13 +122,10 @@ for index, prog in enumerate(projects_list):
                 if deleted_each_testfiles_line_no not in reduced_testfiles_line_no:
                     no_of_detected_deleted_testfiles += 1
                     detected_deleted_testfiles_line_no.append(deleted_each_testfiles_line_no)
-            no_of_failed_to_detect_deleted_testfiles = (
-                no_of_deleted_testfiles - no_of_detected_deleted_testfiles
-            )
 
             reduction_info = {
                 "Total Detected Deleted Testfiles": no_of_detected_deleted_testfiles,
-                "Total Failed To Detect Deleted Testfiles": no_of_failed_to_detect_deleted_testfiles,
+                "Total Failed To Detect Deleted Testfiles": no_of_deleted_testfiles - no_of_detected_deleted_testfiles,
                 "Detected Testfiles Line No": detected_deleted_testfiles_line_no
             }
             algo_data[algo] = reduction_info
