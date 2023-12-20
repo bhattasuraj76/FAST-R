@@ -1,6 +1,4 @@
 # Ported utils helper function from main project
-
-
 def strip_commit_url(repo_url):
     if repo_url:
         return (

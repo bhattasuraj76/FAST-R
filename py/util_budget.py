@@ -1,77 +1,22 @@
 """
-This is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as
-published by the Free Software Foundation, either version 3 of the
-License, or (at your option) any later version.
-
-This software is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this source.  If not, see <http://www.gnu.org/licenses/>.
+Computes budget for loose scenario
 """
 
-
-import math
-import os
-import pickle
 import sys
-
-import competitors
-import fastr
-import metric
-from pathlib import Path
-import pandas as pd
 from utils import *
 import json
 import numpy as np
 
-""" This file calculates budget """
-
 # Redirect console ouput to a file
 sys.stdout = open("./stat.txt", "w")
 
-
-ROOT_DIR = "../cts-analyzer/io/rq3"
-VALIDATION_DIR = "../cts-analyzer/io/validationFiles"
-
-
-def get_deleted_testcases_with_whole_file_df(project):
-    validated_tests_file_path = Path(f"{VALIDATION_DIR}/{project}/hydrated_rq_2.csv")
-    if not os.path.exists(f"{validated_tests_file_path}"):
-        print(
-            "Error: path does not exit -> ",
-            validated_tests_file_path,
-        )
-        exit()
-
-    df = pd.read_csv(validated_tests_file_path)
-    deleted_tc_with_whole_file_df = df[df["Deleted With Whole File"] == "yes"]
-    return deleted_tc_with_whole_file_df
-
-
-def get_whole_file_test_deletion_parent_commits(project):
-    deleted_tc_df = get_deleted_testcases_with_whole_file_df(project)
-    commits_list = list(set(list(deleted_tc_df["Parent"])))
-    return commits_list
-
-
-def get_deleted_testfiles_in_test_deletion_commit_parent(project, parent_commit):
-    deleted_tc_df = get_deleted_testcases_with_whole_file_df(project)
-    parsed_commit = parse_commit_as_hyperlink_by_project(project, parent_commit)
-    deleted_tc_in_commit_df = deleted_tc_df[deleted_tc_df["Parent"] == parsed_commit]
-    classes_deleted = list(set(list(deleted_tc_in_commit_df["Filepath"])))
-    return classes_deleted
-
-
-def get_no_of_deleted_testfiles_in_test_deletion_commit_parent(project, parent_commit):
-    classes_deleted = get_deleted_testfiles_in_test_deletion_commit_parent(
-        project, parent_commit
-    )
-    return len(classes_deleted)
-
+from config import ROOT_DIR
+from helpers import (
+    get_deleted_testcases_with_whole_file_df,
+    get_whole_file_test_deletion_parent_commits,
+    get_deleted_testfiles_in_test_deletion_commit_parent,
+    get_no_of_deleted_testfiles_in_test_deletion_commit_parent,
+)
 
 LOOSE_BUDGET = {}
 projects_list = [
@@ -122,6 +67,7 @@ if __name__ == "__main__":
                     "hash": commit,
                 }
             ALL_BUDGETS.append(repetitions)
+       
         # Loose Scenario
         if MIN_PERCENTAGE_OF_TEST_PRESERVED < 100:
             # print("Budget:" , MIN_PERCENTAGE_OF_TEST_PRESERVED)

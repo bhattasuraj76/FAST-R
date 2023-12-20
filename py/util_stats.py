@@ -79,6 +79,8 @@ def print_stats(project):
     print("Parent commit 50%: ", commits_list[round(0.5*total)])
     print("Parent commit 75%: ", commits_list[round(0.75*total)])
     print("Parent commit 100%: ", commits_list[-1])
+    
+    
 projects_list = [
     "commons-lang",
     "gson",
