@@ -15,7 +15,7 @@ projects_list = [
     "gson",
     "commons-math",
     "jfreechart",
-    "joda-time",
+    # "joda-time",
     "pmd",
     # "cts",
 ]
