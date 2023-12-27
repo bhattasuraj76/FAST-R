@@ -172,6 +172,7 @@ def analyzer_main(prog, setting):
                 "Parent": commit,
                 "Total Testfiles": numOfTCS,
                 "Total Deleted Testfiles": no_of_deleted_testfiles,
+                "Deleted Testfiles": deleted_testfiles,
                 "Total Preserved Testfiles": no_of_preserved_testfiles,
                 "Computed Final Budget": FINAL_BUDGET,
                 "Algorithm": algo_data,
