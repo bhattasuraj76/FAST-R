@@ -73,6 +73,11 @@ for index, project in enumerate(projects_list):
 
             if project not in data[setting]:
                 data[setting][project] = {}
+                
+            print("Total Preparation Time")
+            print(total_preparation_time)
+            print("Total Execution Time")
+            print(total_execution_time)
             data[setting][project][algo] = (
                 {
                     "Total Detected Deleted Testfiles": total_detected,
