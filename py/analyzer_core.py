@@ -20,17 +20,6 @@ comparing with developer reduced test sutie in loose scenario.
 """
 
 
-projects_list = [
-    #  "commons-lang",
-    "gson",
-    #  "commons-math",
-    #  "jfreechart",
-    #  "joda-time",
-    #  "pmd",
-    #  "cts"
-]
-
-
 def analyzer_main(prog, setting):
     analyzer_data = {}
 
