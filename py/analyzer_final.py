@@ -78,12 +78,19 @@ for index, project in enumerate(projects_list):
             print(total_preparation_time)
             print("Total Execution Time")
             print(total_execution_time)
+            
+            try:
+                total_preparation_time = str(timedelta(seconds=total_preparation_time))
+                total_execution_time = str(timedelta(seconds=total_execution_time))
+            except:
+                pass
+            
             data[setting][project][algo] = (
                 {
                     "Total Detected Deleted Testfiles": total_detected,
                     "Total Failed To Detect Deleted Testfiles": total_failed_to_detect,
-                    "Total Preparation Time": str(timedelta(seconds=total_preparation_time)),
-                    "Total Execution Time": str(timedelta(seconds=total_execution_time)),
+                    "Total Preparation Time": total_preparation_time,
+                    "Total Execution Time": total_execution_time,
                 },
             )
 
