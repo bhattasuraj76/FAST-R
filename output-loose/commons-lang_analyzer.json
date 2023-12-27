@@ -3,184 +3,6 @@
   "Total test cases deleted with whole file:": 688,
   "details": [
     {
-      "Parent": "26b587c7babccea6ff3f79cc43e1ad2da6c6b3cb",
-      "Total Testfiles": 90,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 89,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "7952a5525444ab03243a9f80375050caf2419770",
-      "Total Testfiles": 77,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 76,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            13
-          ]
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "b75b09afe0be9fd009b1290b5ce75dcf1144b226",
-      "Total Testfiles": 57,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 56,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            53
-          ]
-        }
-      }
-    },
-    {
-      "Parent": "22861326c26a7feaa13f08f5cb8c8f68bedb1225",
-      "Total Testfiles": 108,
-      "Total Deleted Testfiles": 5,
-      "Total Preserved Testfiles": 103,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 5,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 5,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 5,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 5,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "d8ae0bdbefd1df0dda95f3402c323ca93962d16e",
-      "Total Testfiles": 87,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 86,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "8ebe30ba3091b05ae28f70ba235c558e9a1b4235",
-      "Total Testfiles": 28,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 27,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
       "Parent": "5cab6528eae28321fcd7bea44e83bd46e91fac63",
       "Total Testfiles": 17,
       "Total Deleted Testfiles": 1,
@@ -188,384 +10,56 @@
       "Computed Final Budget": 92,
       "Algorithm": {
         "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "7f5ffc6036d4b2199af5b2d655691bc0af4478ee",
-      "Total Testfiles": 95,
-      "Total Deleted Testfiles": 2,
-      "Total Preserved Testfiles": 93,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "b30be60a81a14921b3c6bca9689f4886693f1bcd",
-      "Total Testfiles": 155,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 154,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "ca2e59c513edc2a8b30ff62595e01f8dff79f0d2",
-      "Total Testfiles": 153,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 152,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            8
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/HashCodeBuilderTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 17,
+          "Total execution time": 0.022559863997230423,
+          "Total preparation time": 2.623242489999029
         },
         "FAST-all": {
           "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 0,
           "Detected Testfiles Line No": [
-            84
-          ]
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "5a87fa172eb1368fe413af34511d1eb3f2674a9f",
-      "Total Testfiles": 154,
-      "Total Deleted Testfiles": 5,
-      "Total Preserved Testfiles": 149,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 5,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 5,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 4,
-          "Detected Testfiles Line No": [
-            24
-          ]
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 5,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "a2773b230e17d71022791d0ad50fafe0f6a856d1",
-      "Total Testfiles": 91,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 90,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            69
-          ]
-        }
-      }
-    },
-    {
-      "Parent": "da46e86e2f392277df00e10dfa543d09a1c85f84",
-      "Total Testfiles": 88,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 87,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "2fa0b168d62a07365b2787d0ed97fa1c2cfb673b",
-      "Total Testfiles": 137,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 136,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "13bd2d388e29e99fb98f613ea90dbeed79500702",
-      "Total Testfiles": 93,
-      "Total Deleted Testfiles": 4,
-      "Total Preserved Testfiles": 89,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 4,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 4,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 4,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 4,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "5e7cf0ed0e5a457e6e180e83ffbafa0b582e2759",
-      "Total Testfiles": 63,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 62,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
+            8
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/HashCodeBuilderTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 6,
+          "Total execution time": 0.015313086999412917,
+          "Total preparation time": 24.452939147000507
         },
         "FAST-CS": {
           "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 0,
           "Detected Testfiles Line No": [
-            1
-          ]
+            8
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/HashCodeBuilderTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 5,
+          "Total execution time": 0.01686053900175466,
+          "Total preparation time": 2.6206231120040684
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
           "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "784a817fef0bcd09432c32e54bf80d972d3d15bc",
-      "Total Testfiles": 93,
-      "Total Deleted Testfiles": 4,
-      "Total Preserved Testfiles": 89,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 4,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 4,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 3,
-          "Detected Testfiles Line No": [
-            40
-          ]
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 4,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "e5b0844c4f49d5913f54bb5982284f5e7b76240a",
-      "Total Testfiles": 100,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 99,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "c090db27a496c00c1c28bf22e54cc57b7f593298",
-      "Total Testfiles": 87,
-      "Total Deleted Testfiles": 2,
-      "Total Preserved Testfiles": 85,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [
-            29
-          ]
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": []
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.04519897000773199,
+          "Total preparation time": 24.43541699099933
         }
       }
     },
@@ -577,142 +71,62 @@
       "Computed Final Budget": 92,
       "Algorithm": {
         "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": []
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            78,
+            69
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/EntitiesTest.java",
+            "./src/test/org/apache/commons/lang/EntitiesPerformanceTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 4,
+          "Total execution time": 0.5018991999995706,
+          "Total preparation time": 6.7160910250022425
         },
         "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "db951873904b927b43f35478586f064ea6ea6deb",
-      "Total Testfiles": 88,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 87,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
+          "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "324363816774a1f9bca998950081130be6756611",
-      "Total Testfiles": 163,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 162,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "2c499868dbf7cedc9a56c3d873fe9e287d7e0f29",
-      "Total Testfiles": 108,
-      "Total Deleted Testfiles": 3,
-      "Total Preserved Testfiles": 105,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 3,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 3,
-          "Detected Testfiles Line No": []
+          "Detected Testfiles Line No": [
+            69
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/EntitiesPerformanceTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/EntitiesTest.java"
+          ],
+          "Max_repetition": 1,
+          "Total execution time": 0.054096516997560684,
+          "Total preparation time": 111.67620299000373
         },
         "FAST-CS": {
           "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 1,
           "Detected Testfiles Line No": [
-            34
-          ]
+            69
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/EntitiesPerformanceTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/EntitiesTest.java"
+          ],
+          "Max_repetition": 7,
+          "Total execution time": 0.052569146001587796,
+          "Total preparation time": 6.682881210997039
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 3,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "91a90af7673ade24edbb7c378b2a3b46fcf8e78a",
-      "Total Testfiles": 97,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 96,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.38454459000240604,
+          "Total preparation time": 112.29601889300193
         }
       }
     },
@@ -724,294 +138,178 @@
       "Computed Final Budget": 92,
       "Algorithm": {
         "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "5df3e1aad76a65c6e437e1f6c441601039742368",
-      "Total Testfiles": 95,
-      "Total Deleted Testfiles": 3,
-      "Total Preserved Testfiles": 92,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 3,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 3,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 3,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 3,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "716f140d46c1737ca1c6b22a1db10fe041fbf810",
-      "Total Testfiles": 144,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 143,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "de125de49a652391f0c38e97001c7863da878f1f",
-      "Total Testfiles": 143,
-      "Total Deleted Testfiles": 2,
-      "Total Preserved Testfiles": 141,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 2,
+          "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 0,
           "Detected Testfiles Line No": [
-            110,
-            109
-          ]
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "43eba0aec4b19ac87e360dbc5d51af5bc15df4ea",
-      "Total Testfiles": 73,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 72,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "f62839527b087d0f6c3aa74c86cca9bd492fb64b",
-      "Total Testfiles": 94,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 93,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "8a57de11eec842e392f7709eb56f202084998a40",
-      "Total Testfiles": 85,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 84,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
+            81
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/NullArgumentExceptionTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 15,
+          "Total execution time": 0.5297253479993742,
+          "Total preparation time": 6.668985839995003
         },
         "FAST-all": {
           "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 0,
           "Detected Testfiles Line No": [
-            53
-          ]
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "1330e9dad70336423e7f52f0a0f5f97c107d620c",
-      "Total Testfiles": 98,
-      "Total Deleted Testfiles": 2,
-      "Total Preserved Testfiles": 96,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": []
+            81
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/NullArgumentExceptionTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 13,
+          "Total execution time": 0.0551620760033984,
+          "Total preparation time": 111.26206529800129
         },
         "FAST-CS": {
           "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            81
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/NullArgumentExceptionTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 50,
+          "Total execution time": 0.049502142000164895,
+          "Total preparation time": 6.653831211000579
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
           "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [
-            1
-          ]
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": []
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.38567992500065884,
+          "Total preparation time": 111.22226261100332
         }
       }
     },
     {
-      "Parent": "e329c3556ce0b4a87568f3783adc193719670560",
-      "Total Testfiles": 53,
-      "Total Deleted Testfiles": 4,
-      "Total Preserved Testfiles": 49,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 3,
-          "Detected Testfiles Line No": [
-            8
-          ]
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 4,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 4,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 4,
-          "Detected Testfiles Line No": []
-        }
-      }
-    },
-    {
-      "Parent": "f04f89bfda742435b86313a7ff01eb975dbbe00c",
-      "Total Testfiles": 89,
+      "Parent": "e5b0844c4f49d5913f54bb5982284f5e7b76240a",
+      "Total Testfiles": 100,
       "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 88,
+      "Total Preserved Testfiles": 99,
       "Computed Final Budget": 92,
       "Algorithm": {
         "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            76
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/CharSequenceUtilsTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 10,
+          "Total execution time": 0.5974086000005627,
+          "Total preparation time": 7.259155103000921
         },
         "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            76
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/CharSequenceUtilsTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 5,
+          "Total execution time": 0.06217829899924254,
+          "Total preparation time": 124.11440599899561
         },
         "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            76
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/CharSequenceUtilsTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 2,
+          "Total execution time": 0.05284845799906179,
+          "Total preparation time": 7.229648755997005
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
           "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.5406943659972967,
+          "Total preparation time": 124.18410574500285
+        }
+      }
+    },
+    {
+      "Parent": "a2773b230e17d71022791d0ad50fafe0f6a856d1",
+      "Total Testfiles": 91,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 90,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            69
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/UnhandledExceptionTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 5,
+          "Total execution time": 0.5511689510003634,
+          "Total preparation time": 6.655179247998603
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            69
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/UnhandledExceptionTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 16,
+          "Total execution time": 0.05384112799401919,
+          "Total preparation time": 112.77541279000252
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            69
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/UnhandledExceptionTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 23,
+          "Total execution time": 0.05022709399963787,
+          "Total preparation time": 6.6820399449898105
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.40736948000449047,
+          "Total preparation time": 113.73074685199936
         }
       }
     },
@@ -1023,88 +321,349 @@
       "Computed Final Budget": 92,
       "Algorithm": {
         "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 7,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 7,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 7,
-          "Detected Testfiles Line No": []
-        },
-        "FAST-pw": {
           "Total Detected Deleted Testfiles": 3,
           "Total Failed To Detect Deleted Testfiles": 4,
           "Detected Testfiles Line No": [
+            52,
             47,
-            50,
-            49
-          ]
+            45
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/math/NumberRangeTest.java",
+            "./src/test/org/apache/commons/lang/math/RangeTest.java",
+            "./src/test/org/apache/commons/lang/math/DoubleRangeTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/math/AbstractRangeTest.java",
+            "./src/test/org/apache/commons/lang/math/IntRangeTest.java",
+            "./src/test/org/apache/commons/lang/math/FloatRangeTest.java",
+            "./src/test/org/apache/commons/lang/math/LongRangeTest.java"
+          ],
+          "Max_repetition": 11,
+          "Total execution time": 0.6297238179995475,
+          "Total preparation time": 7.061405765999098
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 3,
+          "Total Failed To Detect Deleted Testfiles": 4,
+          "Detected Testfiles Line No": [
+            48,
+            52,
+            45
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/math/IntRangeTest.java",
+            "./src/test/org/apache/commons/lang/math/NumberRangeTest.java",
+            "./src/test/org/apache/commons/lang/math/DoubleRangeTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/math/AbstractRangeTest.java",
+            "./src/test/org/apache/commons/lang/math/RangeTest.java",
+            "./src/test/org/apache/commons/lang/math/FloatRangeTest.java",
+            "./src/test/org/apache/commons/lang/math/LongRangeTest.java"
+          ],
+          "Max_repetition": 45,
+          "Total execution time": 0.06151094999813722,
+          "Total preparation time": 119.95267887699856
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 5,
+          "Detected Testfiles Line No": [
+            48,
+            47
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/math/IntRangeTest.java",
+            "./src/test/org/apache/commons/lang/math/RangeTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/math/AbstractRangeTest.java",
+            "./src/test/org/apache/commons/lang/math/NumberRangeTest.java",
+            "./src/test/org/apache/commons/lang/math/FloatRangeTest.java",
+            "./src/test/org/apache/commons/lang/math/DoubleRangeTest.java",
+            "./src/test/org/apache/commons/lang/math/LongRangeTest.java"
+          ],
+          "Max_repetition": 6,
+          "Total execution time": 0.05360272200096006,
+          "Total preparation time": 7.056339994999689
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 7,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.4230792900002598,
+          "Total preparation time": 119.86125981900113
         }
       }
     },
     {
-      "Parent": "cba79c706bdb523861fd3a07a63fc9fef0b631ce",
-      "Total Testfiles": 95,
+      "Parent": "b30be60a81a14921b3c6bca9689f4886693f1bcd",
+      "Total Testfiles": 155,
       "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 94,
+      "Total Preserved Testfiles": 154,
       "Computed Final Budget": 92,
       "Algorithm": {
         "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            31
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/concurrent/DaemonThreadFactoryTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 12,
+          "Total execution time": 1.4399943869993876,
+          "Total preparation time": 10.606066390000251
         },
         "FAST-all": {
           "Total Detected Deleted Testfiles": 0,
           "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 1.102475343999231,
+          "Total preparation time": 191.8821482030021
         },
         "FAST-CS": {
           "Total Detected Deleted Testfiles": 0,
           "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.08274434900067718,
+          "Total preparation time": 10.662584525000966
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
           "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 2.1596725979993607,
+          "Total preparation time": 194.591925195999
         }
       }
     },
     {
-      "Parent": "68c6547d0cc71c538a52b81f0ef3af69b9d80085",
-      "Total Testfiles": 95,
+      "Parent": "91a90af7673ade24edbb7c378b2a3b46fcf8e78a",
+      "Total Testfiles": 97,
       "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 94,
+      "Total Preserved Testfiles": 96,
       "Computed Final Budget": 92,
       "Algorithm": {
         "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            7
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/event/ReflectiveEventSupportTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 5,
+          "Total execution time": 0.5923655850010618,
+          "Total preparation time": 7.473291233996861
         },
         "FAST-all": {
           "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 0,
           "Detected Testfiles Line No": [
-            19
-          ]
+            7
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/event/ReflectiveEventSupportTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 3,
+          "Total execution time": 0.061335146005149,
+          "Total preparation time": 121.9595124059988
         },
         "FAST-CS": {
           "Total Detected Deleted Testfiles": 0,
           "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.055681405004179396,
+          "Total preparation time": 7.438343546000397
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
           "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.49540663799689355,
+          "Total preparation time": 124.42961451000156
+        }
+      }
+    },
+    {
+      "Parent": "e329c3556ce0b4a87568f3783adc193719670560",
+      "Total Testfiles": 53,
+      "Total Deleted Testfiles": 4,
+      "Total Preserved Testfiles": 49,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [
+            8,
+            10
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/functor/TestPredicateUtils.java",
+            "./src/test/org/apache/commons/lang/functor/TestTransformerUtils.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/functor/TestFactoryUtils.java",
+            "./src/test/org/apache/commons/lang/functor/TestExecutorUtils.java"
+          ],
+          "Max_repetition": 1,
+          "Total execution time": 0.21103537100498215,
+          "Total preparation time": 4.342370114001824
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [
+            8,
+            9
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/functor/TestPredicateUtils.java",
+            "./src/test/org/apache/commons/lang/functor/TestExecutorUtils.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/functor/TestFactoryUtils.java",
+            "./src/test/org/apache/commons/lang/functor/TestTransformerUtils.java"
+          ],
+          "Max_repetition": 5,
+          "Total execution time": 0.03422944499834557,
+          "Total preparation time": 83.47063914399769
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [
+            11,
+            10
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/functor/TestFactoryUtils.java",
+            "./src/test/org/apache/commons/lang/functor/TestTransformerUtils.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/functor/TestPredicateUtils.java",
+            "./src/test/org/apache/commons/lang/functor/TestExecutorUtils.java"
+          ],
+          "Max_repetition": 7,
+          "Total execution time": 0.03272362299685483,
+          "Total preparation time": 4.3103054459988925
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 4,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.21198685099989234,
+          "Total preparation time": 83.17790022600184
+        }
+      }
+    },
+    {
+      "Parent": "5a87fa172eb1368fe413af34511d1eb3f2674a9f",
+      "Total Testfiles": 154,
+      "Total Deleted Testfiles": 5,
+      "Total Preserved Testfiles": 149,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 4,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [
+            26,
+            28,
+            27,
+            25
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/concurrent/annotation/ThreadSafeTest.java",
+            "./src/test/java/org/apache/commons/lang3/concurrent/annotation/GuardedByTest.java",
+            "./src/test/java/org/apache/commons/lang3/concurrent/annotation/ContractTest.java",
+            "./src/test/java/org/apache/commons/lang3/concurrent/annotation/NotThreadSafeTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/concurrent/annotation/ImmutableTest.java"
+          ],
+          "Max_repetition": 24,
+          "Total execution time": 1.5071341579969157,
+          "Total preparation time": 10.420341782001742
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 3,
+          "Detected Testfiles Line No": [
+            27,
+            25
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/concurrent/annotation/ContractTest.java",
+            "./src/test/java/org/apache/commons/lang3/concurrent/annotation/NotThreadSafeTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/concurrent/annotation/ThreadSafeTest.java",
+            "./src/test/java/org/apache/commons/lang3/concurrent/annotation/GuardedByTest.java",
+            "./src/test/java/org/apache/commons/lang3/concurrent/annotation/ImmutableTest.java"
+          ],
+          "Max_repetition": 11,
+          "Total execution time": 0.9657506909989024,
+          "Total preparation time": 189.40067921699983
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 3,
+          "Detected Testfiles Line No": [
+            26,
+            24
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/concurrent/annotation/ThreadSafeTest.java",
+            "./src/test/java/org/apache/commons/lang3/concurrent/annotation/ImmutableTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/concurrent/annotation/GuardedByTest.java",
+            "./src/test/java/org/apache/commons/lang3/concurrent/annotation/ContractTest.java",
+            "./src/test/java/org/apache/commons/lang3/concurrent/annotation/NotThreadSafeTest.java"
+          ],
+          "Max_repetition": 11,
+          "Total execution time": 0.07931848399994124,
+          "Total preparation time": 10.21407522799882
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 5,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 2.071681516998069,
+          "Total preparation time": 190.805679744999
         }
       }
     },
@@ -1116,24 +675,1815 @@
       "Computed Final Budget": 92,
       "Algorithm": {
         "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            8
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/event/AbstractEventSupportTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 15,
+          "Total execution time": 0.666865367005812,
+          "Total preparation time": 7.236184792993299
         },
         "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            8
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/event/AbstractEventSupportTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 1,
+          "Total execution time": 0.05794634700214374,
+          "Total preparation time": 120.6684141010046
         },
         "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            8
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/event/AbstractEventSupportTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 7,
+          "Total execution time": 0.05215279400363215,
+          "Total preparation time": 7.09233959100311
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
           "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": []
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.4725808930088533,
+          "Total preparation time": 120.00747393600068
+        }
+      }
+    },
+    {
+      "Parent": "da46e86e2f392277df00e10dfa543d09a1c85f84",
+      "Total Testfiles": 88,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 87,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            40
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/math/RandomUtilsTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 2,
+          "Total execution time": 0.5030734409974684,
+          "Total preparation time": 6.629018684010589
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            40
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/math/RandomUtilsTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 37,
+          "Total execution time": 0.04907221398389083,
+          "Total preparation time": 113.75522875600291
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            40
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/math/RandomUtilsTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 28,
+          "Total execution time": 0.049760148000132176,
+          "Total preparation time": 6.63492321499325
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.38692138300757506,
+          "Total preparation time": 113.47762110201438
+        }
+      }
+    },
+    {
+      "Parent": "b75b09afe0be9fd009b1290b5ce75dcf1144b226",
+      "Total Testfiles": 57,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 56,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            53
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/WordWrapUtilsTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 12,
+          "Total execution time": 0.24624493400233405,
+          "Total preparation time": 5.176519740000003
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            53
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/WordWrapUtilsTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 8,
+          "Total execution time": 0.03918829399981405,
+          "Total preparation time": 96.9317315160024
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            53
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/WordWrapUtilsTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 18,
+          "Total execution time": 0.03963067199856596,
+          "Total preparation time": 5.184793415000513
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            53
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/WordWrapUtilsTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 14,
+          "Total execution time": 0.2317479660000572,
+          "Total preparation time": 97.09696269199776
+        }
+      }
+    },
+    {
+      "Parent": "716f140d46c1737ca1c6b22a1db10fe041fbf810",
+      "Total Testfiles": 144,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 143,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            116
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/XMLCharacterTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 1,
+          "Total execution time": 1.5569510889990852,
+          "Total preparation time": 9.944248521002919
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            116
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/XMLCharacterTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 6,
+          "Total execution time": 0.1209938100009822,
+          "Total preparation time": 178.39683928400245
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            116
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/XMLCharacterTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 22,
+          "Total execution time": 0.07442249900032039,
+          "Total preparation time": 9.881987847998971
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 1.8146497070019905,
+          "Total preparation time": 179.54410077299963
+        }
+      }
+    },
+    {
+      "Parent": "c090db27a496c00c1c28bf22e54cc57b7f593298",
+      "Total Testfiles": 87,
+      "Total Deleted Testfiles": 2,
+      "Total Preserved Testfiles": 85,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [
+            27
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/text/translate/UnescapeUtilsTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/text/translate/EscapeUtilsTest.java"
+          ],
+          "Max_repetition": 3,
+          "Total execution time": 0.5071795330059103,
+          "Total preparation time": 6.7696583829929295
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [
+            27
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/text/translate/UnescapeUtilsTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/text/translate/EscapeUtilsTest.java"
+          ],
+          "Max_repetition": 5,
+          "Total execution time": 0.053303755001252284,
+          "Total preparation time": 113.38486495300094
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            27,
+            29
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/text/translate/UnescapeUtilsTest.java",
+            "./src/test/org/apache/commons/lang/text/translate/EscapeUtilsTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 28,
+          "Total execution time": 0.050553846998809604,
+          "Total preparation time": 6.70359969400306
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.34676747099547356,
+          "Total preparation time": 112.70061556699693
+        }
+      }
+    },
+    {
+      "Parent": "22861326c26a7feaa13f08f5cb8c8f68bedb1225",
+      "Total Testfiles": 108,
+      "Total Deleted Testfiles": 5,
+      "Total Preserved Testfiles": 103,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 4,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [
+            35,
+            32,
+            31,
+            33
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/compare/ComparatorChainTest.java",
+            "./src/test/java/org/apache/commons/lang3/compare/FixedOrderComparatorTest.java",
+            "./src/test/java/org/apache/commons/lang3/compare/ComparableComparatorTest.java",
+            "./src/test/java/org/apache/commons/lang3/compare/NullComparatorTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/compare/ReverseComparatorTest.java"
+          ],
+          "Max_repetition": 33,
+          "Total execution time": 0.8944332670034782,
+          "Total preparation time": 7.746728720999272
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 3,
+          "Detected Testfiles Line No": [
+            32,
+            31
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/compare/FixedOrderComparatorTest.java",
+            "./src/test/java/org/apache/commons/lang3/compare/ComparableComparatorTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/compare/ComparatorChainTest.java",
+            "./src/test/java/org/apache/commons/lang3/compare/ReverseComparatorTest.java",
+            "./src/test/java/org/apache/commons/lang3/compare/NullComparatorTest.java"
+          ],
+          "Max_repetition": 4,
+          "Total execution time": 0.07596915499834722,
+          "Total preparation time": 130.52578322000318
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 4,
+          "Detected Testfiles Line No": [
+            33
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/compare/NullComparatorTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/compare/ComparatorChainTest.java",
+            "./src/test/java/org/apache/commons/lang3/compare/ReverseComparatorTest.java",
+            "./src/test/java/org/apache/commons/lang3/compare/FixedOrderComparatorTest.java",
+            "./src/test/java/org/apache/commons/lang3/compare/ComparableComparatorTest.java"
+          ],
+          "Max_repetition": 2,
+          "Total execution time": 0.057956482000918186,
+          "Total preparation time": 7.621617031999449
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 4,
+          "Detected Testfiles Line No": [
+            33
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/compare/NullComparatorTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/compare/ComparatorChainTest.java",
+            "./src/test/java/org/apache/commons/lang3/compare/ReverseComparatorTest.java",
+            "./src/test/java/org/apache/commons/lang3/compare/FixedOrderComparatorTest.java",
+            "./src/test/java/org/apache/commons/lang3/compare/ComparableComparatorTest.java"
+          ],
+          "Max_repetition": 8,
+          "Total execution time": 1.2409937289985464,
+          "Total preparation time": 130.9229614629976
+        }
+      }
+    },
+    {
+      "Parent": "1330e9dad70336423e7f52f0a0f5f97c107d620c",
+      "Total Testfiles": 98,
+      "Total Deleted Testfiles": 2,
+      "Total Preserved Testfiles": 96,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            2,
+            1
+          ],
+          "Detected Testfiles": [
+            "./src/pending/CalendarUtilsTest.java",
+            "./src/pending/DateFormatterTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 22,
+          "Total execution time": 0.5396003450014177,
+          "Total preparation time": 7.220291227999041
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            2,
+            1
+          ],
+          "Detected Testfiles": [
+            "./src/pending/CalendarUtilsTest.java",
+            "./src/pending/DateFormatterTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 28,
+          "Total execution time": 0.061099059001207934,
+          "Total preparation time": 124.5526972539974
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [
+            2
+          ],
+          "Detected Testfiles": [
+            "./src/pending/CalendarUtilsTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/pending/DateFormatterTest.java"
+          ],
+          "Max_repetition": 2,
+          "Total execution time": 0.05520242099737516,
+          "Total preparation time": 7.300810270000511
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.5144847299998219,
+          "Total preparation time": 126.12563808600135
+        }
+      }
+    },
+    {
+      "Parent": "ca2e59c513edc2a8b30ff62595e01f8dff79f0d2",
+      "Total Testfiles": 153,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 152,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            84
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/test/SystemDefaultsSwitchTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 2,
+          "Total execution time": 1.5253574919995572,
+          "Total preparation time": 10.606761950000191
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.9629590930012455,
+          "Total preparation time": 192.24455045499985
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            84
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/test/SystemDefaultsSwitchTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 14,
+          "Total execution time": 0.08054053100045167,
+          "Total preparation time": 10.677138780999599
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 2.0992080500003567,
+          "Total preparation time": 193.61055172199974
+        }
+      }
+    },
+    {
+      "Parent": "5df3e1aad76a65c6e437e1f6c441601039742368",
+      "Total Testfiles": 95,
+      "Total Deleted Testfiles": 3,
+      "Total Preserved Testfiles": 92,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [
+            14
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/enum/ValuedEnumTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/enum/EnumTest.java",
+            "./src/test/org/apache/commons/lang/enum/EnumUtilsTest.java"
+          ],
+          "Max_repetition": 1,
+          "Total execution time": 0.6768699440026467,
+          "Total preparation time": 7.079421025000556
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [
+            14
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/enum/ValuedEnumTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/enum/EnumTest.java",
+            "./src/test/org/apache/commons/lang/enum/EnumUtilsTest.java"
+          ],
+          "Max_repetition": 1,
+          "Total execution time": 0.057206862009479664,
+          "Total preparation time": 122.38396300999557
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [
+            14
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/enum/ValuedEnumTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/enum/EnumTest.java",
+            "./src/test/org/apache/commons/lang/enum/EnumUtilsTest.java"
+          ],
+          "Max_repetition": 1,
+          "Total execution time": 0.05324770600236661,
+          "Total preparation time": 7.015884453999206
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 3,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.4466242560019964,
+          "Total preparation time": 122.68254758800504
+        }
+      }
+    },
+    {
+      "Parent": "7952a5525444ab03243a9f80375050caf2419770",
+      "Total Testfiles": 77,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 76,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            13
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/text/InterpolationTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 4,
+          "Total execution time": 0.3906791670015082,
+          "Total preparation time": 5.621304586002225
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            13
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/text/InterpolationTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 6,
+          "Total execution time": 0.047055017997990944,
+          "Total preparation time": 86.57806385799813
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            13
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/text/InterpolationTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 10,
+          "Total execution time": 0.04413068600297265,
+          "Total preparation time": 5.598972877007327
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.4053169760045421,
+          "Total preparation time": 86.33691561300657
+        }
+      }
+    },
+    {
+      "Parent": "2fa0b168d62a07365b2787d0ed97fa1c2cfb673b",
+      "Total Testfiles": 137,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 136,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            63
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/time/WeekYearTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 9,
+          "Total execution time": 1.3315432940000846,
+          "Total preparation time": 9.789807477000068
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            63
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/time/WeekYearTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 15,
+          "Total execution time": 0.10130598500018095,
+          "Total preparation time": 173.25422214099922
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            63
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/time/WeekYearTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 4,
+          "Total execution time": 0.07409486000051402,
+          "Total preparation time": 9.763436556000215
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 1.772151171000587,
+          "Total preparation time": 174.44198937499914
+        }
+      }
+    },
+    {
+      "Parent": "26b587c7babccea6ff3f79cc43e1ad2da6c6b3cb",
+      "Total Testfiles": 90,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 89,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            77
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/IllegalClassExceptionTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 13,
+          "Total execution time": 0.5216534339997452,
+          "Total preparation time": 6.765005829009169
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            77
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/IllegalClassExceptionTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 6,
+          "Total execution time": 0.05545606599844177,
+          "Total preparation time": 112.7002022020024
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            77
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/IllegalClassExceptionTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 14,
+          "Total execution time": 0.05004477400507312,
+          "Total preparation time": 6.695929352006715
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.40294984999673034,
+          "Total preparation time": 112.6328690860064
+        }
+      }
+    },
+    {
+      "Parent": "7f5ffc6036d4b2199af5b2d655691bc0af4478ee",
+      "Total Testfiles": 95,
+      "Total Deleted Testfiles": 2,
+      "Total Preserved Testfiles": 93,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [
+            21
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/text/MessageFormatExtensionTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/text/AbstractMessageFormatTest.java"
+          ],
+          "Max_repetition": 3,
+          "Total execution time": 0.5936125039934268,
+          "Total preparation time": 6.857268763997126
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            23,
+            21
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/text/AbstractMessageFormatTest.java",
+            "./src/test/org/apache/commons/lang/text/MessageFormatExtensionTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 45,
+          "Total execution time": 0.0571246700019401,
+          "Total preparation time": 120.4450927090038
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [
+            23
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/text/AbstractMessageFormatTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/text/MessageFormatExtensionTest.java"
+          ],
+          "Max_repetition": 2,
+          "Total execution time": 0.05396601800021017,
+          "Total preparation time": 6.9167085610042705
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.5837697870010743,
+          "Total preparation time": 121.57989616800114
+        }
+      }
+    },
+    {
+      "Parent": "13bd2d388e29e99fb98f613ea90dbeed79500702",
+      "Total Testfiles": 93,
+      "Total Deleted Testfiles": 4,
+      "Total Preserved Testfiles": 89,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 3,
+          "Detected Testfiles Line No": [
+            16
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/exception/AbstractNestableTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/exception/NestableExceptionTest.java",
+            "./src/test/org/apache/commons/lang/exception/NestableDelegateTest.java",
+            "./src/test/org/apache/commons/lang/exception/NestableRuntimeExceptionTest.java"
+          ],
+          "Max_repetition": 1,
+          "Total execution time": 0.620877360997838,
+          "Total preparation time": 7.149006590998852
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [
+            16,
+            14
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/exception/AbstractNestableTest.java",
+            "./src/test/org/apache/commons/lang/exception/NestableDelegateTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/exception/NestableExceptionTest.java",
+            "./src/test/org/apache/commons/lang/exception/NestableRuntimeExceptionTest.java"
+          ],
+          "Max_repetition": 41,
+          "Total execution time": 0.058666862998506986,
+          "Total preparation time": 123.19611397600056
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [
+            16,
+            19
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/exception/AbstractNestableTest.java",
+            "./src/test/org/apache/commons/lang/exception/NestableExceptionTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/exception/NestableDelegateTest.java",
+            "./src/test/org/apache/commons/lang/exception/NestableRuntimeExceptionTest.java"
+          ],
+          "Max_repetition": 16,
+          "Total execution time": 0.05445840600259544,
+          "Total preparation time": 7.183051691999935
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 4,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.43422050500021214,
+          "Total preparation time": 123.45960811299938
+        }
+      }
+    },
+    {
+      "Parent": "5e7cf0ed0e5a457e6e180e83ffbafa0b582e2759",
+      "Total Testfiles": 63,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 62,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            1
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/util/IdentifierUtilsTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 19,
+          "Total execution time": 0.2323808690007354,
+          "Total preparation time": 5.140224413999704
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            1
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/util/IdentifierUtilsTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 3,
+          "Total execution time": 0.044662470999128345,
+          "Total preparation time": 74.5190985350007
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            1
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/util/IdentifierUtilsTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 6,
+          "Total execution time": 0.04091917400046441,
+          "Total preparation time": 5.199306136999439
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.3005493010009559,
+          "Total preparation time": 74.53992445799963
+        }
+      }
+    },
+    {
+      "Parent": "68c6547d0cc71c538a52b81f0ef3af69b9d80085",
+      "Total Testfiles": 95,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 94,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            19
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/text/MultiFormatTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 18,
+          "Total execution time": 0.5606669139997393,
+          "Total preparation time": 6.790048858005321
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            19
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/text/MultiFormatTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 10,
+          "Total execution time": 0.05927316300403618,
+          "Total preparation time": 118.74975979299779
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            19
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/text/MultiFormatTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 6,
+          "Total execution time": 0.05266527199637494,
+          "Total preparation time": 6.812403243002336
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.5893697230039834,
+          "Total preparation time": 118.95879751900065
+        }
+      }
+    },
+    {
+      "Parent": "784a817fef0bcd09432c32e54bf80d972d3d15bc",
+      "Total Testfiles": 93,
+      "Total Deleted Testfiles": 4,
+      "Total Preserved Testfiles": 89,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [
+            40,
+            41
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/enums/ValuedEnumTest.java",
+            "./src/test/org/apache/commons/lang/enums/EnumTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/enums/EnumUtilsTest.java",
+            "./src/test/org/apache/commons/lang/enums/EnumEqualsTest.java"
+          ],
+          "Max_repetition": 17,
+          "Total execution time": 0.6167442349997145,
+          "Total preparation time": 7.110622536000051
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [
+            40,
+            41
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/enums/ValuedEnumTest.java",
+            "./src/test/org/apache/commons/lang/enums/EnumTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/enums/EnumUtilsTest.java",
+            "./src/test/org/apache/commons/lang/enums/EnumEqualsTest.java"
+          ],
+          "Max_repetition": 49,
+          "Total execution time": 0.05871152899987919,
+          "Total preparation time": 121.45689140100023
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 3,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [
+            43,
+            40,
+            41
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/enums/EnumUtilsTest.java",
+            "./src/test/org/apache/commons/lang/enums/ValuedEnumTest.java",
+            "./src/test/org/apache/commons/lang/enums/EnumTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/enums/EnumEqualsTest.java"
+          ],
+          "Max_repetition": 21,
+          "Total execution time": 0.053860241000052156,
+          "Total preparation time": 7.131327855999643
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 4,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.4496583659998805,
+          "Total preparation time": 122.9615737509996
+        }
+      }
+    },
+    {
+      "Parent": "f04f89bfda742435b86313a7ff01eb975dbbe00c",
+      "Total Testfiles": 89,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 88,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            60
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/NotImplementedExceptionTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 4,
+          "Total execution time": 0.4405646910008727,
+          "Total preparation time": 6.610303993998059
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            60
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/NotImplementedExceptionTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 9,
+          "Total execution time": 0.05431438000050548,
+          "Total preparation time": 111.86692767799741
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            60
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/NotImplementedExceptionTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 11,
+          "Total execution time": 0.05048086699844134,
+          "Total preparation time": 6.659869549002906
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.3783833189972938,
+          "Total preparation time": 111.96368296799847
+        }
+      }
+    },
+    {
+      "Parent": "d8ae0bdbefd1df0dda95f3402c323ca93962d16e",
+      "Total Testfiles": 87,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 86,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            86
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/IncompleteArgumentExceptionTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 18,
+          "Total execution time": 0.48200240199912514,
+          "Total preparation time": 6.6424829030002
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            86
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/IncompleteArgumentExceptionTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 23,
+          "Total execution time": 0.052901120003298274,
+          "Total preparation time": 111.18998323100095
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            86
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/IncompleteArgumentExceptionTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 9,
+          "Total execution time": 0.04986856299547071,
+          "Total preparation time": 6.626485940998464
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            86
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/IncompleteArgumentExceptionTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 1,
+          "Total execution time": 0.37972367299698817,
+          "Total preparation time": 111.65212844500093
+        }
+      }
+    },
+    {
+      "Parent": "f62839527b087d0f6c3aa74c86cca9bd492fb64b",
+      "Total Testfiles": 94,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 93,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            85
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/NumberRangeTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 19,
+          "Total execution time": 0.6226047379968804,
+          "Total preparation time": 7.173702473000958
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            85
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/NumberRangeTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 2,
+          "Total execution time": 0.057172711998646264,
+          "Total preparation time": 121.44840633400236
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            85
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/NumberRangeTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 9,
+          "Total execution time": 0.053178871001364314,
+          "Total preparation time": 7.20359017300143
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            85
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/NumberRangeTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 1,
+          "Total execution time": 0.43890228399959597,
+          "Total preparation time": 121.73271192199536
+        }
+      }
+    },
+    {
+      "Parent": "324363816774a1f9bca998950081130be6756611",
+      "Total Testfiles": 163,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 162,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            25
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/concurrent/locks/LocksTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 9,
+          "Total execution time": 1.7231776149992584,
+          "Total preparation time": 11.113091825999618
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            25
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/concurrent/locks/LocksTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 1,
+          "Total execution time": 1.1405847829992126,
+          "Total preparation time": 200.87588006899932
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            25
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/concurrent/locks/LocksTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 13,
+          "Total execution time": 0.08238008899661509,
+          "Total preparation time": 11.158013152999047
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 2.123007750998113,
+          "Total preparation time": 202.2551996700031
+        }
+      }
+    },
+    {
+      "Parent": "2c499868dbf7cedc9a56c3d873fe9e287d7e0f29",
+      "Total Testfiles": 108,
+      "Total Deleted Testfiles": 3,
+      "Total Preserved Testfiles": 105,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [
+            31
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/compare/TestComparatorChain.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/compare/TestReverseComparator.java",
+            "./src/test/java/org/apache/commons/lang3/compare/TestFixedOrderComparator.java"
+          ],
+          "Max_repetition": 2,
+          "Total execution time": 0.7034893219988589,
+          "Total preparation time": 7.780286708999483
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [
+            33
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/compare/TestReverseComparator.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/compare/TestComparatorChain.java",
+            "./src/test/java/org/apache/commons/lang3/compare/TestFixedOrderComparator.java"
+          ],
+          "Max_repetition": 3,
+          "Total execution time": 0.07892951000394532,
+          "Total preparation time": 133.6777973660046
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [
+            31
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/compare/TestComparatorChain.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/compare/TestReverseComparator.java",
+            "./src/test/java/org/apache/commons/lang3/compare/TestFixedOrderComparator.java"
+          ],
+          "Max_repetition": 5,
+          "Total execution time": 0.058237337005266454,
+          "Total preparation time": 7.718742656999893
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 3,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 1.2920974719982041,
+          "Total preparation time": 133.18898821699804
+        }
+      }
+    },
+    {
+      "Parent": "8ebe30ba3091b05ae28f70ba235c558e9a1b4235",
+      "Total Testfiles": 28,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 27,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            4
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/functor/TestClosureUtils.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 33,
+          "Total execution time": 0.0628037630012841,
+          "Total preparation time": 3.211623928001245
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            4
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/functor/TestClosureUtils.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 3,
+          "Total execution time": 0.020897513002637425,
+          "Total preparation time": 42.294808891000685
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            4
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/functor/TestClosureUtils.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 13,
+          "Total execution time": 0.02230634999978065,
+          "Total preparation time": 3.2273486980002417
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.09309462100100063,
+          "Total preparation time": 42.10572339900045
+        }
+      }
+    },
+    {
+      "Parent": "cba79c706bdb523861fd3a07a63fc9fef0b631ce",
+      "Total Testfiles": 95,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 94,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            94
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/NumberUtilsTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 25,
+          "Total execution time": 0.6244190609991165,
+          "Total preparation time": 7.348905133998414
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            94
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/NumberUtilsTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 11,
+          "Total execution time": 0.061237928998252755,
+          "Total preparation time": 125.73050419299989
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            94
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/NumberUtilsTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 5,
+          "Total execution time": 0.05707813900016845,
+          "Total preparation time": 7.331030436000674
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            94
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/NumberUtilsTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 1,
+          "Total execution time": 0.4489512959999047,
+          "Total preparation time": 125.78338729399911
+        }
+      }
+    },
+    {
+      "Parent": "8a57de11eec842e392f7709eb56f202084998a40",
+      "Total Testfiles": 85,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 84,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            53
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/IntHashMapTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 33,
+          "Total execution time": 0.4399707100019441,
+          "Total preparation time": 6.522418634005589
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            53
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/IntHashMapTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 10,
+          "Total execution time": 0.05084529300802387,
+          "Total preparation time": 110.74015299600251
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            53
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/IntHashMapTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 2,
+          "Total execution time": 0.04770829599146964,
+          "Total preparation time": 6.538716647000911
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.3664997150081035,
+          "Total preparation time": 110.64828557999863
+        }
+      }
+    },
+    {
+      "Parent": "db951873904b927b43f35478586f064ea6ea6deb",
+      "Total Testfiles": 88,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 87,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            18
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/text/VariableFormatterTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 3,
+          "Total execution time": 0.5031331719983427,
+          "Total preparation time": 6.43185398699552
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            18
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/text/VariableFormatterTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 4,
+          "Total execution time": 0.05686382099702314,
+          "Total preparation time": 103.63041331700242
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            18
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/text/VariableFormatterTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 2,
+          "Total execution time": 0.05060891199718753,
+          "Total preparation time": 6.45655749999969
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.4151708380031778,
+          "Total preparation time": 103.9911902310032
+        }
+      }
+    },
+    {
+      "Parent": "43eba0aec4b19ac87e360dbc5d51af5bc15df4ea",
+      "Total Testfiles": 73,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 72,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            4
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/mutable/MutableNumberTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 11,
+          "Total execution time": 0.35619695099999715,
+          "Total preparation time": 5.312013037999999
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            4
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/mutable/MutableNumberTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 21,
+          "Total execution time": 0.043278114000059986,
+          "Total preparation time": 81.405319247
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            4
+          ],
+          "Detected Testfiles": [
+            "./src/test/org/apache/commons/lang/mutable/MutableNumberTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 34,
+          "Total execution time": 0.039839528000003455,
+          "Total preparation time": 5.287463562000003
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.3778360450000342,
+          "Total preparation time": 81.44371624899999
+        }
+      }
+    },
+    {
+      "Parent": "de125de49a652391f0c38e97001c7863da878f1f",
+      "Total Testfiles": 143,
+      "Total Deleted Testfiles": 2,
+      "Total Preserved Testfiles": 141,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            109,
+            110
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java",
+            "./src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 29,
+          "Total execution time": 1.2851937439999688,
+          "Total preparation time": 9.908233742999954
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [
+            109
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java"
+          ],
+          "Max_repetition": 4,
+          "Total execution time": 0.120909761999485,
+          "Total preparation time": 180.80840649499993
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [
+            109
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java"
+          ],
+          "Max_repetition": 5,
+          "Total execution time": 0.07038279600004671,
+          "Total preparation time": 9.836915858999987
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 1.9174521689995743,
+          "Total preparation time": 181.21251343500006
         }
       }
     }

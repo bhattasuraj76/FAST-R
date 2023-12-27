@@ -3,409 +3,6 @@
   "Total test cases deleted with whole file:": 226,
   "details": [
     {
-      "Parent": "041d499a7c4af1b70617001ded11dbc01732d97f",
-      "Total Testfiles": 86,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 85,
-      "Computed Final Budget": 98,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            45
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/EscaperTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 17,
-          "Total execution time": 0.11780300000009447,
-          "Total preparation time": 1.509536000000594
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.024602999999501662,
-          "Total preparation time": 30.58929600000033
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            45
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/EscaperTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 14,
-          "Total execution time": 0.01440399999978581,
-          "Total preparation time": 1.5665940000001228
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.24931700000024648,
-          "Total preparation time": 32.39444900000001
-        }
-      }
-    },
-    {
-      "Parent": "ddde79c861cd2a3f62c33650698942cac1bb961c",
-      "Total Testfiles": 74,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 73,
-      "Computed Final Budget": 98,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.08828700000003664,
-          "Total preparation time": 1.50778600000001
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            54
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/LruCacheTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 7,
-          "Total execution time": 0.022060000000351465,
-          "Total preparation time": 30.04803100000015
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            54
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/LruCacheTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 17,
-          "Total execution time": 0.013214000000516535,
-          "Total preparation time": 1.4847879999999805
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.18908399999975245,
-          "Total preparation time": 29.606194000000414
-        }
-      }
-    },
-    {
-      "Parent": "7d53113ebc9ef6921c6238f013aabd10890611a0",
-      "Total Testfiles": 81,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 80,
-      "Computed Final Budget": 98,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            8
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/internal/LinkedTreeMapTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 26,
-          "Total execution time": 0.11908300000004601,
-          "Total preparation time": 1.7563910000000647
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            8
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/internal/LinkedTreeMapTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 15,
-          "Total execution time": 0.02621000000016238,
-          "Total preparation time": 36.33510499999949
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            8
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/internal/LinkedTreeMapTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 17,
-          "Total execution time": 0.015169999999727679,
-          "Total preparation time": 1.7687480000002438
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.24327800000014577,
-          "Total preparation time": 36.320065
-        }
-      }
-    },
-    {
-      "Parent": "fed332906debe74d0879c77a03825b66f7970c41",
-      "Total Testfiles": 76,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 75,
-      "Computed Final Budget": 98,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            56
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/FunctionWithInternalDependenciesTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 22,
-          "Total execution time": 0.10739800000010291,
-          "Total preparation time": 1.5437630000001263
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            56
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/FunctionWithInternalDependenciesTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 23,
-          "Total execution time": 0.023242999999297353,
-          "Total preparation time": 31.1439090000016
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            56
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/FunctionWithInternalDependenciesTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 38,
-          "Total execution time": 0.013411999999902946,
-          "Total preparation time": 1.522948000000497
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.2095630000002302,
-          "Total preparation time": 31.018231000000014
-        }
-      }
-    },
-    {
-      "Parent": "b4dab86b105c85e6b7d7106c9ff11e3e923e3485",
-      "Total Testfiles": 115,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 114,
-      "Computed Final Budget": 99,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            17
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/internal/LinkedHashTreeMapTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 5,
-          "Total execution time": 0.23643600000013976,
-          "Total preparation time": 2.070451000000503
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.04293399999937719,
-          "Total preparation time": 49.69740999999931
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.018673999999919033,
-          "Total preparation time": 2.039851000000226
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.6775169999993977,
-          "Total preparation time": 48.76020700000049
-        }
-      }
-    },
-    {
-      "Parent": "abe244c099b8c0f0e4c33921a55b27755564713a",
-      "Total Testfiles": 83,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 82,
-      "Computed Final Budget": 98,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            65
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/StringUnmarshallerTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 23,
-          "Total execution time": 0.10911900000064634,
-          "Total preparation time": 1.5023279999991246
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.025153000000273096,
-          "Total preparation time": 30.60375799999929
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            65
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/StringUnmarshallerTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 34,
-          "Total execution time": 0.014323000000104003,
-          "Total preparation time": 1.5188669999995454
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.2347520000005261,
-          "Total preparation time": 30.228781000000254
-        }
-      }
-    },
-    {
-      "Parent": "bf549f0589105a42f159c78a621fc28087561d16",
-      "Total Testfiles": 84,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 83,
-      "Computed Final Budget": 98,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            36
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/functional/GsonFieldTypeAdapterTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 1,
-          "Total execution time": 0.11606200000096578,
-          "Total preparation time": 1.5964709999998377
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.023125999999138003,
-          "Total preparation time": 33.000896999999895
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            36
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/functional/GsonFieldTypeAdapterTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 5,
-          "Total execution time": 0.013869999999542415,
-          "Total preparation time": 1.60401700000034
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.22106200000098397,
-          "Total preparation time": 32.97083799999905
-        }
-      }
-    },
-    {
       "Parent": "7f9762db633dde22b801e365d4ae02d50acaa6bf",
       "Total Testfiles": 82,
       "Total Deleted Testfiles": 1,
@@ -416,43 +13,43 @@
           "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 0,
           "Detected Testfiles Line No": [
-            70
+            63
           ],
           "Detected Testfiles": [
             "./gson/src/test/java/com/google/gson/JsonFieldNameValidatorTest.java"
           ],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 23,
-          "Total execution time": 0.10595099999989088,
-          "Total preparation time": 1.5628509999996822
+          "Max_repetition": 17,
+          "Total execution time": 0.43037180199974046,
+          "Total preparation time": 4.407390218999694
         },
         "FAST-all": {
           "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 0,
           "Detected Testfiles Line No": [
-            70
+            63
           ],
           "Detected Testfiles": [
             "./gson/src/test/java/com/google/gson/JsonFieldNameValidatorTest.java"
           ],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 2,
-          "Total execution time": 0.026609999999777756,
-          "Total preparation time": 32.42945700000013
+          "Max_repetition": 18,
+          "Total execution time": 0.06308785699957298,
+          "Total preparation time": 83.57976555399944
         },
         "FAST-CS": {
           "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 0,
           "Detected Testfiles Line No": [
-            70
+            63
           ],
           "Detected Testfiles": [
             "./gson/src/test/java/com/google/gson/JsonFieldNameValidatorTest.java"
           ],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 3,
-          "Total execution time": 0.0143670000001066,
-          "Total preparation time": 1.5823579999999993
+          "Max_repetition": 28,
+          "Total execution time": 0.04920559600031993,
+          "Total preparation time": 4.36539472200036
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
@@ -461,97 +58,8 @@
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 0.24751499999990756,
-          "Total preparation time": 32.38266099999976
-        }
-      }
-    },
-    {
-      "Parent": "faa5464e848ab9c6afc46e38eb416e7a156a23e1",
-      "Total Testfiles": 80,
-      "Total Deleted Testfiles": 5,
-      "Total Preserved Testfiles": 75,
-      "Computed Final Budget": 93,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 3,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": [
-            75,
-            54,
-            41
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/TypeInfoFactoryTest.java",
-            "./gson/src/test/java/com/google/gson/TypeInfoArrayTest.java",
-            "./gson/src/test/java/com/google/gson/TypeInfoTest.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/TypeUtilsTest.java",
-            "./gson/src/test/java/com/google/gson/TypeInfoMapTest.java"
-          ],
-          "Max_repetition": 1,
-          "Total execution time": 0.1174179999993612,
-          "Total preparation time": 1.6117869999993673
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 2,
-          "Total Failed To Detect Deleted Testfiles": 3,
-          "Detected Testfiles Line No": [
-            54,
-            41
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/TypeInfoArrayTest.java",
-            "./gson/src/test/java/com/google/gson/TypeInfoTest.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/TypeUtilsTest.java",
-            "./gson/src/test/java/com/google/gson/TypeInfoFactoryTest.java",
-            "./gson/src/test/java/com/google/gson/TypeInfoMapTest.java"
-          ],
-          "Max_repetition": 2,
-          "Total execution time": 0.024446999999554464,
-          "Total preparation time": 30.96116700000107
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 2,
-          "Total Failed To Detect Deleted Testfiles": 3,
-          "Detected Testfiles Line No": [
-            67,
-            54
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/TypeUtilsTest.java",
-            "./gson/src/test/java/com/google/gson/TypeInfoArrayTest.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/TypeInfoFactoryTest.java",
-            "./gson/src/test/java/com/google/gson/TypeInfoTest.java",
-            "./gson/src/test/java/com/google/gson/TypeInfoMapTest.java"
-          ],
-          "Max_repetition": 18,
-          "Total execution time": 0.01472499999908905,
-          "Total preparation time": 1.6031880000007277
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 4,
-          "Detected Testfiles Line No": [
-            75
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/TypeInfoFactoryTest.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/TypeUtilsTest.java",
-            "./gson/src/test/java/com/google/gson/TypeInfoArrayTest.java",
-            "./gson/src/test/java/com/google/gson/TypeInfoTest.java",
-            "./gson/src/test/java/com/google/gson/TypeInfoMapTest.java"
-          ],
-          "Max_repetition": 1,
-          "Total execution time": 0.23062999999979183,
-          "Total preparation time": 30.943493999999646
+          "Total execution time": 0.39049271999908797,
+          "Total preparation time": 82.70618770600004
         }
       }
     },
@@ -569,8 +77,8 @@
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 0.10849800000005416,
-          "Total preparation time": 1.545133000000078
+          "Total execution time": 0.40703599400103485,
+          "Total preparation time": 4.669449806001239
         },
         "FAST-all": {
           "Total Detected Deleted Testfiles": 0,
@@ -579,22 +87,22 @@
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 0.022436000000197964,
-          "Total preparation time": 29.198660000000245
+          "Total execution time": 0.06632933900050375,
+          "Total preparation time": 86.387736821001
         },
         "FAST-CS": {
           "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 0,
           "Detected Testfiles Line No": [
-            8
+            6
           ],
           "Detected Testfiles": [
             "./gson/src/test/java/com/google/gson/functional/SystemOnlyTypeAdaptersTest.java"
           ],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 7,
-          "Total execution time": 0.015052999998488303,
-          "Total preparation time": 1.515707999999222
+          "Max_repetition": 18,
+          "Total execution time": 0.055644568000616346,
+          "Total preparation time": 4.6772736480002095
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
@@ -603,489 +111,8 @@
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 0.21735800000078598,
-          "Total preparation time": 29.35131899999965
-        }
-      }
-    },
-    {
-      "Parent": "3cbe355cb6b1ab5d84ddb75837430c3d9584119b",
-      "Total Testfiles": 75,
-      "Total Deleted Testfiles": 2,
-      "Total Preserved Testfiles": 73,
-      "Computed Final Budget": 97,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [
-            7
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/internal/TypeMapTest.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/JsonDeserializerExceptionWrapperTest.java"
-          ],
-          "Max_repetition": 3,
-          "Total execution time": 0.09738999999990483,
-          "Total preparation time": 1.5828410000001156
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [
-            7
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/internal/TypeMapTest.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/JsonDeserializerExceptionWrapperTest.java"
-          ],
-          "Max_repetition": 23,
-          "Total execution time": 0.024755999999911182,
-          "Total preparation time": 31.56001399999994
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [
-            53
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/JsonDeserializerExceptionWrapperTest.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/internal/TypeMapTest.java"
-          ],
-          "Max_repetition": 8,
-          "Total execution time": 0.01467999999997005,
-          "Total preparation time": 1.5924469999998792
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.20974500000011176,
-          "Total preparation time": 31.25608800000012
-        }
-      }
-    },
-    {
-      "Parent": "9245bebdba9a3227674f3c0b08d86165891f02cc",
-      "Total Testfiles": 53,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 52,
-      "Computed Final Budget": 98,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.03795899999977337,
-          "Total preparation time": 1.0910039999998844
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.015532999999322783,
-          "Total preparation time": 15.661936000000196
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            29
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/JsonSerializerExceptionWrapperTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 5,
-          "Total execution time": 0.01043800000002193,
-          "Total preparation time": 1.0782849999993687
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.10126799999966352,
-          "Total preparation time": 15.772160000000213
-        }
-      }
-    },
-    {
-      "Parent": "f777a192ee13fd59048aa7ba640cc8023051c89d",
-      "Total Testfiles": 85,
-      "Total Deleted Testfiles": 9,
-      "Total Preserved Testfiles": 76,
-      "Computed Final Budget": 89,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 5,
-          "Total Failed To Detect Deleted Testfiles": 4,
-          "Detected Testfiles Line No": [
-            67,
-            53,
-            76,
-            82,
-            55
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/JavaFieldNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/UpperCaseNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/LowerCaseNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/SerializedNameAnnotationInterceptingNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/FieldNamingStrategy2AdapterTest.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/ModifyFirstLetterNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/UpperCamelCaseSeparatorNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/CamelCaseSeparatorNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/LowerCamelCaseSeparatorNamingPolicyTest.java"
-          ],
-          "Max_repetition": 49,
-          "Total execution time": 0.11289100000000118,
-          "Total preparation time": 1.5574329999999996
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 3,
-          "Total Failed To Detect Deleted Testfiles": 6,
-          "Detected Testfiles Line No": [
-            67,
-            73,
-            82
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/JavaFieldNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/LowerCamelCaseSeparatorNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/SerializedNameAnnotationInterceptingNamingPolicyTest.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/ModifyFirstLetterNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/UpperCamelCaseSeparatorNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/CamelCaseSeparatorNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/UpperCaseNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/LowerCaseNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/FieldNamingStrategy2AdapterTest.java"
-          ],
-          "Max_repetition": 19,
-          "Total execution time": 0.026742999999981976,
-          "Total preparation time": 32.98371400000003
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 4,
-          "Total Failed To Detect Deleted Testfiles": 5,
-          "Detected Testfiles Line No": [
-            68,
-            67,
-            72,
-            82
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/UpperCamelCaseSeparatorNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/JavaFieldNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/CamelCaseSeparatorNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/SerializedNameAnnotationInterceptingNamingPolicyTest.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/ModifyFirstLetterNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/UpperCaseNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/LowerCamelCaseSeparatorNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/LowerCaseNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/FieldNamingStrategy2AdapterTest.java"
-          ],
-          "Max_repetition": 1,
-          "Total execution time": 0.01485499999999762,
-          "Total preparation time": 1.5698780000000037
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 2,
-          "Total Failed To Detect Deleted Testfiles": 7,
-          "Detected Testfiles Line No": [
-            76,
-            82
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/LowerCaseNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/SerializedNameAnnotationInterceptingNamingPolicyTest.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/ModifyFirstLetterNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/UpperCamelCaseSeparatorNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/JavaFieldNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/CamelCaseSeparatorNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/UpperCaseNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/LowerCamelCaseSeparatorNamingPolicyTest.java",
-            "./gson/src/test/java/com/google/gson/FieldNamingStrategy2AdapterTest.java"
-          ],
-          "Max_repetition": 1,
-          "Total execution time": 0.23803199999998093,
-          "Total preparation time": 31.90859
-        }
-      }
-    },
-    {
-      "Parent": "0d9f6b677ae67cbd749ebca817139041d1977831",
-      "Total Testfiles": 114,
-      "Total Deleted Testfiles": 2,
-      "Total Preserved Testfiles": 112,
-      "Computed Final Budget": 98,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [
-            24
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/functional/ThrowableFunctionalTest.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/internal/reflect/UnsafeReflectionAccessorTest.java"
-          ],
-          "Max_repetition": 45,
-          "Total execution time": 0.21272399999998015,
-          "Total preparation time": 1.8868600000005245
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [
-            6
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/internal/reflect/UnsafeReflectionAccessorTest.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/functional/ThrowableFunctionalTest.java"
-          ],
-          "Max_repetition": 15,
-          "Total execution time": 0.035402999999860185,
-          "Total preparation time": 44.20343899999921
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [
-            6
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/internal/reflect/UnsafeReflectionAccessorTest.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/functional/ThrowableFunctionalTest.java"
-          ],
-          "Max_repetition": 26,
-          "Total execution time": 0.017070000000444452,
-          "Total preparation time": 1.8884270000000924
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.7620060000001558,
-          "Total preparation time": 48.306186999999454
-        }
-      }
-    },
-    {
-      "Parent": "0ff7d980c5430be317aca0405477dec74ab0390c",
-      "Total Testfiles": 77,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 76,
-      "Computed Final Budget": 98,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            66
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/DisjunctionExclusionStrategyTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 6,
-          "Total execution time": 0.09488400000005015,
-          "Total preparation time": 1.5514879999999778
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            66
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/DisjunctionExclusionStrategyTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 7,
-          "Total execution time": 0.02494599999997149,
-          "Total preparation time": 31.950231999999986
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            66
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/DisjunctionExclusionStrategyTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 27,
-          "Total execution time": 0.01411299999995208,
-          "Total preparation time": 1.5754680000000718
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.21368400000004328,
-          "Total preparation time": 31.654215000000036
-        }
-      }
-    },
-    {
-      "Parent": "0d8150fe52eba34a0472c47be71587885ba4a94c",
-      "Total Testfiles": 52,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 51,
-      "Computed Final Budget": 98,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            28
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/PrimitiveTypeAdapterTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 8,
-          "Total execution time": 0.03786299999990206,
-          "Total preparation time": 1.0760320000000547
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            28
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/PrimitiveTypeAdapterTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 42,
-          "Total execution time": 0.015572000000474873,
-          "Total preparation time": 15.978801999999746
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            28
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/PrimitiveTypeAdapterTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 2,
-          "Total execution time": 0.009349999999926695,
-          "Total preparation time": 1.0801810000006071
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.09941199999957462,
-          "Total preparation time": 15.873245000000225
-        }
-      }
-    },
-    {
-      "Parent": "3b0f8f4340c68d8fde0840befbc1b89afa14933f",
-      "Total Testfiles": 64,
-      "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 63,
-      "Computed Final Budget": 98,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            54
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/JsonEscapingVisitorTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 26,
-          "Total execution time": 0.06296200000042518,
-          "Total preparation time": 1.2331810000007408
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            54
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/JsonEscapingVisitorTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 8,
-          "Total execution time": 0.018315999999003907,
-          "Total preparation time": 20.18637999999919
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            54
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/JsonEscapingVisitorTest.java"
-          ],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 12,
-          "Total execution time": 0.01144600000088758,
-          "Total preparation time": 1.2543359999997392
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.1382529999993949,
-          "Total preparation time": 20.528348999999707
+          "Total execution time": 0.43443388699938623,
+          "Total preparation time": 87.83249692200025
         }
       }
     },
@@ -1103,36 +130,32 @@
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 0.23639600000046812,
-          "Total preparation time": 1.9120980000000145
+          "Total execution time": 0.9175860009986536,
+          "Total preparation time": 5.618416714999967
         },
         "FAST-all": {
           "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 0,
           "Detected Testfiles Line No": [
-            109
+            106
           ],
           "Detected Testfiles": [
             "./codegen/src/test/java/com/google/gson/codegen/functional/CodeGenFunctionalTest.java"
           ],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 19,
-          "Total execution time": 0.0385289999996985,
-          "Total preparation time": 42.86402000000135
+          "Max_repetition": 8,
+          "Total execution time": 0.09453094600303302,
+          "Total preparation time": 125.70575116100281
         },
         "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            109
-          ],
-          "Detected Testfiles": [
-            "./codegen/src/test/java/com/google/gson/codegen/functional/CodeGenFunctionalTest.java"
-          ],
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 12,
-          "Total execution time": 0.01916200000050594,
-          "Total preparation time": 1.9191979999998239
+          "Max_repetition": 0,
+          "Total execution time": 0.06843133400025181,
+          "Total preparation time": 5.599089474000266
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
@@ -1141,88 +164,13 @@
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 0.5903079999995953,
-          "Total preparation time": 42.911855999999034
+          "Total execution time": 0.9044599999965612,
+          "Total preparation time": 127.38627658500172
         }
       }
     },
     {
-      "Parent": "cdd5d80b85155c21c61f888fb3e70c65e72edef7",
-      "Total Testfiles": 86,
-      "Total Deleted Testfiles": 4,
-      "Total Preserved Testfiles": 82,
-      "Computed Final Budget": 95,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 2,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": [
-            75,
-            80
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/MemoryRefStackTest.java",
-            "./gson/src/test/java/com/google/gson/MappedObjectConstructorTest.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/NullExclusionStrategyTest.java",
-            "./gson/src/test/java/com/google/gson/DefaultConstructorAllocatorTest.java"
-          ],
-          "Max_repetition": 8,
-          "Total execution time": 0.1279239999999504,
-          "Total preparation time": 1.6379739999999856
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 3,
-          "Detected Testfiles Line No": [
-            56
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/DefaultConstructorAllocatorTest.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/MemoryRefStackTest.java",
-            "./gson/src/test/java/com/google/gson/NullExclusionStrategyTest.java",
-            "./gson/src/test/java/com/google/gson/MappedObjectConstructorTest.java"
-          ],
-          "Max_repetition": 1,
-          "Total execution time": 0.027633999999864045,
-          "Total preparation time": 34.67202899999978
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 2,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": [
-            75,
-            80
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/MemoryRefStackTest.java",
-            "./gson/src/test/java/com/google/gson/MappedObjectConstructorTest.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/NullExclusionStrategyTest.java",
-            "./gson/src/test/java/com/google/gson/DefaultConstructorAllocatorTest.java"
-          ],
-          "Max_repetition": 18,
-          "Total execution time": 0.014701999999942927,
-          "Total preparation time": 1.6149870000002124
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 4,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.26289100000030885,
-          "Total preparation time": 34.34731699999992
-        }
-      }
-    },
-    {
-      "Parent": "25f0014305b8418da278629ee9726f9b3aa79b48",
+      "Parent": "fed332906debe74d0879c77a03825b66f7970c41",
       "Total Testfiles": 76,
       "Total Deleted Testfiles": 1,
       "Total Preserved Testfiles": 75,
@@ -1235,36 +183,32 @@
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 0.08599700000004873,
-          "Total preparation time": 1.4950359999999137
+          "Total execution time": 0.3649868139996215,
+          "Total preparation time": 4.542167408000751
         },
         "FAST-all": {
           "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 0,
           "Detected Testfiles Line No": [
-            4
+            67
           ],
           "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/reflect/TypeTokenTest.java"
+            "./gson/src/test/java/com/google/gson/FunctionWithInternalDependenciesTest.java"
           ],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 46,
-          "Total execution time": 0.024834999999825413,
-          "Total preparation time": 29.448691000000224
+          "Max_repetition": 18,
+          "Total execution time": 0.057148585997992996,
+          "Total preparation time": 83.44995437600187
         },
         "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            4
-          ],
-          "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/reflect/TypeTokenTest.java"
-          ],
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 14,
-          "Total execution time": 0.014119999999877564,
-          "Total preparation time": 1.4855889999999476
+          "Max_repetition": 0,
+          "Total execution time": 0.04908143300008305,
+          "Total preparation time": 4.569425328000307
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
@@ -1273,59 +217,59 @@
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 0.20983400000014285,
-          "Total preparation time": 29.309413000000177
+          "Total execution time": 0.3881303139985448,
+          "Total preparation time": 83.81481914799906
         }
       }
     },
     {
-      "Parent": "ea48a1debfaa863d29dac8ddee9a4dd5a55ed785",
-      "Total Testfiles": 79,
+      "Parent": "9245bebdba9a3227674f3c0b08d86165891f02cc",
+      "Total Testfiles": 53,
       "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 78,
+      "Total Preserved Testfiles": 52,
       "Computed Final Budget": 98,
       "Algorithm": {
         "FAST++": {
           "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 0,
           "Detected Testfiles Line No": [
-            54
+            27
           ],
           "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/ExclusionStrategy2AdapterTest.java"
+            "./gson/src/test/java/com/google/gson/JsonSerializerExceptionWrapperTest.java"
           ],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 2,
-          "Total execution time": 0.09596700000088276,
-          "Total preparation time": 1.5331069999990632
+          "Max_repetition": 32,
+          "Total execution time": 0.15330090099996596,
+          "Total preparation time": 3.3618871050011876
         },
         "FAST-all": {
           "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 0,
           "Detected Testfiles Line No": [
-            54
+            27
           ],
           "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/ExclusionStrategy2AdapterTest.java"
+            "./gson/src/test/java/com/google/gson/JsonSerializerExceptionWrapperTest.java"
           ],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 19,
-          "Total execution time": 0.02466300000105548,
-          "Total preparation time": 31.236882000000378
+          "Max_repetition": 2,
+          "Total execution time": 0.04638007099947572,
+          "Total preparation time": 46.43332188400245
         },
         "FAST-CS": {
           "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 0,
           "Detected Testfiles Line No": [
-            54
+            27
           ],
           "Detected Testfiles": [
-            "./gson/src/test/java/com/google/gson/ExclusionStrategy2AdapterTest.java"
+            "./gson/src/test/java/com/google/gson/JsonSerializerExceptionWrapperTest.java"
           ],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 25,
-          "Total execution time": 0.014545000000680375,
-          "Total preparation time": 1.563366999999289
+          "Max_repetition": 24,
+          "Total execution time": 0.03790454100089846,
+          "Total preparation time": 3.4966058830032125
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
@@ -1334,8 +278,183 @@
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 0.2389779999998609,
-          "Total preparation time": 30.85374100000172
+          "Total execution time": 0.19811734199993225,
+          "Total preparation time": 46.54662688300186
+        }
+      }
+    },
+    {
+      "Parent": "0ff7d980c5430be317aca0405477dec74ab0390c",
+      "Total Testfiles": 77,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 76,
+      "Computed Final Budget": 98,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            72
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/DisjunctionExclusionStrategyTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 17,
+          "Total execution time": 0.38612112099553997,
+          "Total preparation time": 4.511235897997722
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.059090621001814725,
+          "Total preparation time": 84.68928524400053
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.05031815200118217,
+          "Total preparation time": 4.557335182998941
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.3985247400000844,
+          "Total preparation time": 84.72079581300159
+        }
+      }
+    },
+    {
+      "Parent": "3b0f8f4340c68d8fde0840befbc1b89afa14933f",
+      "Total Testfiles": 64,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 63,
+      "Computed Final Budget": 98,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            29
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/JsonEscapingVisitorTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 21,
+          "Total execution time": 0.2581503149990567,
+          "Total preparation time": 3.92990072900011
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            29
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/JsonEscapingVisitorTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 20,
+          "Total execution time": 0.05200089600020874,
+          "Total preparation time": 59.583273046001295
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            29
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/JsonEscapingVisitorTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 1,
+          "Total execution time": 0.04130606600028841,
+          "Total preparation time": 3.824139156000456
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.2992477049995159,
+          "Total preparation time": 60.0296721480006
+        }
+      }
+    },
+    {
+      "Parent": "bf549f0589105a42f159c78a621fc28087561d16",
+      "Total Testfiles": 84,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 83,
+      "Computed Final Budget": 98,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            31
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/functional/GsonFieldTypeAdapterTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 22,
+          "Total execution time": 0.3949927259955075,
+          "Total preparation time": 4.714214561998233
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            31
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/functional/GsonFieldTypeAdapterTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 9,
+          "Total execution time": 0.061890081003184605,
+          "Total preparation time": 97.4267448269984
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            31
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/functional/GsonFieldTypeAdapterTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 41,
+          "Total execution time": 0.053187871996669855,
+          "Total preparation time": 4.841305425001337
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.5580388950011184,
+          "Total preparation time": 97.74413732199264
         }
       }
     },
@@ -1350,79 +469,204 @@
           "Total Detected Deleted Testfiles": 2,
           "Total Failed To Detect Deleted Testfiles": 2,
           "Detected Testfiles Line No": [
-            81,
-            84
+            1,
+            4
           ],
           "Detected Testfiles": [
-            "./wsdef/src/test/java/com/google/gson/webservice/definition/CallPathTest.java",
-            "./wsdef/src/test/java/com/google/gson/rest/definition/IdTest.java"
+            "./wsdef/src/test/java/com/google/gson/rest/definition/IdTest.java",
+            "./wsdef/src/test/java/com/google/gson/webservice/definition/TypedKeyTest.java"
           ],
           "Failed Detected Testfiles": [
-            "./wsdef/src/test/java/com/google/gson/webservice/definition/TypedKeyTest.java",
+            "./wsdef/src/test/java/com/google/gson/webservice/definition/CallPathTest.java",
             "./wsdef/src/test/java/com/google/gson/rest/definition/IdTypeAdapterTest.java"
           ],
-          "Max_repetition": 3,
-          "Total execution time": 0.11393700000030549,
-          "Total preparation time": 1.633752999999615
+          "Max_repetition": 4,
+          "Total execution time": 0.47596574900035193,
+          "Total preparation time": 4.395508636000386
         },
         "FAST-all": {
           "Total Detected Deleted Testfiles": 2,
           "Total Failed To Detect Deleted Testfiles": 2,
           "Detected Testfiles Line No": [
-            81,
-            83
+            1,
+            3
           ],
           "Detected Testfiles": [
-            "./wsdef/src/test/java/com/google/gson/webservice/definition/CallPathTest.java",
-            "./wsdef/src/test/java/com/google/gson/rest/definition/IdTypeAdapterTest.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./wsdef/src/test/java/com/google/gson/webservice/definition/TypedKeyTest.java",
-            "./wsdef/src/test/java/com/google/gson/rest/definition/IdTest.java"
-          ],
-          "Max_repetition": 29,
-          "Total execution time": 0.027999999999906322,
-          "Total preparation time": 33.459295999999995
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 3,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [
-            82,
-            84,
-            83
-          ],
-          "Detected Testfiles": [
-            "./wsdef/src/test/java/com/google/gson/webservice/definition/TypedKeyTest.java",
             "./wsdef/src/test/java/com/google/gson/rest/definition/IdTest.java",
-            "./wsdef/src/test/java/com/google/gson/rest/definition/IdTypeAdapterTest.java"
-          ],
-          "Failed Detected Testfiles": [
             "./wsdef/src/test/java/com/google/gson/webservice/definition/CallPathTest.java"
           ],
-          "Max_repetition": 27,
-          "Total execution time": 0.015373000000522552,
-          "Total preparation time": 1.6444939999997814
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 3,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [
-            81,
-            84,
-            83
-          ],
-          "Detected Testfiles": [
-            "./wsdef/src/test/java/com/google/gson/webservice/definition/CallPathTest.java",
-            "./wsdef/src/test/java/com/google/gson/rest/definition/IdTest.java",
+          "Failed Detected Testfiles": [
+            "./wsdef/src/test/java/com/google/gson/webservice/definition/TypedKeyTest.java",
             "./wsdef/src/test/java/com/google/gson/rest/definition/IdTypeAdapterTest.java"
           ],
-          "Failed Detected Testfiles": [
+          "Max_repetition": 6,
+          "Total execution time": 0.06341009599987046,
+          "Total preparation time": 81.6637707169998
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [
+            1,
+            4
+          ],
+          "Detected Testfiles": [
+            "./wsdef/src/test/java/com/google/gson/rest/definition/IdTest.java",
             "./wsdef/src/test/java/com/google/gson/webservice/definition/TypedKeyTest.java"
           ],
+          "Failed Detected Testfiles": [
+            "./wsdef/src/test/java/com/google/gson/webservice/definition/CallPathTest.java",
+            "./wsdef/src/test/java/com/google/gson/rest/definition/IdTypeAdapterTest.java"
+          ],
+          "Max_repetition": 4,
+          "Total execution time": 0.05149781999921288,
+          "Total preparation time": 4.377452726000001
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 4,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.3590254869995988,
+          "Total preparation time": 82.7543598109994
+        }
+      }
+    },
+    {
+      "Parent": "7d53113ebc9ef6921c6238f013aabd10890611a0",
+      "Total Testfiles": 81,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 80,
+      "Computed Final Budget": 98,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            4
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/internal/LinkedTreeMapTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 18,
+          "Total execution time": 0.3845790330002501,
+          "Total preparation time": 4.733105045999821
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            4
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/internal/LinkedTreeMapTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 49,
+          "Total execution time": 0.060706419999917216,
+          "Total preparation time": 94.1734720890006
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            4
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/internal/LinkedTreeMapTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 29,
+          "Total execution time": 0.050424330999760514,
+          "Total preparation time": 4.713353582000082
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.5215191849997609,
+          "Total preparation time": 94.3226291109998
+        }
+      }
+    },
+    {
+      "Parent": "cdd5d80b85155c21c61f888fb3e70c65e72edef7",
+      "Total Testfiles": 86,
+      "Total Deleted Testfiles": 4,
+      "Total Preserved Testfiles": 82,
+      "Computed Final Budget": 95,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [
+            60,
+            55
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/MappedObjectConstructorTest.java",
+            "./gson/src/test/java/com/google/gson/DefaultConstructorAllocatorTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/NullExclusionStrategyTest.java",
+            "./gson/src/test/java/com/google/gson/MemoryRefStackTest.java"
+          ],
+          "Max_repetition": 34,
+          "Total execution time": 0.4276543190001121,
+          "Total preparation time": 4.4736299760000975
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [
+            60,
+            81
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/MappedObjectConstructorTest.java",
+            "./gson/src/test/java/com/google/gson/NullExclusionStrategyTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/DefaultConstructorAllocatorTest.java",
+            "./gson/src/test/java/com/google/gson/MemoryRefStackTest.java"
+          ],
+          "Max_repetition": 35,
+          "Total execution time": 0.06936967699982688,
+          "Total preparation time": 89.001638641
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 3,
+          "Detected Testfiles Line No": [
+            60
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/MappedObjectConstructorTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/NullExclusionStrategyTest.java",
+            "./gson/src/test/java/com/google/gson/DefaultConstructorAllocatorTest.java",
+            "./gson/src/test/java/com/google/gson/MemoryRefStackTest.java"
+          ],
           "Max_repetition": 1,
-          "Total execution time": 0.2660659999995687,
-          "Total preparation time": 33.43665599999997
+          "Total execution time": 0.05093550999959007,
+          "Total preparation time": 4.491432230999976
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 4,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.43264917599992714,
+          "Total preparation time": 88.37380728200071
         }
       }
     },
@@ -1443,19 +687,23 @@
             "./gson/gson-codegen/src/test/java/com/google/gson/codegen/functional/CodeGenFunctionalTest.java"
           ],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 9,
-          "Total execution time": 0.1150230000001784,
-          "Total preparation time": 1.780151999999589
+          "Max_repetition": 29,
+          "Total execution time": 0.37055922799754626,
+          "Total preparation time": 4.625141183001688
         },
         "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            1
+          ],
+          "Detected Testfiles": [
+            "./gson/gson-codegen/src/test/java/com/google/gson/codegen/functional/CodeGenFunctionalTest.java"
+          ],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.02651399999979276,
-          "Total preparation time": 35.572803999999905
+          "Max_repetition": 12,
+          "Total execution time": 0.05960610000011002,
+          "Total preparation time": 90.04647783300015
         },
         "FAST-CS": {
           "Total Detected Deleted Testfiles": 1,
@@ -1467,9 +715,9 @@
             "./gson/gson-codegen/src/test/java/com/google/gson/codegen/functional/CodeGenFunctionalTest.java"
           ],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 33,
-          "Total execution time": 0.014344999999138963,
-          "Total preparation time": 1.7056700000008505
+          "Max_repetition": 10,
+          "Total execution time": 0.050628050998057006,
+          "Total preparation time": 4.63808835699956
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
@@ -1478,8 +726,726 @@
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 0.23225000000047658,
-          "Total preparation time": 35.0844440000003
+          "Total execution time": 0.4979224689977855,
+          "Total preparation time": 90.15748454200002
+        }
+      }
+    },
+    {
+      "Parent": "041d499a7c4af1b70617001ded11dbc01732d97f",
+      "Total Testfiles": 86,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 85,
+      "Computed Final Budget": 98,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.41727335499987817,
+          "Total preparation time": 4.544971019999878
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            46
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/EscaperTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 47,
+          "Total execution time": 0.0656097210001576,
+          "Total preparation time": 89.23488017700004
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.052191230999966365,
+          "Total preparation time": 4.528100636999966
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.45462612300028127,
+          "Total preparation time": 90.23156659899999
+        }
+      }
+    },
+    {
+      "Parent": "f777a192ee13fd59048aa7ba640cc8023051c89d",
+      "Total Testfiles": 85,
+      "Total Deleted Testfiles": 9,
+      "Total Preserved Testfiles": 76,
+      "Computed Final Budget": 89,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 4,
+          "Total Failed To Detect Deleted Testfiles": 5,
+          "Detected Testfiles Line No": [
+            74,
+            76,
+            70,
+            51
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/LowerCaseNamingPolicyTest.java",
+            "./gson/src/test/java/com/google/gson/UpperCaseNamingPolicyTest.java",
+            "./gson/src/test/java/com/google/gson/UpperCamelCaseSeparatorNamingPolicyTest.java",
+            "./gson/src/test/java/com/google/gson/LowerCamelCaseSeparatorNamingPolicyTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/ModifyFirstLetterNamingPolicyTest.java",
+            "./gson/src/test/java/com/google/gson/CamelCaseSeparatorNamingPolicyTest.java",
+            "./gson/src/test/java/com/google/gson/JavaFieldNamingPolicyTest.java",
+            "./gson/src/test/java/com/google/gson/FieldNamingStrategy2AdapterTest.java",
+            "./gson/src/test/java/com/google/gson/SerializedNameAnnotationInterceptingNamingPolicyTest.java"
+          ],
+          "Max_repetition": 14,
+          "Total execution time": 0.3820363989998441,
+          "Total preparation time": 4.231311760001972
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 5,
+          "Total Failed To Detect Deleted Testfiles": 4,
+          "Detected Testfiles Line No": [
+            74,
+            73,
+            78,
+            51,
+            57
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/LowerCaseNamingPolicyTest.java",
+            "./gson/src/test/java/com/google/gson/ModifyFirstLetterNamingPolicyTest.java",
+            "./gson/src/test/java/com/google/gson/JavaFieldNamingPolicyTest.java",
+            "./gson/src/test/java/com/google/gson/LowerCamelCaseSeparatorNamingPolicyTest.java",
+            "./gson/src/test/java/com/google/gson/SerializedNameAnnotationInterceptingNamingPolicyTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/UpperCaseNamingPolicyTest.java",
+            "./gson/src/test/java/com/google/gson/CamelCaseSeparatorNamingPolicyTest.java",
+            "./gson/src/test/java/com/google/gson/UpperCamelCaseSeparatorNamingPolicyTest.java",
+            "./gson/src/test/java/com/google/gson/FieldNamingStrategy2AdapterTest.java"
+          ],
+          "Max_repetition": 9,
+          "Total execution time": 0.060400916000617144,
+          "Total preparation time": 88.64844355599826
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 3,
+          "Total Failed To Detect Deleted Testfiles": 6,
+          "Detected Testfiles Line No": [
+            73,
+            78,
+            66
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/ModifyFirstLetterNamingPolicyTest.java",
+            "./gson/src/test/java/com/google/gson/JavaFieldNamingPolicyTest.java",
+            "./gson/src/test/java/com/google/gson/FieldNamingStrategy2AdapterTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/LowerCaseNamingPolicyTest.java",
+            "./gson/src/test/java/com/google/gson/UpperCaseNamingPolicyTest.java",
+            "./gson/src/test/java/com/google/gson/CamelCaseSeparatorNamingPolicyTest.java",
+            "./gson/src/test/java/com/google/gson/UpperCamelCaseSeparatorNamingPolicyTest.java",
+            "./gson/src/test/java/com/google/gson/LowerCamelCaseSeparatorNamingPolicyTest.java",
+            "./gson/src/test/java/com/google/gson/SerializedNameAnnotationInterceptingNamingPolicyTest.java"
+          ],
+          "Max_repetition": 7,
+          "Total execution time": 0.052428456001507584,
+          "Total preparation time": 4.536158971999612
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 9,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.4376376109980811,
+          "Total preparation time": 88.82464203000063
+        }
+      }
+    },
+    {
+      "Parent": "ddde79c861cd2a3f62c33650698942cac1bb961c",
+      "Total Testfiles": 74,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 73,
+      "Computed Final Budget": 98,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            63
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/LruCacheTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 37,
+          "Total execution time": 0.34161874299843475,
+          "Total preparation time": 4.382707656998264
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            63
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/LruCacheTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 30,
+          "Total execution time": 0.055233321997548046,
+          "Total preparation time": 82.88041504499961
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.0471697440002572,
+          "Total preparation time": 4.380813617999593
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.4548489979997612,
+          "Total preparation time": 83.04511800099908
+        }
+      }
+    },
+    {
+      "Parent": "3cbe355cb6b1ab5d84ddb75837430c3d9584119b",
+      "Total Testfiles": 75,
+      "Total Deleted Testfiles": 2,
+      "Total Preserved Testfiles": 73,
+      "Computed Final Budget": 97,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [
+            4
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/internal/TypeMapTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/JsonDeserializerExceptionWrapperTest.java"
+          ],
+          "Max_repetition": 1,
+          "Total execution time": 0.31781397900203956,
+          "Total preparation time": 4.396540485000514
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [
+            50
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/JsonDeserializerExceptionWrapperTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/internal/TypeMapTest.java"
+          ],
+          "Max_repetition": 9,
+          "Total execution time": 0.0582243959988773,
+          "Total preparation time": 83.5722920430012
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [
+            4
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/internal/TypeMapTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/JsonDeserializerExceptionWrapperTest.java"
+          ],
+          "Max_repetition": 20,
+          "Total execution time": 0.0469380699987596,
+          "Total preparation time": 4.420661306000966
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.3687877950019356,
+          "Total preparation time": 83.40438059000098
+        }
+      }
+    },
+    {
+      "Parent": "0d8150fe52eba34a0472c47be71587885ba4a94c",
+      "Total Testfiles": 52,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 51,
+      "Computed Final Budget": 98,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            52
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/PrimitiveTypeAdapterTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 18,
+          "Total execution time": 0.1558343229996808,
+          "Total preparation time": 3.413066181999966
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            52
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/PrimitiveTypeAdapterTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 22,
+          "Total execution time": 0.04610587299987401,
+          "Total preparation time": 46.41537742699984
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            52
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/PrimitiveTypeAdapterTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 18,
+          "Total execution time": 0.033867016000385775,
+          "Total preparation time": 3.43283764899968
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.23664221599983648,
+          "Total preparation time": 46.498196261999965
+        }
+      }
+    },
+    {
+      "Parent": "faa5464e848ab9c6afc46e38eb416e7a156a23e1",
+      "Total Testfiles": 80,
+      "Total Deleted Testfiles": 5,
+      "Total Preserved Testfiles": 75,
+      "Computed Final Budget": 93,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 3,
+          "Detected Testfiles Line No": [
+            55,
+            48
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/TypeUtilsTest.java",
+            "./gson/src/test/java/com/google/gson/TypeInfoArrayTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/TypeInfoTest.java",
+            "./gson/src/test/java/com/google/gson/TypeInfoMapTest.java",
+            "./gson/src/test/java/com/google/gson/TypeInfoFactoryTest.java"
+          ],
+          "Max_repetition": 8,
+          "Total execution time": 0.3783080529979088,
+          "Total preparation time": 4.307271070998468
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 3,
+          "Detected Testfiles Line No": [
+            51,
+            72
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/TypeInfoTest.java",
+            "./gson/src/test/java/com/google/gson/TypeInfoFactoryTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/TypeUtilsTest.java",
+            "./gson/src/test/java/com/google/gson/TypeInfoMapTest.java",
+            "./gson/src/test/java/com/google/gson/TypeInfoArrayTest.java"
+          ],
+          "Max_repetition": 37,
+          "Total execution time": 0.06252725299964368,
+          "Total preparation time": 80.49596705700105
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 3,
+          "Detected Testfiles Line No": [
+            55,
+            48
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/TypeUtilsTest.java",
+            "./gson/src/test/java/com/google/gson/TypeInfoArrayTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/TypeInfoTest.java",
+            "./gson/src/test/java/com/google/gson/TypeInfoMapTest.java",
+            "./gson/src/test/java/com/google/gson/TypeInfoFactoryTest.java"
+          ],
+          "Max_repetition": 6,
+          "Total execution time": 0.04852661199629438,
+          "Total preparation time": 4.3185702890004904
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 4,
+          "Detected Testfiles Line No": [
+            72
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/TypeInfoFactoryTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/TypeInfoTest.java",
+            "./gson/src/test/java/com/google/gson/TypeUtilsTest.java",
+            "./gson/src/test/java/com/google/gson/TypeInfoMapTest.java",
+            "./gson/src/test/java/com/google/gson/TypeInfoArrayTest.java"
+          ],
+          "Max_repetition": 1,
+          "Total execution time": 0.4252844119987458,
+          "Total preparation time": 79.69845233399792
+        }
+      }
+    },
+    {
+      "Parent": "0d9f6b677ae67cbd749ebca817139041d1977831",
+      "Total Testfiles": 114,
+      "Total Deleted Testfiles": 2,
+      "Total Preserved Testfiles": 112,
+      "Computed Final Budget": 98,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [
+            2
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/internal/reflect/UnsafeReflectionAccessorTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/functional/ThrowableFunctionalTest.java"
+          ],
+          "Max_repetition": 44,
+          "Total execution time": 0.7982445110005756,
+          "Total preparation time": 5.562448458000517
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [
+            2
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/internal/reflect/UnsafeReflectionAccessorTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/functional/ThrowableFunctionalTest.java"
+          ],
+          "Max_repetition": 40,
+          "Total execution time": 0.10386137800014694,
+          "Total preparation time": 124.68422988900011
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [
+            22
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/functional/ThrowableFunctionalTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/internal/reflect/UnsafeReflectionAccessorTest.java"
+          ],
+          "Max_repetition": 6,
+          "Total execution time": 0.06688618000066526,
+          "Total preparation time": 5.513973848001115
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.928399874998604,
+          "Total preparation time": 126.20795551600054
+        }
+      }
+    },
+    {
+      "Parent": "abe244c099b8c0f0e4c33921a55b27755564713a",
+      "Total Testfiles": 83,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 82,
+      "Computed Final Budget": 98,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.38796793700000176,
+          "Total preparation time": 4.368067396000001
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.06561717799995392,
+          "Total preparation time": 80.27928050800003
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            45
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/StringUnmarshallerTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 15,
+          "Total execution time": 0.05101744300000455,
+          "Total preparation time": 4.337739840999996
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.35440127800001164,
+          "Total preparation time": 81.16949901599993
+        }
+      }
+    },
+    {
+      "Parent": "b4dab86b105c85e6b7d7106c9ff11e3e923e3485",
+      "Total Testfiles": 115,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 114,
+      "Computed Final Budget": 99,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.8518723779993707,
+          "Total preparation time": 5.719763561001855
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            14
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/internal/LinkedHashTreeMapTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 32,
+          "Total execution time": 0.08695243100191874,
+          "Total preparation time": 125.986733018
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            14
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/internal/LinkedHashTreeMapTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 7,
+          "Total execution time": 0.06849596600022778,
+          "Total preparation time": 5.741395543998351
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.9791197990025466,
+          "Total preparation time": 129.1741820710008
+        }
+      }
+    },
+    {
+      "Parent": "ea48a1debfaa863d29dac8ddee9a4dd5a55ed785",
+      "Total Testfiles": 79,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 78,
+      "Computed Final Budget": 98,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            75
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/ExclusionStrategy2AdapterTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 14,
+          "Total execution time": 0.41920095899877197,
+          "Total preparation time": 4.323939154999607
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            75
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/ExclusionStrategy2AdapterTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 37,
+          "Total execution time": 0.059529255001962156,
+          "Total preparation time": 79.86536385300087
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            75
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/ExclusionStrategy2AdapterTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 10,
+          "Total execution time": 0.04949649500167652,
+          "Total preparation time": 4.338806124000257
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.4302332869992824,
+          "Total preparation time": 79.8785933070003
+        }
+      }
+    },
+    {
+      "Parent": "25f0014305b8418da278629ee9726f9b3aa79b48",
+      "Total Testfiles": 76,
+      "Total Deleted Testfiles": 1,
+      "Total Preserved Testfiles": 75,
+      "Computed Final Budget": 98,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.370721670000421,
+          "Total preparation time": 4.21019777399988
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            1
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/reflect/TypeTokenTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 10,
+          "Total execution time": 0.057192973999008245,
+          "Total preparation time": 77.02916118800204
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            1
+          ],
+          "Detected Testfiles": [
+            "./gson/src/test/java/com/google/gson/reflect/TypeTokenTest.java"
+          ],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 21,
+          "Total execution time": 0.04840941800011933,
+          "Total preparation time": 4.342359217999729
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.4114944109996941,
+          "Total preparation time": 78.45394134299886
         }
       }
     }
