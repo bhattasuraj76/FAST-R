@@ -82,8 +82,8 @@ for index, project in enumerate(projects_list):
                 {
                     "Total Detected Deleted Testfiles": total_detected,
                     "Total Failed To Detect Deleted Testfiles": total_failed_to_detect,
-                    "Total Preparation Time": str(timedelta(microseconds=total_preparation_time)),
-                    "Total Execution Time": str(timedelta(microseconds=total_execution_time)),
+                    "Total Preparation Time": str(timedelta(seconds=total_preparation_time)),
+                    "Total Execution Time": str(timedelta(seconds=total_execution_time)),
                 },
             )
 
