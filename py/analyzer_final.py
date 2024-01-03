@@ -16,7 +16,7 @@ projects_list = [
     "commons-math",
     "jfreechart",
     "joda-time",
-    "pmd",
+    # "pmd",
     # "cts",
 ]
 data = {"strict": {}, "loose": {}}

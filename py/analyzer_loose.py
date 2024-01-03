@@ -12,7 +12,7 @@ projects_list = [
     "commons-math",
     "jfreechart",
     "joda-time",
-    "pmd",
+    # "pmd",
     #  "cts"
 ]
 

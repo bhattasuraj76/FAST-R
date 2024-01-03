@@ -38,7 +38,7 @@ def export_test_deletion_parent_commits(commits, deleted_testcases_with_whole_fi
         data["Child Commit Recent Date"].append(datetime)
         data["Parent"].append(commit)
         # deleted testfiles
-        deleted_test_files = deleted_tests_df["Filepath"].values.tolist()
+        deleted_test_files = list(set(deleted_tests_df["Filepath"].values.tolist()))
         data["Total Deleted Testfile"].append(len(deleted_test_files))
         data["Deleted Testfile"].append(deleted_test_files)
         # deleted tests
@@ -47,6 +47,8 @@ def export_test_deletion_parent_commits(commits, deleted_testcases_with_whole_fi
         data["Deleted Tests"].append(deleted_tests)
 
     df = pd.DataFrame(data)
+    df['Child Commit Recent Date'] = pd.to_datetime(df['Child Commit Recent Date'], errors='coerce')
+    df.sort_values(by=['Child Commit Recent Date'], inplace=True)
     if not os.path.exists("whole-file-test-deletion-parent-commits"):
         os.mkdir("whole-file-test-deletion-parent-commits")
     df.to_csv(f"whole-file-test-deletion-parent-commits/{project}.csv")
