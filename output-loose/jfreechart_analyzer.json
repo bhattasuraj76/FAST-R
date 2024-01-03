@@ -3,25 +3,161 @@
   "Total test cases deleted with whole file:": 122,
   "details": [
     {
-      "Parent": "93078512157362e7584af9a67a23a75b55b2f239",
-      "Total Testfiles": 353,
+      "Parent": "293b2021b7befc0fb331c035fa5b4642da8bc1f2",
+      "Total Testfiles": 356,
+      "Total Deleted Testfiles": 6,
+      "Deleted Testfiles": [
+        "src/test/java/org/jfree/chart/renderer/category/StackedBarRenderer3DTest.java",
+        "src/test/java/org/jfree/chart/LineChart3DTest.java",
+        "src/test/java/org/jfree/chart/renderer/category/BarRenderer3DTest.java",
+        "src/test/java/org/jfree/chart/BarChart3DTest.java",
+        "src/test/java/org/jfree/chart/StackedBarChart3DTest.java",
+        "src/test/java/org/jfree/chart/renderer/category/LineRenderer3DTest.java"
+      ],
+      "Total Preserved Testfiles": 350,
+      "Computed Final Budget": 98,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 4,
+          "Detected Testfiles Line No": [
+            239,
+            229
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/jfree/chart/BarChart3DTest.java",
+            "./src/test/java/org/jfree/chart/StackedBarChart3DTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/java/org/jfree/chart/renderer/category/StackedBarRenderer3DTest.java",
+            "./src/test/java/org/jfree/chart/LineChart3DTest.java",
+            "./src/test/java/org/jfree/chart/renderer/category/BarRenderer3DTest.java",
+            "./src/test/java/org/jfree/chart/renderer/category/LineRenderer3DTest.java"
+          ],
+          "False Detected Testfiles Line No": [
+            225,
+            226,
+            3,
+            8,
+            238,
+            223
+          ],
+          "False Detected Testfiles": [
+            "./src/test/java/org/jfree/chart/StackedAreaChartTest.java",
+            "./src/test/java/org/jfree/chart/StackedBarChartTest.java",
+            "./src/test/java/org/jfree/chart/util/LineUtilitiesTest.java",
+            "./src/test/java/org/jfree/chart/urls/TimeSeriesURLGeneratorTest.java",
+            "./src/test/java/org/jfree/chart/AreaChartTest.java",
+            "./src/test/java/org/jfree/chart/LineChartTest.java"
+          ],
+          "Max_repetition": 356,
+          "Total execution time": 8.152682344999903,
+          "Total preparation time": 11.794372273001954
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 6,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 2.018645953999112,
+          "Total preparation time": 411.8065910639989
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 4,
+          "Detected Testfiles Line No": [
+            159,
+            239
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/jfree/chart/renderer/category/BarRenderer3DTest.java",
+            "./src/test/java/org/jfree/chart/BarChart3DTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/java/org/jfree/chart/renderer/category/StackedBarRenderer3DTest.java",
+            "./src/test/java/org/jfree/chart/LineChart3DTest.java",
+            "./src/test/java/org/jfree/chart/StackedBarChart3DTest.java",
+            "./src/test/java/org/jfree/chart/renderer/category/LineRenderer3DTest.java"
+          ],
+          "False Detected Testfiles Line No": [
+            161,
+            228,
+            133,
+            46,
+            80,
+            315
+          ],
+          "False Detected Testfiles": [
+            "./src/test/java/org/jfree/chart/renderer/category/WaterfallBarRendererTest.java",
+            "./src/test/java/org/jfree/chart/ScatterPlotTest.java",
+            "./src/test/java/org/jfree/chart/title/PaintScaleLegendTest.java",
+            "./src/test/java/org/jfree/chart/axis/CategoryLabelPositionsTest.java",
+            "./src/test/java/org/jfree/chart/annotations/XYShapeAnnotationTest.java",
+            "./src/test/java/org/jfree/data/xy/XYIntervalSeriesTest.java"
+          ],
+          "Max_repetition": 356,
+          "Total execution time": 0.1482045709990416,
+          "Total preparation time": 11.703524489999154
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 6,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 6.215045428999474,
+          "Total preparation time": 415.74996680599907
+        }
+      }
+    },
+    {
+      "Parent": "b869a3fe44d9b5e8b848d25b8061a63d3553399c",
+      "Total Testfiles": 354,
       "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 352,
+      "Deleted Testfiles": [
+        "src/test/java/org/jfree/chart/internal/StrokeMapTest.java"
+      ],
+      "Total Preserved Testfiles": 353,
       "Computed Final Budget": 98,
       "Algorithm": {
         "FAST++": {
           "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 0,
           "Detected Testfiles Line No": [
-            14
+            15
           ],
           "Detected Testfiles": [
-            "./src/test/java/org/jfree/chart/internal/PaintMapTest.java"
+            "./src/test/java/org/jfree/chart/internal/StrokeMapTest.java"
           ],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 17,
-          "Total execution time": 6.967301012000462,
-          "Total preparation time": 11.500335192999046
+          "False Detected Testfiles Line No": [
+            290,
+            228,
+            292,
+            200,
+            232,
+            237,
+            253
+          ],
+          "False Detected Testfiles": [
+            "./src/test/java/org/jfree/data/time/TimePeriodValuesTest.java",
+            "./src/test/java/org/jfree/chart/StackedBarChartTest.java",
+            "./src/test/java/org/jfree/data/time/MovingAverageTest.java",
+            "./src/test/java/org/jfree/chart/renderer/RendererUtilsTest.java",
+            "./src/test/java/org/jfree/chart/TimeSeriesChartTest.java",
+            "./src/test/java/org/jfree/chart/JFreeChartTest.java",
+            "./src/test/java/org/jfree/data/statistics/RegressionTest.java"
+          ],
+          "Max_repetition": 354,
+          "Total execution time": 6.959678756998983,
+          "Total preparation time": 11.328383675001533
         },
         "FAST-all": {
           "Total Detected Deleted Testfiles": 0,
@@ -29,148 +165,55 @@
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 1.918899786000111,
-          "Total preparation time": 395.8694508019971
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.14122936699823185,
-          "Total preparation time": 11.203577770002084
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 5.835077693998755,
-          "Total preparation time": 399.80383868699664
-        }
-      }
-    },
-    {
-      "Parent": "07059fb93ed38147f8ded82ec8d1bf5400be1952",
-      "Total Testfiles": 359,
-      "Total Deleted Testfiles": 3,
-      "Total Preserved Testfiles": 356,
-      "Computed Final Budget": 98,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 2,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [
-            32,
-            118
-          ],
-          "Detected Testfiles": [
-            "./src/test/java/org/jfree/chart/labels/StandardContourToolTipGeneratorTest.java",
-            "./src/test/java/org/jfree/chart/plot/ColorPaletteTest.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./src/test/java/org/jfree/chart/entity/ContourEntityTest.java"
-          ],
-          "Max_repetition": 16,
-          "Total execution time": 7.500085462000698,
-          "Total preparation time": 11.714914298998337
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 3,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 1.9293320729998413,
-          "Total preparation time": 415.0358245620032
+          "Total execution time": 1.7913037409980461,
+          "Total preparation time": 395.8948193059996
         },
         "FAST-CS": {
           "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 0,
           "Detected Testfiles Line No": [
-            118
+            15
           ],
           "Detected Testfiles": [
-            "./src/test/java/org/jfree/chart/plot/ColorPaletteTest.java"
+            "./src/test/java/org/jfree/chart/internal/StrokeMapTest.java"
           ],
-          "Failed Detected Testfiles": [
-            "./src/test/java/org/jfree/chart/labels/StandardContourToolTipGeneratorTest.java",
-            "./src/test/java/org/jfree/chart/entity/ContourEntityTest.java"
+          "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [
+            128,
+            33,
+            129,
+            192,
+            100,
+            178,
+            247
           ],
-          "Max_repetition": 32,
-          "Total execution time": 0.15462278700078969,
-          "Total preparation time": 11.7937130420014
+          "False Detected Testfiles": [
+            "./src/test/java/org/jfree/chart/needle/PlumNeedleTest.java",
+            "./src/test/java/org/jfree/chart/labels/StandardXYZToolTipGeneratorTest.java",
+            "./src/test/java/org/jfree/chart/needle/WindNeedleTest.java",
+            "./src/test/java/org/jfree/chart/renderer/xy/XYErrorRendererTest.java",
+            "./src/test/java/org/jfree/chart/plot/dial/DialTextAnnotationTest.java",
+            "./src/test/java/org/jfree/chart/renderer/xy/DeviationRendererTest.java",
+            "./src/test/java/org/jfree/data/statistics/BoxAndWhiskerCalculatorTest.java"
+          ],
+          "Max_repetition": 354,
+          "Total execution time": 0.14303460500195797,
+          "Total preparation time": 11.300979500998437
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 3,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 6.387055026001235,
-          "Total preparation time": 418.2917622139976
-        }
-      }
-    },
-    {
-      "Parent": "1be317c64d9b5b295ca9b519f80f81779b418868",
-      "Total Testfiles": 350,
-      "Total Deleted Testfiles": 2,
-      "Total Preserved Testfiles": 348,
-      "Computed Final Budget": 98,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 7.322132598000002,
-          "Total preparation time": 11.47561162800001
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [
-            53
-          ],
-          "Detected Testfiles": [
-            "./src/test/java/org/jfree/chart/axis/SegmentedTimelineTest.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./src/test/java/org/jfree/chart/axis/SegmentedTimelineAdditionalTest.java"
-          ],
-          "Max_repetition": 2,
-          "Total execution time": 1.8727385710004114,
-          "Total preparation time": 403.7407964309997
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 0.14874307499999517,
-          "Total preparation time": 11.253430801000007
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 6.19897721399979,
-          "Total preparation time": 405.85182612899996
+          "Total execution time": 5.75515282500146,
+          "Total preparation time": 402.1827959209986
         }
       }
     },
@@ -178,6 +221,10 @@
       "Parent": "731b3f1c598a023ce628cc1d20d3ef78e8de7102",
       "Total Testfiles": 347,
       "Total Deleted Testfiles": 2,
+      "Deleted Testfiles": [
+        "src/test/java/org/jfree/chart/plot/PiePlot3DTest.java",
+        "src/test/java/org/jfree/chart/PieChart3DTest.java"
+      ],
       "Total Preserved Testfiles": 345,
       "Computed Final Budget": 98,
       "Algorithm": {
@@ -193,7 +240,23 @@
           "Failed Detected Testfiles": [
             "./src/test/java/org/jfree/chart/plot/PiePlot3DTest.java"
           ],
-          "Max_repetition": 9,
+          "False Detected Testfiles Line No": [
+            231,
+            200,
+            143,
+            273,
+            20,
+            91
+          ],
+          "False Detected Testfiles": [
+            "./src/test/java/org/jfree/chart/TestUtils.java",
+            "./src/test/java/org/jfree/chart/entity/TickLabelEntityTest.java",
+            "./src/test/java/org/jfree/chart/renderer/category/AbstractCategoryItemRendererTest.java",
+            "./src/test/java/org/jfree/data/function/LineFunction2DTest.java",
+            "./src/test/java/org/jfree/chart/labels/CustomXYItemLabelGeneratorTest.java",
+            "./src/test/java/org/jfree/chart/plot/dial/DialTextAnnotationTest.java"
+          ],
+          "Max_repetition": 347,
           "Total execution time": 6.228487007003423,
           "Total preparation time": 10.99544428599529
         },
@@ -203,6 +266,8 @@
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
           "Total execution time": 1.73546760100362,
           "Total preparation time": 384.5763151680012
@@ -219,7 +284,23 @@
           "Failed Detected Testfiles": [
             "./src/test/java/org/jfree/chart/PieChart3DTest.java"
           ],
-          "Max_repetition": 28,
+          "False Detected Testfiles Line No": [
+            100,
+            135,
+            208,
+            116,
+            84,
+            253
+          ],
+          "False Detected Testfiles": [
+            "./src/test/java/org/jfree/chart/plot/PolarPlotTest.java",
+            "./src/test/java/org/jfree/chart/title/TitleTest.java",
+            "./src/test/java/org/jfree/chart/block/ColorBlockTest.java",
+            "./src/test/java/org/jfree/chart/plot/PlotOrientationTest.java",
+            "./src/test/java/org/jfree/chart/plot/dial/DialCapTest.java",
+            "./src/test/java/org/jfree/data/statistics/BoxAndWhiskerItemTest.java"
+          ],
+          "Max_repetition": 347,
           "Total execution time": 0.13860884599853307,
           "Total preparation time": 10.84954779400141
         },
@@ -229,6 +310,8 @@
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
           "Total execution time": 5.604394182002579,
           "Total preparation time": 387.84125218600275
@@ -239,6 +322,9 @@
       "Parent": "ee91627a19d9bafde058ea2663dc6405f9f01e3b",
       "Total Testfiles": 353,
       "Total Deleted Testfiles": 1,
+      "Deleted Testfiles": [
+        "src/test/java/org/jfree/data/general/DatasetGroupTest.java"
+      ],
       "Total Preserved Testfiles": 352,
       "Computed Final Budget": 98,
       "Algorithm": {
@@ -248,6 +334,8 @@
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
           "Total execution time": 7.857638301996303,
           "Total preparation time": 11.52909433500281
@@ -258,6 +346,8 @@
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
           "Total execution time": 1.9194882829979178,
           "Total preparation time": 396.02816559799794
@@ -272,7 +362,25 @@
             "./src/test/java/org/jfree/data/general/DatasetGroupTest.java"
           ],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 6,
+          "False Detected Testfiles Line No": [
+            65,
+            289,
+            131,
+            175,
+            182,
+            250,
+            220
+          ],
+          "False Detected Testfiles": [
+            "./src/test/java/org/jfree/chart/axis/CategoryLabelWidthTypeTest.java",
+            "./src/test/java/org/jfree/data/time/TimePeriodValuesTest.java",
+            "./src/test/java/org/jfree/chart/plot/PlotTest.java",
+            "./src/test/java/org/jfree/chart/renderer/xy/GradientXYBarPainterTest.java",
+            "./src/test/java/org/jfree/chart/renderer/xy/CandlestickRendererTest.java",
+            "./src/test/java/org/jfree/data/statistics/DefaultMultiValueCategoryDatasetTest.java",
+            "./src/test/java/org/jfree/chart/block/EmptyBlockTest.java"
+          ],
+          "Max_repetition": 353,
           "Total execution time": 0.1449890369995046,
           "Total preparation time": 11.223926641000617
         },
@@ -282,6 +390,8 @@
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
           "Total execution time": 5.742543113000465,
           "Total preparation time": 400.6972597289987
@@ -292,6 +402,11 @@
       "Parent": "6a67a2027cb181c8d00b88145a1b4b0116c38805",
       "Total Testfiles": 348,
       "Total Deleted Testfiles": 3,
+      "Deleted Testfiles": [
+        "src/test/java/org/jfree/chart/axis/NumberAxis3DTest.java",
+        "src/test/java/org/jfree/chart/axis/CategoryAxis3DTest.java",
+        "src/test/java/org/jfree/chart/renderer/xy/XYLine3DRendererTest.java"
+      ],
       "Total Preserved Testfiles": 345,
       "Computed Final Budget": 98,
       "Algorithm": {
@@ -305,10 +420,26 @@
             "./src/test/java/org/jfree/chart/axis/NumberAxis3DTest.java"
           ],
           "Failed Detected Testfiles": [
-            "./src/test/java/org/jfree/chart/renderer/xy/XYLine3DRendererTest.java",
-            "./src/test/java/org/jfree/chart/axis/CategoryAxis3DTest.java"
+            "./src/test/java/org/jfree/chart/axis/CategoryAxis3DTest.java",
+            "./src/test/java/org/jfree/chart/renderer/xy/XYLine3DRendererTest.java"
           ],
-          "Max_repetition": 2,
+          "False Detected Testfiles Line No": [
+            75,
+            12,
+            13,
+            14,
+            15,
+            236
+          ],
+          "False Detected Testfiles": [
+            "./src/test/java/org/jfree/chart/annotations/XYPointerAnnotationTest.java",
+            "./src/test/java/org/jfree/chart/imagemap/OverLIBToolTipTagFragmentGeneratorTest.java",
+            "./src/test/java/org/jfree/chart/imagemap/StandardToolTipTagFragmentGeneratorTest.java",
+            "./src/test/java/org/jfree/chart/imagemap/StandardURLTagFragmentGeneratorTest.java",
+            "./src/test/java/org/jfree/chart/imagemap/DynamicDriveToolTipTagFragmentGeneratorTest.java",
+            "./src/test/java/org/jfree/chart/HashUtilitiesTest.java"
+          ],
+          "Max_repetition": 348,
           "Total execution time": 6.957829675000198,
           "Total preparation time": 11.252879839999764
         },
@@ -318,6 +449,8 @@
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
           "Total execution time": 1.7704067640008816,
           "Total preparation time": 397.9470522870006
@@ -332,10 +465,26 @@
             "./src/test/java/org/jfree/chart/renderer/xy/XYLine3DRendererTest.java"
           ],
           "Failed Detected Testfiles": [
-            "./src/test/java/org/jfree/chart/axis/CategoryAxis3DTest.java",
-            "./src/test/java/org/jfree/chart/axis/NumberAxis3DTest.java"
+            "./src/test/java/org/jfree/chart/axis/NumberAxis3DTest.java",
+            "./src/test/java/org/jfree/chart/axis/CategoryAxis3DTest.java"
           ],
-          "Max_repetition": 10,
+          "False Detected Testfiles Line No": [
+            307,
+            348,
+            58,
+            156,
+            286,
+            319
+          ],
+          "False Detected Testfiles": [
+            "./src/test/java/org/jfree/data/xy/XYIntervalSeriesTest.java",
+            "./src/test/java/org/jfree/data/KeyToGroupMapTest.java",
+            "./src/test/java/org/jfree/chart/axis/QuarterDateFormatTest.java",
+            "./src/test/java/org/jfree/chart/renderer/category/WaterfallBarRendererTest.java",
+            "./src/test/java/org/jfree/data/time/MovingAverageTest.java",
+            "./src/test/java/org/jfree/data/xy/TableXYDatasetTest.java"
+          ],
+          "Max_repetition": 348,
           "Total execution time": 0.14418962599938823,
           "Total preparation time": 11.045365475000608
         },
@@ -345,6 +494,8 @@
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
           "Total execution time": 5.742148963999512,
           "Total preparation time": 402.9108759269993
@@ -352,25 +503,153 @@
       }
     },
     {
-      "Parent": "b869a3fe44d9b5e8b848d25b8061a63d3553399c",
-      "Total Testfiles": 354,
+      "Parent": "07059fb93ed38147f8ded82ec8d1bf5400be1952",
+      "Total Testfiles": 359,
+      "Total Deleted Testfiles": 3,
+      "Deleted Testfiles": [
+        "src/test/java/org/jfree/chart/plot/ColorPaletteTest.java",
+        "src/test/java/org/jfree/chart/entity/ContourEntityTest.java",
+        "src/test/java/org/jfree/chart/labels/StandardContourToolTipGeneratorTest.java"
+      ],
+      "Total Preserved Testfiles": 356,
+      "Computed Final Budget": 98,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [
+            118,
+            32
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/jfree/chart/plot/ColorPaletteTest.java",
+            "./src/test/java/org/jfree/chart/labels/StandardContourToolTipGeneratorTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/java/org/jfree/chart/entity/ContourEntityTest.java"
+          ],
+          "False Detected Testfiles Line No": [
+            65,
+            77,
+            15,
+            306,
+            59,
+            284
+          ],
+          "False Detected Testfiles": [
+            "./src/test/java/org/jfree/chart/axis/NumberAxis3DTest.java",
+            "./src/test/java/org/jfree/chart/annotations/CategoryLineAnnotationTest.java",
+            "./src/test/java/org/jfree/chart/imagemap/DynamicDriveToolTipTagFragmentGeneratorTest.java",
+            "./src/test/java/org/jfree/data/time/TimeSeriesDataItemTest.java",
+            "./src/test/java/org/jfree/chart/axis/PeriodAxisTest.java",
+            "./src/test/java/org/jfree/data/function/PolynomialFunction2DTest.java"
+          ],
+          "Max_repetition": 359,
+          "Total execution time": 7.500085462000698,
+          "Total preparation time": 11.714914298998337
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 3,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 1.9293320729998413,
+          "Total preparation time": 415.0358245620032
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [
+            118
+          ],
+          "Detected Testfiles": [
+            "./src/test/java/org/jfree/chart/plot/ColorPaletteTest.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./src/test/java/org/jfree/chart/entity/ContourEntityTest.java",
+            "./src/test/java/org/jfree/chart/labels/StandardContourToolTipGeneratorTest.java"
+          ],
+          "False Detected Testfiles Line No": [
+            72,
+            9,
+            76,
+            93,
+            251,
+            221,
+            30
+          ],
+          "False Detected Testfiles": [
+            "./src/test/java/org/jfree/chart/annotations/XYLineAnnotationTest.java",
+            "./src/test/java/org/jfree/chart/urls/CustomXYURLGeneratorTest.java",
+            "./src/test/java/org/jfree/chart/annotations/XYPolygonAnnotationTest.java",
+            "./src/test/java/org/jfree/chart/plot/dial/StandardDialFrameTest.java",
+            "./src/test/java/org/jfree/chart/LegendItemCollectionTest.java",
+            "./src/test/java/org/jfree/chart/block/EmptyBlockTest.java",
+            "./src/test/java/org/jfree/chart/labels/StandardXYToolTipGeneratorTest.java"
+          ],
+          "Max_repetition": 359,
+          "Total execution time": 0.15462278700078969,
+          "Total preparation time": 11.7937130420014
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 3,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 6.387055026001235,
+          "Total preparation time": 418.2917622139976
+        }
+      }
+    },
+    {
+      "Parent": "93078512157362e7584af9a67a23a75b55b2f239",
+      "Total Testfiles": 353,
       "Total Deleted Testfiles": 1,
-      "Total Preserved Testfiles": 353,
+      "Deleted Testfiles": [
+        "src/test/java/org/jfree/chart/internal/PaintMapTest.java"
+      ],
+      "Total Preserved Testfiles": 352,
       "Computed Final Budget": 98,
       "Algorithm": {
         "FAST++": {
           "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 0,
           "Detected Testfiles Line No": [
-            15
+            14
           ],
           "Detected Testfiles": [
-            "./src/test/java/org/jfree/chart/internal/StrokeMapTest.java"
+            "./src/test/java/org/jfree/chart/internal/PaintMapTest.java"
           ],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 2,
-          "Total execution time": 6.959678756998983,
-          "Total preparation time": 11.328383675001533
+          "False Detected Testfiles Line No": [
+            1,
+            162,
+            4,
+            49,
+            115,
+            93,
+            350
+          ],
+          "False Detected Testfiles": [
+            "./src/test/java/org/jfree/chart/urls/StandardPieURLGeneratorTest.java",
+            "./src/test/java/org/jfree/chart/renderer/category/WaterfallBarRendererTest.java",
+            "./src/test/java/org/jfree/chart/urls/TimeSeriesURLGeneratorTest.java",
+            "./src/test/java/org/jfree/chart/axis/SymbolAxisTest.java",
+            "./src/test/java/org/jfree/chart/plot/CombinedDomainXYPlotTest.java",
+            "./src/test/java/org/jfree/chart/plot/dial/DialBackgroundTest.java",
+            "./src/test/java/org/jfree/data/KeyedObjects2DTest.java"
+          ],
+          "Max_repetition": 353,
+          "Total execution time": 6.967301012000462,
+          "Total preparation time": 11.500335192999046
         },
         "FAST-all": {
           "Total Detected Deleted Testfiles": 0,
@@ -378,23 +657,23 @@
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 1.7913037409980461,
-          "Total preparation time": 395.8948193059996
+          "Total execution time": 1.918899786000111,
+          "Total preparation time": 395.8694508019971
         },
         "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            15
-          ],
-          "Detected Testfiles": [
-            "./src/test/java/org/jfree/chart/internal/StrokeMapTest.java"
-          ],
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 17,
-          "Total execution time": 0.14303460500195797,
-          "Total preparation time": 11.300979500998437
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.14122936699823185,
+          "Total preparation time": 11.203577770002084
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
@@ -402,9 +681,11 @@
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 5.75515282500146,
-          "Total preparation time": 402.1827959209986
+          "Total execution time": 5.835077693998755,
+          "Total preparation time": 399.80383868699664
         }
       }
     },
@@ -412,6 +693,10 @@
       "Parent": "9473d89fe2e5b3c0586e502af7ecce1f7a43a3bc",
       "Total Testfiles": 361,
       "Total Deleted Testfiles": 2,
+      "Deleted Testfiles": [
+        "src/test/java/org/jfree/chart/axis/ColorBarTest.java",
+        "src/test/java/org/jfree/chart/plot/ContourPlotTest.java"
+      ],
       "Total Preserved Testfiles": 359,
       "Computed Final Budget": 98,
       "Algorithm": {
@@ -427,7 +712,25 @@
           "Failed Detected Testfiles": [
             "./src/test/java/org/jfree/chart/axis/ColorBarTest.java"
           ],
-          "Max_repetition": 30,
+          "False Detected Testfiles Line No": [
+            194,
+            196,
+            337,
+            210,
+            24,
+            28,
+            63
+          ],
+          "False Detected Testfiles": [
+            "./src/test/java/org/jfree/chart/renderer/xy/XYErrorRendererTest.java",
+            "./src/test/java/org/jfree/chart/renderer/xy/VectorRendererTest.java",
+            "./src/test/java/org/jfree/data/xy/XYSeriesCollectionTest.java",
+            "./src/test/java/org/jfree/chart/entity/PieSectionEntityTest.java",
+            "./src/test/java/org/jfree/chart/labels/BubbleXYItemLabelGeneratorTest.java",
+            "./src/test/java/org/jfree/chart/labels/StandardXYZToolTipGeneratorTest.java",
+            "./src/test/java/org/jfree/chart/axis/CategoryLabelWidthTypeTest.java"
+          ],
+          "Max_repetition": 361,
           "Total execution time": 6.574196664001647,
           "Total preparation time": 11.86730987600049
         },
@@ -437,6 +740,8 @@
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
           "Total execution time": 1.973347692999596,
           "Total preparation time": 415.681743741
@@ -453,7 +758,25 @@
           "Failed Detected Testfiles": [
             "./src/test/java/org/jfree/chart/axis/ColorBarTest.java"
           ],
-          "Max_repetition": 18,
+          "False Detected Testfiles Line No": [
+            65,
+            199,
+            243,
+            246,
+            151,
+            184,
+            63
+          ],
+          "False Detected Testfiles": [
+            "./src/test/java/org/jfree/chart/axis/CategoryLabelPositionTest.java",
+            "./src/test/java/org/jfree/chart/renderer/OutlierTest.java",
+            "./src/test/java/org/jfree/chart/AreaChartTest.java",
+            "./src/test/java/org/jfree/chart/XYLineChartTest.java",
+            "./src/test/java/org/jfree/chart/renderer/category/AbstractCategoryItemRendererTest.java",
+            "./src/test/java/org/jfree/chart/renderer/xy/XYDotRendererTest.java",
+            "./src/test/java/org/jfree/chart/axis/CategoryLabelWidthTypeTest.java"
+          ],
+          "Max_repetition": 361,
           "Total execution time": 0.14756990200066866,
           "Total preparation time": 11.730250809003792
         },
@@ -463,6 +786,8 @@
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
           "Total execution time": 6.3362206609995155,
           "Total preparation time": 418.6302169900009
@@ -470,73 +795,83 @@
       }
     },
     {
-      "Parent": "293b2021b7befc0fb331c035fa5b4642da8bc1f2",
-      "Total Testfiles": 356,
-      "Total Deleted Testfiles": 6,
-      "Total Preserved Testfiles": 350,
+      "Parent": "1be317c64d9b5b295ca9b519f80f81779b418868",
+      "Total Testfiles": 350,
+      "Total Deleted Testfiles": 2,
+      "Deleted Testfiles": [
+        "src/test/java/org/jfree/chart/axis/SegmentedTimelineAdditionalTest.java",
+        "src/test/java/org/jfree/chart/axis/SegmentedTimelineTest.java"
+      ],
+      "Total Preserved Testfiles": 348,
       "Computed Final Budget": 98,
       "Algorithm": {
         "FAST++": {
-          "Total Detected Deleted Testfiles": 2,
-          "Total Failed To Detect Deleted Testfiles": 4,
-          "Detected Testfiles Line No": [
-            229,
-            239
-          ],
-          "Detected Testfiles": [
-            "./src/test/java/org/jfree/chart/StackedBarChart3DTest.java",
-            "./src/test/java/org/jfree/chart/BarChart3DTest.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./src/test/java/org/jfree/chart/LineChart3DTest.java",
-            "./src/test/java/org/jfree/chart/renderer/category/BarRenderer3DTest.java",
-            "./src/test/java/org/jfree/chart/renderer/category/StackedBarRenderer3DTest.java",
-            "./src/test/java/org/jfree/chart/renderer/category/LineRenderer3DTest.java"
-          ],
-          "Max_repetition": 17,
-          "Total execution time": 8.152682344999903,
-          "Total preparation time": 11.794372273001954
-        },
-        "FAST-all": {
           "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 6,
+          "Total Failed To Detect Deleted Testfiles": 2,
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 2.018645953999112,
-          "Total preparation time": 411.8065910639989
+          "Total execution time": 7.322132598000002,
+          "Total preparation time": 11.47561162800001
         },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 2,
-          "Total Failed To Detect Deleted Testfiles": 4,
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 1,
           "Detected Testfiles Line No": [
-            239,
-            159
+            53
           ],
           "Detected Testfiles": [
-            "./src/test/java/org/jfree/chart/BarChart3DTest.java",
-            "./src/test/java/org/jfree/chart/renderer/category/BarRenderer3DTest.java"
+            "./src/test/java/org/jfree/chart/axis/SegmentedTimelineTest.java"
           ],
           "Failed Detected Testfiles": [
-            "./src/test/java/org/jfree/chart/StackedBarChart3DTest.java",
-            "./src/test/java/org/jfree/chart/LineChart3DTest.java",
-            "./src/test/java/org/jfree/chart/renderer/category/StackedBarRenderer3DTest.java",
-            "./src/test/java/org/jfree/chart/renderer/category/LineRenderer3DTest.java"
+            "./src/test/java/org/jfree/chart/axis/SegmentedTimelineAdditionalTest.java"
           ],
-          "Max_repetition": 7,
-          "Total execution time": 0.1482045709990416,
-          "Total preparation time": 11.703524489999154
+          "False Detected Testfiles Line No": [
+            228,
+            108,
+            175,
+            82,
+            83,
+            146
+          ],
+          "False Detected Testfiles": [
+            "./src/test/java/org/jfree/chart/LegendItemTest.java",
+            "./src/test/java/org/jfree/chart/plot/CombinedRangeXYPlotTest.java",
+            "./src/test/java/org/jfree/chart/renderer/xy/StandardXYItemRendererTest.java",
+            "./src/test/java/org/jfree/chart/annotations/TextAnnotationTest.java",
+            "./src/test/java/org/jfree/chart/annotations/XYTextAnnotationTest.java",
+            "./src/test/java/org/jfree/chart/renderer/category/AbstractCategoryItemRendererTest.java"
+          ],
+          "Max_repetition": 350,
+          "Total execution time": 1.8727385710004114,
+          "Total preparation time": 403.7407964309997
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.14874307499999517,
+          "Total preparation time": 11.253430801000007
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 6,
+          "Total Failed To Detect Deleted Testfiles": 2,
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 6.215045428999474,
-          "Total preparation time": 415.74996680599907
+          "Total execution time": 6.19897721399979,
+          "Total preparation time": 405.85182612899996
         }
       }
     }

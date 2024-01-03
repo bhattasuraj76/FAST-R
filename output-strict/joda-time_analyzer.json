@@ -3,25 +3,163 @@
   "Total test cases deleted with whole file:": 291,
   "details": [
     {
+      "Parent": "f1a476f463c62b736e4a641aba4c59d9629814d1",
+      "Total Testfiles": 70,
+      "Total Deleted Testfiles": 5,
+      "Deleted Testfiles": [
+        "JodaTime/src/test/org/joda/test/time/TestDateTimeFormatterBuilder.java",
+        "JodaTime/src/test/org/joda/test/time/TestDateTimeFormat.java",
+        "JodaTime/src/test/org/joda/test/time/TestDateTimeParserBucket.java",
+        "JodaTime/src/test/org/joda/test/time/TestTimePeriodFormat.java",
+        "JodaTime/src/test/org/joda/test/time/TestTimePeriod.java"
+      ],
+      "Total Preserved Testfiles": 65,
+      "Computed Final Budget": 92,
+      "Algorithm": {
+        "FAST++": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 3,
+          "Detected Testfiles Line No": [
+            66,
+            69
+          ],
+          "Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/test/time/TestDateTimeFormatterBuilder.java",
+            "./JodaTime/src/test/org/joda/test/time/TestTimePeriodFormat.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/test/time/TestDateTimeFormat.java",
+            "./JodaTime/src/test/org/joda/test/time/TestDateTimeParserBucket.java",
+            "./JodaTime/src/test/org/joda/test/time/TestTimePeriod.java"
+          ],
+          "False Detected Testfiles Line No": [
+            57,
+            38,
+            22
+          ],
+          "False Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/test/time/TestMDTGet.java",
+            "./JodaTime/src/test/org/joda/test/time/chrono/gj/TestGJChronology.java",
+            "./JodaTime/src/test/org/joda/test/time/gj/TestGJDayOfWeekDateTimeField.java"
+          ],
+          "Max_repetition": 70,
+          "Total execution time": 0.2935550040006092,
+          "Total preparation time": 3.551375822999944
+        },
+        "FAST-all": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 3,
+          "Detected Testfiles Line No": [
+            53,
+            69
+          ],
+          "Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/test/time/TestDateTimeParserBucket.java",
+            "./JodaTime/src/test/org/joda/test/time/TestTimePeriodFormat.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/test/time/TestDateTimeFormatterBuilder.java",
+            "./JodaTime/src/test/org/joda/test/time/TestDateTimeFormat.java",
+            "./JodaTime/src/test/org/joda/test/time/TestTimePeriod.java"
+          ],
+          "False Detected Testfiles Line No": [
+            57,
+            19,
+            54
+          ],
+          "False Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/test/time/TestMDTGet.java",
+            "./JodaTime/src/test/org/joda/test/time/gj/TestGJSecondOfDayDateTimeField.java",
+            "./JodaTime/src/test/org/joda/test/time/TestMDTAddWrapped.java"
+          ],
+          "Max_repetition": 70,
+          "Total execution time": 0.041777283999635983,
+          "Total preparation time": 95.37376434500129
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 2,
+          "Total Failed To Detect Deleted Testfiles": 3,
+          "Detected Testfiles Line No": [
+            66,
+            53
+          ],
+          "Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/test/time/TestDateTimeFormatterBuilder.java",
+            "./JodaTime/src/test/org/joda/test/time/TestDateTimeParserBucket.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/test/time/TestDateTimeFormat.java",
+            "./JodaTime/src/test/org/joda/test/time/TestTimePeriodFormat.java",
+            "./JodaTime/src/test/org/joda/test/time/TestTimePeriod.java"
+          ],
+          "False Detected Testfiles Line No": [
+            28,
+            70,
+            22
+          ],
+          "False Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/test/time/gj/TestGJHalfdayOfDayDateTimeField.java",
+            "./JodaTime/src/test/org/joda/test/time/TestBuddhistChronology.java",
+            "./JodaTime/src/test/org/joda/test/time/gj/TestGJDayOfWeekDateTimeField.java"
+          ],
+          "Max_repetition": 70,
+          "Total execution time": 0.03517300699968473,
+          "Total preparation time": 3.5081956610006273
+        },
+        "FAST-pw": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 4,
+          "Detected Testfiles Line No": [
+            66
+          ],
+          "Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/test/time/TestDateTimeFormatterBuilder.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/test/time/TestDateTimeFormat.java",
+            "./JodaTime/src/test/org/joda/test/time/TestDateTimeParserBucket.java",
+            "./JodaTime/src/test/org/joda/test/time/TestTimePeriodFormat.java",
+            "./JodaTime/src/test/org/joda/test/time/TestTimePeriod.java"
+          ],
+          "False Detected Testfiles Line No": [
+            59,
+            61,
+            70,
+            55
+          ],
+          "False Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/test/time/TestMutableDateTimeCtors.java",
+            "./JodaTime/src/test/org/joda/test/time/TestDateTimeCtors.java",
+            "./JodaTime/src/test/org/joda/test/time/TestBuddhistChronology.java",
+            "./JodaTime/src/test/org/joda/test/time/TestMDTAdd.java"
+          ],
+          "Max_repetition": 70,
+          "Total execution time": 0.2318028860022423,
+          "Total preparation time": 95.33104107700365
+        }
+      }
+    },
+    {
       "Parent": "8fb9bae65a1ad986cec1a01a90cbbceebc4a5d6e",
       "Total Testfiles": 430,
       "Total Deleted Testfiles": 1,
+      "Deleted Testfiles": [
+        "JodaTimeContrib/gwt/src/test/gwt/org/joda/time/chrono/gj/MainTest.java"
+      ],
       "Total Preserved Testfiles": 429,
       "Computed Final Budget": 99,
       "Algorithm": {
         "FAST++": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            196
-          ],
-          "Detected Testfiles": [
-            "./JodaTimeContrib/gwt/src/test/gwt/org/joda/time/chrono/gj/MainTest.java"
-          ],
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 29,
-          "Total execution time": 25.842655369997374,
-          "Total preparation time": 50.32761796399882
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 11.460544583000228,
+          "Total preparation time": 23.914751019000278
         },
         "FAST-all": {
           "Total Detected Deleted Testfiles": 0,
@@ -29,9 +167,11 @@
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 0.45647250299953157,
-          "Total preparation time": 943.5508491489986
+          "Total execution time": 0.2661896310009979,
+          "Total preparation time": 528.6006429920005
         },
         "FAST-CS": {
           "Total Detected Deleted Testfiles": 0,
@@ -39,9 +179,11 @@
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 0.18637431400020432,
-          "Total preparation time": 25.646376108999448
+          "Total execution time": 0.17153578700060734,
+          "Total preparation time": 23.83786125799986
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
@@ -49,9 +191,11 @@
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 13.58500113899845,
-          "Total preparation time": 964.0173556599993
+          "Total execution time": 5.612587957999949,
+          "Total preparation time": 529.5149126880003
         }
       }
     },
@@ -59,18 +203,38 @@
       "Parent": "028e01cbba9c1c7824f6c5a576a96fcacad81b61",
       "Total Testfiles": 300,
       "Total Deleted Testfiles": 3,
+      "Deleted Testfiles": [
+        "JodaTimeContrib/gwt/src/test/gwt/org/joda/time/TestSerialization.java",
+        "JodaTimeContrib/gwt/src/test/gwt/org/joda/time/format/TestDateTimeFormatStyle.java",
+        "JodaTimeContrib/gwt/src/test/gwt/org/joda/time/tz/TestCompiler.java"
+      ],
       "Total Preserved Testfiles": 297,
       "Computed Final Budget": 99,
       "Algorithm": {
         "FAST++": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 3,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 6.745398605999753,
-          "Total preparation time": 18.810899666999376
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [
+            18
+          ],
+          "Detected Testfiles": [
+            "./JodaTimeContrib/gwt/src/test/gwt/org/joda/time/tz/TestCompiler.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./JodaTimeContrib/gwt/src/test/gwt/org/joda/time/TestSerialization.java",
+            "./JodaTimeContrib/gwt/src/test/gwt/org/joda/time/format/TestDateTimeFormatStyle.java"
+          ],
+          "False Detected Testfiles Line No": [
+            187,
+            92
+          ],
+          "False Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/time/format/TestISOPeriodFormatParsing.java",
+            "./JodaTimeContrib/gwt/src/test/gwt/org/joda/time/TestInstant_Basics.java"
+          ],
+          "Max_repetition": 300,
+          "Total execution time": 5.253155183998388,
+          "Total preparation time": 16.88238620399943
         },
         "FAST-all": {
           "Total Detected Deleted Testfiles": 0,
@@ -78,26 +242,36 @@
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 2.038166629999523,
-          "Total preparation time": 569.4554158459991
+          "Total execution time": 1.4124172890001319,
+          "Total preparation time": 356.2793785400013
         },
         "FAST-CS": {
           "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 2,
           "Detected Testfiles Line No": [
-            37
+            110
           ],
           "Detected Testfiles": [
-            "./JodaTimeContrib/gwt/src/test/gwt/org/joda/time/format/TestDateTimeFormatStyle.java"
+            "./JodaTimeContrib/gwt/src/test/gwt/org/joda/time/TestSerialization.java"
           ],
           "Failed Detected Testfiles": [
-            "./JodaTimeContrib/gwt/src/test/gwt/org/joda/time/TestSerialization.java",
+            "./JodaTimeContrib/gwt/src/test/gwt/org/joda/time/format/TestDateTimeFormatStyle.java",
             "./JodaTimeContrib/gwt/src/test/gwt/org/joda/time/tz/TestCompiler.java"
           ],
-          "Max_repetition": 41,
-          "Total execution time": 0.26761424099981923,
-          "Total preparation time": 38.61353297500091
+          "False Detected Testfiles Line No": [
+            184,
+            130
+          ],
+          "False Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/time/format/TestDateTimeFormatterBuilder.java",
+            "./JodaTimeContrib/gwt/src/test/gwt/org/joda/time/TestDays.java"
+          ],
+          "Max_repetition": 300,
+          "Total execution time": 0.12597417299912195,
+          "Total preparation time": 16.80356671599975
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
@@ -105,9 +279,11 @@
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 7.805532308999773,
-          "Total preparation time": 614.6177665539992
+          "Total execution time": 4.066087288001199,
+          "Total preparation time": 359.19868180400044
         }
       }
     },
@@ -115,6 +291,14 @@
       "Parent": "d21736df31ca4888e76ccbdc7d31f406cf68b645",
       "Total Testfiles": 106,
       "Total Deleted Testfiles": 6,
+      "Deleted Testfiles": [
+        "JodaTime/src/test/org/joda/test/time/TestInstant.java",
+        "JodaTime/src/test/org/joda/test/time/TestMDTGet.java",
+        "JodaTime/src/test/org/joda/test/time/TestMDTAdd.java",
+        "JodaTime/src/test/org/joda/test/time/TestMDTSet.java",
+        "JodaTime/src/test/org/joda/test/time/TestMDTAddWrapped.java",
+        "JodaTime/src/test/org/joda/test/time/TestConstructors.java"
+      ],
       "Total Preserved Testfiles": 100,
       "Computed Final Budget": 94,
       "Algorithm": {
@@ -122,87 +306,132 @@
           "Total Detected Deleted Testfiles": 2,
           "Total Failed To Detect Deleted Testfiles": 4,
           "Detected Testfiles Line No": [
-            103,
-            100
+            97,
+            96
           ],
           "Detected Testfiles": [
-            "./JodaTime/src/test/org/joda/test/time/TestInstant.java",
-            "./JodaTime/src/test/org/joda/test/time/TestConstructors.java"
+            "./JodaTime/src/test/org/joda/test/time/TestMDTAdd.java",
+            "./JodaTime/src/test/org/joda/test/time/TestMDTAddWrapped.java"
           ],
           "Failed Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/test/time/TestInstant.java",
+            "./JodaTime/src/test/org/joda/test/time/TestMDTGet.java",
             "./JodaTime/src/test/org/joda/test/time/TestMDTSet.java",
-            "./JodaTime/src/test/org/joda/test/time/TestMDTAddWrapped.java",
-            "./JodaTime/src/test/org/joda/test/time/TestMDTAdd.java",
-            "./JodaTime/src/test/org/joda/test/time/TestMDTGet.java"
+            "./JodaTime/src/test/org/joda/test/time/TestConstructors.java"
           ],
-          "Max_repetition": 27,
-          "Total execution time": 0.9768028010030321,
-          "Total preparation time": 7.406608778000191
+          "False Detected Testfiles Line No": [
+            34,
+            91,
+            76,
+            86
+          ],
+          "False Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/time/TestDateTimeUtils.java",
+            "./JodaTime/src/test/org/joda/test/time/gj/TestGJYearDateTimeField.java",
+            "./JodaTime/src/test/org/joda/test/time/iso/TestISOSecondOfDayDateTimeField.java",
+            "./JodaTime/src/test/org/joda/test/time/gj/TestGJMonthOfYearDateTimeField.java"
+          ],
+          "Max_repetition": 106,
+          "Total execution time": 0.7355192259999512,
+          "Total preparation time": 5.587636289999637
         },
         "FAST-all": {
           "Total Detected Deleted Testfiles": 3,
           "Total Failed To Detect Deleted Testfiles": 3,
           "Detected Testfiles Line No": [
-            98,
-            96,
-            97
-          ],
-          "Detected Testfiles": [
-            "./JodaTime/src/test/org/joda/test/time/TestMDTSet.java",
-            "./JodaTime/src/test/org/joda/test/time/TestMDTAddWrapped.java",
-            "./JodaTime/src/test/org/joda/test/time/TestMDTAdd.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./JodaTime/src/test/org/joda/test/time/TestInstant.java",
-            "./JodaTime/src/test/org/joda/test/time/TestConstructors.java",
-            "./JodaTime/src/test/org/joda/test/time/TestMDTGet.java"
-          ],
-          "Max_repetition": 1,
-          "Total execution time": 0.10342508199755684,
-          "Total preparation time": 259.47941993899894
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 2,
-          "Total Failed To Detect Deleted Testfiles": 4,
-          "Detected Testfiles Line No": [
+            99,
             97,
-            99
+            96
           ],
           "Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/test/time/TestMDTGet.java",
             "./JodaTime/src/test/org/joda/test/time/TestMDTAdd.java",
-            "./JodaTime/src/test/org/joda/test/time/TestMDTGet.java"
+            "./JodaTime/src/test/org/joda/test/time/TestMDTAddWrapped.java"
           ],
           "Failed Detected Testfiles": [
-            "./JodaTime/src/test/org/joda/test/time/TestMDTSet.java",
-            "./JodaTime/src/test/org/joda/test/time/TestMDTAddWrapped.java",
             "./JodaTime/src/test/org/joda/test/time/TestInstant.java",
+            "./JodaTime/src/test/org/joda/test/time/TestMDTSet.java",
             "./JodaTime/src/test/org/joda/test/time/TestConstructors.java"
           ],
-          "Max_repetition": 15,
-          "Total execution time": 0.05097047699382529,
-          "Total preparation time": 6.01370807100011
+          "False Detected Testfiles Line No": [
+            9,
+            58,
+            101
+          ],
+          "False Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/time/convert/TestStringConverter.java",
+            "./JodaTime/src/test/org/joda/time/TestDurationType.java",
+            "./JodaTime/src/test/org/joda/test/time/TestMutableDateTimeCtors.java"
+          ],
+          "Max_repetition": 106,
+          "Total execution time": 0.07375465899963274,
+          "Total preparation time": 160.71672155199963
+        },
+        "FAST-CS": {
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 5,
+          "Detected Testfiles Line No": [
+            100
+          ],
+          "Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/test/time/TestConstructors.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/test/time/TestInstant.java",
+            "./JodaTime/src/test/org/joda/test/time/TestMDTGet.java",
+            "./JodaTime/src/test/org/joda/test/time/TestMDTAdd.java",
+            "./JodaTime/src/test/org/joda/test/time/TestMDTSet.java",
+            "./JodaTime/src/test/org/joda/test/time/TestMDTAddWrapped.java"
+          ],
+          "False Detected Testfiles Line No": [
+            34,
+            10,
+            89,
+            58,
+            28
+          ],
+          "False Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/time/TestDateTimeUtils.java",
+            "./JodaTime/src/test/org/joda/time/convert/TestConverterManager.java",
+            "./JodaTime/src/test/org/joda/test/time/gj/TestGJMinuteOfDayDateTimeField.java",
+            "./JodaTime/src/test/org/joda/time/TestDurationType.java",
+            "./JodaTime/src/test/org/joda/time/chrono/gj/TestGJDateTimeField.java"
+          ],
+          "Max_repetition": 106,
+          "Total execution time": 0.049052484999720036,
+          "Total preparation time": 5.537369715000011
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 3,
           "Total Failed To Detect Deleted Testfiles": 3,
           "Detected Testfiles Line No": [
-            98,
-            96,
-            97
+            99,
+            97,
+            96
           ],
           "Detected Testfiles": [
-            "./JodaTime/src/test/org/joda/test/time/TestMDTSet.java",
-            "./JodaTime/src/test/org/joda/test/time/TestMDTAddWrapped.java",
-            "./JodaTime/src/test/org/joda/test/time/TestMDTAdd.java"
+            "./JodaTime/src/test/org/joda/test/time/TestMDTGet.java",
+            "./JodaTime/src/test/org/joda/test/time/TestMDTAdd.java",
+            "./JodaTime/src/test/org/joda/test/time/TestMDTAddWrapped.java"
           ],
           "Failed Detected Testfiles": [
             "./JodaTime/src/test/org/joda/test/time/TestInstant.java",
-            "./JodaTime/src/test/org/joda/test/time/TestConstructors.java",
-            "./JodaTime/src/test/org/joda/test/time/TestMDTGet.java"
+            "./JodaTime/src/test/org/joda/test/time/TestMDTSet.java",
+            "./JodaTime/src/test/org/joda/test/time/TestConstructors.java"
           ],
-          "Max_repetition": 1,
-          "Total execution time": 0.9808766399983142,
-          "Total preparation time": 300.17295670199746
+          "False Detected Testfiles Line No": [
+            88,
+            106,
+            93
+          ],
+          "False Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/test/time/gj/TestGJHourOfHalfdayDateTimeField.java",
+            "./JodaTime/src/test/org/joda/test/time/TestBuddhistChronology.java",
+            "./JodaTime/src/test/org/joda/test/time/gj/TestSuiteGJ.java"
+          ],
+          "Max_repetition": 106,
+          "Total execution time": 0.5502797619999455,
+          "Total preparation time": 161.2095822210008
         }
       }
     },
@@ -210,6 +439,11 @@
       "Parent": "6bdd176eed470329a73d7ee08498183e579cea60",
       "Total Testfiles": 108,
       "Total Deleted Testfiles": 3,
+      "Deleted Testfiles": [
+        "JodaTime/src/test/org/joda/test/time/buddhist/TestBuddhistEraDateTimeField.java",
+        "JodaTime/src/test/org/joda/test/time/gj/TestGJYearDateTimeField.java",
+        "JodaTime/src/test/org/joda/test/time/TestBuddhistChronology.java"
+      ],
       "Total Preserved Testfiles": 105,
       "Computed Final Budget": 97,
       "Algorithm": {
@@ -217,18 +451,26 @@
           "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 2,
           "Detected Testfiles Line No": [
-            71
+            108
           ],
           "Detected Testfiles": [
-            "./JodaTime/src/test/org/joda/test/time/buddhist/TestBuddhistEraDateTimeField.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./JodaTime/src/test/org/joda/test/time/gj/TestGJYearDateTimeField.java",
             "./JodaTime/src/test/org/joda/test/time/TestBuddhistChronology.java"
           ],
-          "Max_repetition": 6,
-          "Total execution time": 0.8535552760013161,
-          "Total preparation time": 6.200027875998785
+          "Failed Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/test/time/buddhist/TestBuddhistEraDateTimeField.java",
+            "./JodaTime/src/test/org/joda/test/time/gj/TestGJYearDateTimeField.java"
+          ],
+          "False Detected Testfiles Line No": [
+            49,
+            50
+          ],
+          "False Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/time/TestMutableDateTime_Sets.java",
+            "./JodaTime/src/test/org/joda/time/TestChronology.java"
+          ],
+          "Max_repetition": 108,
+          "Total execution time": 0.7468351780012199,
+          "Total preparation time": 5.970669203001307
         },
         "FAST-all": {
           "Total Detected Deleted Testfiles": 1,
@@ -243,9 +485,17 @@
             "./JodaTime/src/test/org/joda/test/time/gj/TestGJYearDateTimeField.java",
             "./JodaTime/src/test/org/joda/test/time/TestBuddhistChronology.java"
           ],
-          "Max_repetition": 5,
-          "Total execution time": 0.10074679899844341,
-          "Total preparation time": 290.82336789500096
+          "False Detected Testfiles Line No": [
+            32,
+            43
+          ],
+          "False Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/time/chrono/TestISOChronology.java",
+            "./JodaTime/src/test/org/joda/time/TestMutableDateTime_Adds.java"
+          ],
+          "Max_repetition": 108,
+          "Total execution time": 0.07293749000245953,
+          "Total preparation time": 162.12091391899912
         },
         "FAST-CS": {
           "Total Detected Deleted Testfiles": 1,
@@ -260,19 +510,42 @@
             "./JodaTime/src/test/org/joda/test/time/gj/TestGJYearDateTimeField.java",
             "./JodaTime/src/test/org/joda/test/time/TestBuddhistChronology.java"
           ],
-          "Max_repetition": 4,
-          "Total execution time": 0.05269342600422533,
-          "Total preparation time": 6.26137824000125
+          "False Detected Testfiles Line No": [
+            40,
+            11
+          ],
+          "False Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/time/TestPeriod_Basics.java",
+            "./JodaTime/src/test/org/joda/time/convert/TestConverterManager.java"
+          ],
+          "Max_repetition": 108,
+          "Total execution time": 0.05461872299929382,
+          "Total preparation time": 6.104781126003672
         },
         "FAST-pw": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 3,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 1.2529290429993125,
-          "Total preparation time": 331.65100480699766
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 2,
+          "Detected Testfiles Line No": [
+            108
+          ],
+          "Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/test/time/TestBuddhistChronology.java"
+          ],
+          "Failed Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/test/time/buddhist/TestBuddhistEraDateTimeField.java",
+            "./JodaTime/src/test/org/joda/test/time/gj/TestGJYearDateTimeField.java"
+          ],
+          "False Detected Testfiles Line No": [
+            68,
+            70
+          ],
+          "False Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/time/TestMutablePeriod_Constructors.java",
+            "./JodaTime/src/test/org/joda/time/TestMutableInterval_Basics.java"
+          ],
+          "Max_repetition": 108,
+          "Total execution time": 0.5790972099989631,
+          "Total preparation time": 163.73438468099994
         }
       }
     },
@@ -280,10 +553,25 @@
       "Parent": "c196026b6845b678d16b5b84a2efc979391907f3",
       "Total Testfiles": 125,
       "Total Deleted Testfiles": 1,
+      "Deleted Testfiles": [
+        "JodaTime/src/test/org/joda/time/TestChronologyType.java"
+      ],
       "Total Preserved Testfiles": 124,
       "Computed Final Budget": 99,
       "Algorithm": {
         "FAST++": {
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
+          "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.8825389939979686,
+          "Total preparation time": 6.933649166998293
+        },
+        "FAST-all": {
           "Total Detected Deleted Testfiles": 1,
           "Total Failed To Detect Deleted Testfiles": 0,
           "Detected Testfiles Line No": [
@@ -293,29 +581,27 @@
             "./JodaTime/src/test/org/joda/time/TestChronologyType.java"
           ],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 7,
-          "Total execution time": 0.8928074260038557,
-          "Total preparation time": 7.512709164000626
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
-          "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.1934258930004944,
-          "Total preparation time": 287.1572801359989
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
+          "Max_repetition": 125,
+          "Total execution time": 0.08873302200026956,
+          "Total preparation time": 136.75290360799954
         },
         "FAST-CS": {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 1,
-          "Detected Testfiles Line No": [],
-          "Detected Testfiles": [],
+          "Total Detected Deleted Testfiles": 1,
+          "Total Failed To Detect Deleted Testfiles": 0,
+          "Detected Testfiles Line No": [
+            83
+          ],
+          "Detected Testfiles": [
+            "./JodaTime/src/test/org/joda/time/TestChronologyType.java"
+          ],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 0,
-          "Total execution time": 0.1361282050011141,
-          "Total preparation time": 18.909156705001806
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
+          "Max_repetition": 125,
+          "Total execution time": 0.05399123500183123,
+          "Total preparation time": 6.931437346996063
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
@@ -323,9 +609,11 @@
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 1.2289000149994536,
-          "Total preparation time": 240.2601715089986
+          "Total execution time": 0.5826499039994815,
+          "Total preparation time": 137.35579563500096
         }
       }
     },
@@ -333,50 +621,47 @@
       "Parent": "49558a5286c3b7eb6c85d5f26e5ae94f11f7a892",
       "Total Testfiles": 147,
       "Total Deleted Testfiles": 1,
+      "Deleted Testfiles": [
+        "src/test/java/org/joda/time/TestParseISO.java"
+      ],
       "Total Preserved Testfiles": 146,
       "Computed Final Budget": 99,
       "Algorithm": {
         "FAST++": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            73
-          ],
-          "Detected Testfiles": [
-            "./src/test/java/org/joda/time/TestParseISO.java"
-          ],
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 49,
-          "Total execution time": 1.740685178999854,
-          "Total preparation time": 12.00422450100001
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 1.3736853209999937,
+          "Total preparation time": 9.63262568
         },
         "FAST-all": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            73
-          ],
-          "Detected Testfiles": [
-            "./src/test/java/org/joda/time/TestParseISO.java"
-          ],
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 7,
-          "Total execution time": 0.1992502540000487,
-          "Total preparation time": 302.75798673400016
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.12109505300017531,
+          "Total preparation time": 185.41077128999993
         },
         "FAST-CS": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 0,
-          "Detected Testfiles Line No": [
-            73
-          ],
-          "Detected Testfiles": [
-            "./src/test/java/org/joda/time/TestParseISO.java"
-          ],
+          "Total Detected Deleted Testfiles": 0,
+          "Total Failed To Detect Deleted Testfiles": 1,
+          "Detected Testfiles Line No": [],
+          "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
-          "Max_repetition": 33,
-          "Total execution time": 0.16934059899972453,
-          "Total preparation time": 25.744587667999667
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
+          "Max_repetition": 0,
+          "Total execution time": 0.07342620299999325,
+          "Total preparation time": 9.856813972999992
         },
         "FAST-pw": {
           "Total Detected Deleted Testfiles": 0,
@@ -384,98 +669,11 @@
           "Detected Testfiles Line No": [],
           "Detected Testfiles": [],
           "Failed Detected Testfiles": [],
+          "False Detected Testfiles Line No": [],
+          "False Detected Testfiles": [],
           "Max_repetition": 0,
-          "Total execution time": 2.475316503000556,
-          "Total preparation time": 338.53145691199995
-        }
-      }
-    },
-    {
-      "Parent": "f1a476f463c62b736e4a641aba4c59d9629814d1",
-      "Total Testfiles": 70,
-      "Total Deleted Testfiles": 5,
-      "Total Preserved Testfiles": 65,
-      "Computed Final Budget": 92,
-      "Algorithm": {
-        "FAST++": {
-          "Total Detected Deleted Testfiles": 3,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": [
-            66,
-            65,
-            64
-          ],
-          "Detected Testfiles": [
-            "./JodaTime/src/test/org/joda/test/time/TestDateTimeFormatterBuilder.java",
-            "./JodaTime/src/test/org/joda/test/time/TestDateTimeFormat.java",
-            "./JodaTime/src/test/org/joda/test/time/TestTimePeriod.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./JodaTime/src/test/org/joda/test/time/TestDateTimeParserBucket.java",
-            "./JodaTime/src/test/org/joda/test/time/TestTimePeriodFormat.java"
-          ],
-          "Max_repetition": 17,
-          "Total execution time": 0.7046219200000108,
-          "Total preparation time": 8.840388991999992
-        },
-        "FAST-all": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 4,
-          "Detected Testfiles Line No": [
-            64
-          ],
-          "Detected Testfiles": [
-            "./JodaTime/src/test/org/joda/test/time/TestTimePeriod.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./JodaTime/src/test/org/joda/test/time/TestDateTimeFormatterBuilder.java",
-            "./JodaTime/src/test/org/joda/test/time/TestDateTimeFormat.java",
-            "./JodaTime/src/test/org/joda/test/time/TestDateTimeParserBucket.java",
-            "./JodaTime/src/test/org/joda/test/time/TestTimePeriodFormat.java"
-          ],
-          "Max_repetition": 3,
-          "Total execution time": 0.07871305000020357,
-          "Total preparation time": 180.82557582999993
-        },
-        "FAST-CS": {
-          "Total Detected Deleted Testfiles": 3,
-          "Total Failed To Detect Deleted Testfiles": 2,
-          "Detected Testfiles Line No": [
-            64,
-            53,
-            69
-          ],
-          "Detected Testfiles": [
-            "./JodaTime/src/test/org/joda/test/time/TestTimePeriod.java",
-            "./JodaTime/src/test/org/joda/test/time/TestDateTimeParserBucket.java",
-            "./JodaTime/src/test/org/joda/test/time/TestTimePeriodFormat.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./JodaTime/src/test/org/joda/test/time/TestDateTimeFormatterBuilder.java",
-            "./JodaTime/src/test/org/joda/test/time/TestDateTimeFormat.java"
-          ],
-          "Max_repetition": 48,
-          "Total execution time": 0.0858143789999879,
-          "Total preparation time": 9.132641449999998
-        },
-        "FAST-pw": {
-          "Total Detected Deleted Testfiles": 1,
-          "Total Failed To Detect Deleted Testfiles": 4,
-          "Detected Testfiles Line No": [
-            69
-          ],
-          "Detected Testfiles": [
-            "./JodaTime/src/test/org/joda/test/time/TestTimePeriodFormat.java"
-          ],
-          "Failed Detected Testfiles": [
-            "./JodaTime/src/test/org/joda/test/time/TestDateTimeFormatterBuilder.java",
-            "./JodaTime/src/test/org/joda/test/time/TestDateTimeFormat.java",
-            "./JodaTime/src/test/org/joda/test/time/TestTimePeriod.java",
-            "./JodaTime/src/test/org/joda/test/time/TestDateTimeParserBucket.java"
-          ],
-          "Max_repetition": 1,
-          "Total execution time": 0.4836261109999782,
-          "Total preparation time": 179.97536304499994
+          "Total execution time": 0.9137970029999849,
+          "Total preparation time": 184.78335478600005
         }
       }
     }
