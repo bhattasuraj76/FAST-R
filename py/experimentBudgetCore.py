@@ -15,20 +15,19 @@ from utils import strip_commit_url
 import json
 from config import REPEATS, ROOT_DIR
 from helpers import (
-    get_deleted_testcases_with_whole_file_df,
     get_whole_file_test_deletion_parent_commits,
-    get_deleted_testfiles_in_test_deletion_commit_parent,
     get_no_of_deleted_testfiles_in_test_deletion_commit_parent,
 )
 
 # Pre-computed budget for loose setting
 import json
+
 all_projects_loose_budget = json.load(open(f"./stat_loose_budget.json"))
 
 
 def main(prog, setting):
     commits_list = get_whole_file_test_deletion_parent_commits(prog)
-    
+
     # Strict Scenario
     if setting == "strict":
         for commit in commits_list:
@@ -86,7 +85,9 @@ def main(prog, setting):
             # B = int(numOfTCS * reduction / 100)
 
             # Budget(actual number of tests preserved) is fixed in loose scenario
-            B = int(numOfTCS * repetitions / 100)
+            # B = int(numOfTCS * repetitions / 100) # Commenting this because no. of actual tests deleted is not equal to percentage B
+            B = no_of_preserved_testfiles
+            
             # reduction (percentage of test preserved)
             reduction = repetitions
 
@@ -187,13 +188,11 @@ def main(prog, setting):
             print("Total test files: ", numOfTCS)
             print("No. of deleted test files: ", no_of_deleted_testfiles)
             print("No. of preserved test files: ", no_of_preserved_testfiles)
-            
+
             # Final budget[no. of testcases remaining] in percentage; # STRICT SCENARIO
-            repetitions = int(
-                no_of_preserved_testfiles / numOfTCS * 100
-            )  
+            repetitions = int(no_of_preserved_testfiles / numOfTCS * 100)
             print("Computed Repetitions: ", repetitions)
-          
+
             # Budget(actual number of tests preserved) is fixed in loose scenario
             B = int(numOfTCS * MIN_PERCENTAGE_OF_TEST_PRESERVED / 100)
             # reduction (percentage of test preserved)

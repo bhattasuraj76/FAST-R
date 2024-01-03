@@ -9,8 +9,9 @@ from helpers import (
     get_deleted_testfiles_in_test_deletion_commit_parent,
 )
 from analyzer_utils import (
-    get_line_no_history_deleted_testfiles,
+    get_line_no_history_testfiles,
     get_test_filename_by_line_no,
+    get_no_of_testfiles_in_commit
 )
 from math import fsum
 
@@ -49,16 +50,8 @@ def analyzer_main(prog, setting):
         selection_dir = directory + "selections"
         measurement_dir = directory + "measures"
 
-        testcase_history_file = "{}/all_commits_all_testcases/{}/{}-{}-tsh.txt".format(
-            ROOT_DIR, prog, prog, commit
-        )
-        testcase_file = "{}/all_commits_all_testcases/{}/{}-{}-ts.txt".format(
-            ROOT_DIR, prog, prog, commit
-        )
-
-        numOfTCS = sum(
-            (1 for _ in open(testcase_file))
-        )  # Total no. of testclass in particular parent_commit history
+        # Total no. of testclass in particular parent_commit history
+        numOfTCS = get_no_of_testfiles_in_commit(prog, commit)  
         print("Total test files: ", numOfTCS)
 
         deleted_testfiles = get_deleted_testfiles_in_test_deletion_commit_parent(
@@ -69,7 +62,7 @@ def analyzer_main(prog, setting):
         print("Deleted Test files")
         print(deleted_testfiles)
 
-        deleted_testfiles_line_no_history = get_line_no_history_deleted_testfiles(
+        deleted_testfiles_line_no_history = get_line_no_history_testfiles(
             prog, commit, deleted_testfiles
         )
         no_of_preserved_testfiles = numOfTCS - no_of_deleted_testfiles
@@ -92,6 +85,8 @@ def analyzer_main(prog, setting):
             max_detects_test_files = []
             max_failed_detects_test_files = []
             max_repetition = 0
+            max_false_detects_line_no = []
+            max_false_detects_test_files = []
 
             # Metrics
             total_execution = []
@@ -127,7 +122,17 @@ def analyzer_main(prog, setting):
                 detected_deleted_testfiles_line_no = []
                 detected_deleted_testfiles = []
                 failed_detected_deleted_testfiles = []
+                
+                # Detected redundant tests; not present in reduced test suite
+                redundant_tests_line_no = []
+                redundant_tests = []
+                for i in range(1, numOfTCS+1):
+                    if i not in reduced_testfiles_line_no:
+                        redundant_tests_line_no.append(i)
+                        redundant_tests.append(get_test_filename_by_line_no(prog, commit, i))
+                
                 for deleted_each_testfiles_line_no in deleted_testfiles_line_no_history:
+                    # Check if deleted test file exist in reduced test suite; hit if does not exist, miss if exist
                     if deleted_each_testfiles_line_no not in reduced_testfiles_line_no:
                         no_of_detected_deleted_testfiles += 1
                         detected_deleted_testfiles_line_no.append(
@@ -152,6 +157,9 @@ def analyzer_main(prog, setting):
                     max_detects_test_files = detected_deleted_testfiles
                     max_failed_detects_test_files = failed_detected_deleted_testfiles
                     max_repetition = i
+                    # False detects is (detected redundant_testfiles - deleted_testfiles)
+                    max_false_detects_line_no = list(set(redundant_tests_line_no).difference(set(deleted_testfiles_line_no_history)))
+                    max_false_detects_test_files = [get_test_filename_by_line_no(prog, commit, i) for i in max_false_detects_line_no]
 
             reduction_info = {
                 "Total Detected Deleted Testfiles": max_detects,
@@ -161,6 +169,8 @@ def analyzer_main(prog, setting):
                 "Detected Testfiles Line No": max_detects_line_no,
                 "Detected Testfiles": max_detects_test_files,
                 "Failed Detected Testfiles": max_failed_detects_test_files,
+                "False Detected Testfiles Line No": max_false_detects_line_no,
+                "False Detected Testfiles": max_false_detects_test_files,
                 "Max_repetition": max_repetition,
                 "Total execution time": fsum(total_execution),
                 "Total preparation time": fsum(total_preparation)

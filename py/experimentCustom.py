@@ -2,7 +2,7 @@ import sys
 import logging
 from timeit import default_timer as timer
 from datetime import timedelta
-from experimentBudgetModified import main
+from experimentBudgetCore import main
 
 usage = """USAGE: python3 py/experimentCustom.py <prog> 
   """

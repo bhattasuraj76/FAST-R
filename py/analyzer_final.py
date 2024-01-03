@@ -15,7 +15,7 @@ projects_list = [
     "gson",
     "commons-math",
     "jfreechart",
-    # "joda-time",
+    "joda-time",
     "pmd",
     # "cts",
 ]
@@ -39,7 +39,7 @@ for index, project in enumerate(projects_list):
         len(deleted_testcases_with_whole_file),
     )
 
-    for algo in algos:
+    for index, algo in enumerate(algos):
 
         def parse_results(setting):
             data_to_look = (
@@ -50,6 +50,8 @@ for index, project in enumerate(projects_list):
             total_failed_to_detect = 0
             total_execution_time = 0
             total_preparation_time = 0
+            total_preparation_time_arr = []
+            total_execution_time_arr = []
             for algo_analyzer_commit in data_to_look["details"]:
                 alog_analyzer_commit_each_algo = algo_analyzer_commit["Algorithm"][algo]
                 total_detected += alog_analyzer_commit_each_algo[
@@ -58,39 +60,49 @@ for index, project in enumerate(projects_list):
                 total_failed_to_detect += alog_analyzer_commit_each_algo[
                     "Total Failed To Detect Deleted Testfiles"
                 ]
-                total_preparation_time += fsum(
-                    [
-                        total_preparation_time,
-                        alog_analyzer_commit_each_algo["Total preparation time"],
-                    ]
-                )
-                total_execution_time += fsum(
-                    [
-                        total_execution_time,
-                        alog_analyzer_commit_each_algo["Total execution time"],
-                    ]
-                )
 
-            if project not in data[setting]:
-                data[setting][project] = {}
+                # if index == 0:
+                #     total_preparation_time = timedelta(seconds = alog_analyzer_commit_each_algo["Total preparation time"])
+                #     total_execution_time = timedelta(seconds = alog_analyzer_commit_each_algo["Total execution time"])
+                # else:
+                #     total_preparation_time = total_preparation_time + timedelta(seconds = alog_analyzer_commit_each_algo["Total preparation time"])
+                #     total_preparation_time = total_preparation_time + timedelta(seconds = alog_analyzer_commit_each_algo["Total execution time"])
+
+                total_preparation_time_arr.append(
+                    round(alog_analyzer_commit_each_algo["Total preparation time"], 3)
+                )
+                total_execution_time_arr.append(
+                    round(alog_analyzer_commit_each_algo["Total execution time"], 3)
+                )
                 
+            # try:
+            #     total_preparation_time = str(timedelta(seconds=total_preparation_time))
+            #     total_execution_time = str(timedelta(seconds=total_execution_time))
+            # except:
+            #     pass
+                
+            total_preparation_time = fsum(
+                total_preparation_time_arr,
+            )
+            total_execution_time = fsum(
+                total_execution_time_arr,
+            )
             print("Total Preparation Time")
             print(total_preparation_time)
             print("Total Execution Time")
             print(total_execution_time)
-            
-            try:
-                total_preparation_time = str(timedelta(seconds=total_preparation_time))
-                total_execution_time = str(timedelta(seconds=total_execution_time))
-            except:
-                pass
-            
+
+            if project not in data[setting]:
+                data[setting][project] = {}
+
+         
+
             data[setting][project][algo] = (
                 {
                     "Total Detected Deleted Testfiles": total_detected,
                     "Total Failed To Detect Deleted Testfiles": total_failed_to_detect,
-                    "Total Preparation Time": total_preparation_time,
-                    "Total Execution Time": total_execution_time,
+                    "Total Preparation Time": str(timedelta(seconds=total_preparation_time)),
+                    "Total Execution Time": str(timedelta(seconds=total_execution_time)),
                 },
             )
 
