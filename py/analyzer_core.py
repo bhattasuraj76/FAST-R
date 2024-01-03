@@ -126,10 +126,10 @@ def analyzer_main(prog, setting):
                 # Detected redundant tests; not present in reduced test suite
                 redundant_tests_line_no = []
                 redundant_tests = []
-                for i in range(1, numOfTCS+1):
-                    if i not in reduced_testfiles_line_no:
-                        redundant_tests_line_no.append(i)
-                        redundant_tests.append(get_test_filename_by_line_no(prog, commit, i))
+                for idx in range(1, numOfTCS+1):
+                    if idx not in reduced_testfiles_line_no:
+                        redundant_tests_line_no.append(idx)
+                        redundant_tests.append(get_test_filename_by_line_no(prog, commit, idx))
                 
                 for deleted_each_testfiles_line_no in deleted_testfiles_line_no_history:
                     # Check if deleted test file exist in reduced test suite; hit if does not exist, miss if exist
