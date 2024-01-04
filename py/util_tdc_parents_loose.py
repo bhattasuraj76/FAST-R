@@ -20,8 +20,6 @@ projects_list = [
     "cts",
 ]
 
-# Look for only redundant tests[recent, deleted with whole file, deleted without source code]
-
 
 def export_test_deletion_parent_commits(commits, deleted_testcases_with_whole_file):
     data = {
@@ -53,21 +51,20 @@ def export_test_deletion_parent_commits(commits, deleted_testcases_with_whole_fi
         df["Child Commit Recent Date"], errors="coerce"
     )
     df.sort_values(by=["Child Commit Recent Date"], inplace=True)
-    if not os.path.exists("whole-file-test-deletion-parent-commits"):
-        os.mkdir("whole-file-test-deletion-parent-commits")
-    df.to_csv(f"whole-file-test-deletion-parent-commits/{project}.csv")
+    if not os.path.exists("tdc-parents-sample"):
+        os.mkdir("tdc-parents-sample")
+    df.to_csv(f"tdc-parents-sample/{project}_loose.csv", index=False)
 
 
 for index, project in enumerate(projects_list):
+    print(project)
+    print("--------")
     commits_list = get_whole_file_test_deletion_parent_commits(project)
-    print("Total whole file test deletion parent commits:", len(commits_list))
-
-    deleted_testcases_with_whole_file = get_deleted_testcases_with_whole_file_df(
+    deleted_testcases_with_whole_file_df = get_deleted_testcases_with_whole_file_df(
         project
     )
-    print(
-        "Total test cases deleted with whole file:",
-        len(deleted_testcases_with_whole_file),
-    )
 
-    export_test_deletion_parent_commits(commits_list, deleted_testcases_with_whole_file)
+    # Look for only redundant and obsolete tests[recent, deleted with whole file, deleted with or without out source code]
+    export_test_deletion_parent_commits(
+        commits_list, deleted_testcases_with_whole_file_df
+    )

@@ -54,10 +54,10 @@ def handle_io(input_file, output_file):
 projects_list = [
     "commons-lang",
     "gson",
-    # "commons-math",
+    "commons-math",
     "jfreechart",
     "joda-time",
-    # "pmd",
+    "pmd",
     #  "cts",
 ]
 
