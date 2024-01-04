@@ -7,11 +7,11 @@ comparing with developer reduced test sutie in loose scenario.
 
 
 projects_list = [
-    "commons-lang",
+    # "commons-lang",
     "gson",
     # "commons-math",
-    "jfreechart",
-    "joda-time",
+    # "jfreechart",
+    # "joda-time",
     # "pmd",
     #  "cts"
 ]

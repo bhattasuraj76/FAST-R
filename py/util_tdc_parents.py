@@ -20,6 +20,8 @@ projects_list = [
     "cts",
 ]
 
+# Look for only redundant tests[recent, deleted with whole file, deleted without source code]
+
 
 def export_test_deletion_parent_commits(commits, deleted_testcases_with_whole_file):
     data = {
@@ -27,7 +29,7 @@ def export_test_deletion_parent_commits(commits, deleted_testcases_with_whole_fi
         "Parent": [],
         "Total Deleted Testfile": [],
         "Deleted Testfile": [],
-        "Total Deleted Tests":[],
+        "Total Deleted Tests": [],
         "Deleted Tests": [],
     }
     for commit in commits:
@@ -47,8 +49,10 @@ def export_test_deletion_parent_commits(commits, deleted_testcases_with_whole_fi
         data["Deleted Tests"].append(deleted_tests)
 
     df = pd.DataFrame(data)
-    df['Child Commit Recent Date'] = pd.to_datetime(df['Child Commit Recent Date'], errors='coerce')
-    df.sort_values(by=['Child Commit Recent Date'], inplace=True)
+    df["Child Commit Recent Date"] = pd.to_datetime(
+        df["Child Commit Recent Date"], errors="coerce"
+    )
+    df.sort_values(by=["Child Commit Recent Date"], inplace=True)
     if not os.path.exists("whole-file-test-deletion-parent-commits"):
         os.mkdir("whole-file-test-deletion-parent-commits")
     df.to_csv(f"whole-file-test-deletion-parent-commits/{project}.csv")

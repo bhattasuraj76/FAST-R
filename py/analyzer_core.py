@@ -1,6 +1,7 @@
 import pickle
 from utils import strip_commit_url
 import json
+
 all_projects_loose_budget = json.load(open(f"./stat_loose_budget.json"))
 from config import ROOT_DIR, REPEATS
 from helpers import (
@@ -11,7 +12,7 @@ from helpers import (
 from analyzer_utils import (
     get_line_no_history_testfiles,
     get_test_filename_by_line_no,
-    get_no_of_testfiles_in_commit
+    get_no_of_testfiles_in_commit,
 )
 from math import fsum
 
@@ -51,7 +52,7 @@ def analyzer_main(prog, setting):
         measurement_dir = directory + "measures"
 
         # Total no. of testclass in particular parent_commit history
-        numOfTCS = get_no_of_testfiles_in_commit(prog, commit)  
+        numOfTCS = get_no_of_testfiles_in_commit(prog, commit)
         print("Total test files: ", numOfTCS)
 
         deleted_testfiles = get_deleted_testfiles_in_test_deletion_commit_parent(
@@ -91,7 +92,7 @@ def analyzer_main(prog, setting):
             # Metrics
             total_execution = []
             total_preparation = []
-            
+
             for i in range(1, REPEATS + 1):
                 # selection_path = "{}/{}-{}-{}.pickle".format(
                 #     selection_dir, algo, FINAL_BUDGET, REPEATS
@@ -105,14 +106,14 @@ def analyzer_main(prog, setting):
                 measurement_path = "{}/{}-{}-{}.pickle".format(
                     measurement_dir, algo, FINAL_BUDGET, i
                 )
-                
-                
-                # Add execution and preparation time
+
+                # Get metrics: execution and preparation time
                 with open(measurement_path, "rb") as pickle_file:
-                    data = pickle.load(pickle_file)
-                    total_preparation.append(data[0])
-                    total_execution.append(data[1]) 
-                
+                    metrics_data = pickle.load(pickle_file)
+                    # Add total execution and preparation time
+                    total_preparation.append(metrics_data[0])
+                    total_execution.append(metrics_data[1]) 
+
                 with open(selection_path, "rb") as pickle_file:
                     reduced_testfiles_line_no = pickle.load(pickle_file)
 
@@ -122,15 +123,17 @@ def analyzer_main(prog, setting):
                 detected_deleted_testfiles_line_no = []
                 detected_deleted_testfiles = []
                 failed_detected_deleted_testfiles = []
-                
+
                 # Detected redundant tests; not present in reduced test suite
                 redundant_tests_line_no = []
                 redundant_tests = []
-                for idx in range(1, numOfTCS+1):
+                for idx in range(1, numOfTCS + 1):
                     if idx not in reduced_testfiles_line_no:
                         redundant_tests_line_no.append(idx)
-                        redundant_tests.append(get_test_filename_by_line_no(prog, commit, idx))
-                
+                        redundant_tests.append(
+                            get_test_filename_by_line_no(prog, commit, idx)
+                        )
+
                 for deleted_each_testfiles_line_no in deleted_testfiles_line_no_history:
                     # Check if deleted test file exist in reduced test suite; hit if does not exist, miss if exist
                     if deleted_each_testfiles_line_no not in reduced_testfiles_line_no:
@@ -158,8 +161,19 @@ def analyzer_main(prog, setting):
                     max_failed_detects_test_files = failed_detected_deleted_testfiles
                     max_repetition = i
                     # False detects is (detected redundant_testfiles - deleted_testfiles)
-                    max_false_detects_line_no = list(set(redundant_tests_line_no).difference(set(deleted_testfiles_line_no_history)))
-                    max_false_detects_test_files = [get_test_filename_by_line_no(prog, commit, i) for i in max_false_detects_line_no]
+                    max_false_detects_line_no = list(
+                        set(redundant_tests_line_no).difference(
+                            set(deleted_testfiles_line_no_history)
+                        )
+                    )
+                    max_false_detects_test_files = [
+                        get_test_filename_by_line_no(prog, commit, i)
+                        for i in max_false_detects_line_no
+                    ]
+
+                    # Get optimal preparation and execution time
+                    optimal_execution = metrics_data[0]
+                    optimal_preparation = metrics_data[1]
 
             reduction_info = {
                 "Total Detected Deleted Testfiles": max_detects,
@@ -173,7 +187,9 @@ def analyzer_main(prog, setting):
                 "False Detected Testfiles": max_false_detects_test_files,
                 "Max_repetition": max_repetition,
                 "Total execution time": fsum(total_execution),
-                "Total preparation time": fsum(total_preparation)
+                "Total preparation time": fsum(total_preparation),
+                "Optimal execution time": optimal_execution,
+                "Optimal preparation time": optimal_preparation,
             }
             algo_data[algo] = reduction_info
 
@@ -190,8 +206,6 @@ def analyzer_main(prog, setting):
         )
 
         # handle both strict and loose setting
-        output_dir = (
-            "output-loose" if setting == "loose" else "output-strict"
-        )
+        output_dir = "output-loose" if setting == "loose" else "output-strict"
         f = open(f"./{output_dir}/{prog}_analyzer.json", "w")
         f.write(json.dumps(analyzer_data, indent=2))
