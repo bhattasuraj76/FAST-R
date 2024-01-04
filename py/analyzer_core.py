@@ -92,6 +92,8 @@ def analyzer_main(prog, setting):
             # Metrics
             total_execution = []
             total_preparation = []
+            optimal_execution = 0
+            optimal_preparation = 0
 
             for i in range(1, REPEATS + 1):
                 # selection_path = "{}/{}-{}-{}.pickle".format(
