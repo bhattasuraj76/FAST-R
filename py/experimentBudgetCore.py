@@ -25,7 +25,15 @@ import json
 all_projects_loose_budget = json.load(open(f"./stat_loose_budget.json"))
 
 
-def main(prog, setting):
+# Check if algorithm should run
+def should_algorithm_run(enforce_algorithm, enforced_algo, algo):
+    if not enforce_algorithm:
+        return True
+    else:
+        return enforced_algo == algo
+
+
+def main(prog, setting, enforce_algorithm=False, enforced_algorithm="FAST-all"):
     commits_list = get_whole_file_test_deletion_parent_commits(prog)
 
     # Strict Scenario
@@ -87,57 +95,76 @@ def main(prog, setting):
             # Budget(actual number of tests preserved) is fixed in loose scenario
             # B = int(numOfTCS * repetitions / 100) # Commenting this because no. of actual tests deleted is not equal to percentage B
             B = no_of_preserved_testfiles
-            
+
             # reduction (percentage of test preserved)
             reduction = repetitions
 
-            for run in range(REPEATS):
-                sOut = "{}/{}-{}-{}.pickle".format(sPath, "FAST++", reduction, run + 1)
-                tOut = "{}/{}-{}-{}.pickle".format(tPath, "FAST++", reduction, run + 1)
-                if os.path.exists(sOut) and os.path.exists(tOut):
-                    continue
-                pTime, rTime, sel = fastr.fastPlusPlus(inputFile, dim=dim, B=B)
-                pickle.dump(sel, open(sOut, "wb"))
-                pickle.dump((pTime, rTime), open(tOut, "wb"))
-                print("FAST++", reduction, pTime, rTime, run)
+            if should_algorithm_run(enforce_algorithm, enforced_algorithm, "FAST++"):
+                for run in range(REPEATS):
+                    sOut = "{}/{}-{}-{}.pickle".format(
+                        sPath, "FAST++", reduction, run + 1
+                    )
+                    tOut = "{}/{}-{}-{}.pickle".format(
+                        tPath, "FAST++", reduction, run + 1
+                    )
+                    # Skip if file exists
+                    if os.path.exists(sOut) and os.path.exists(tOut):
+                        continue
+                    pTime, rTime, sel = fastr.fastPlusPlus(inputFile, dim=dim, B=B)
+                    pickle.dump(sel, open(sOut, "wb"))
+                    pickle.dump((pTime, rTime), open(tOut, "wb"))
+                    print("FAST++", reduction, pTime, rTime, run)
 
-            for run in range(REPEATS):
-                sOut = "{}/{}-{}-{}.pickle".format(sPath, "FAST-CS", reduction, run + 1)
-                tOut = "{}/{}-{}-{}.pickle".format(tPath, "FAST-CS", reduction, run + 1)
-                if os.path.exists(sOut) and os.path.exists(tOut):
-                    continue
-                pTime, rTime, sel = fastr.fastCS(inputFile, dim=dim, B=B)
-                pickle.dump(sel, open(sOut, "wb"))
-                pickle.dump((pTime, rTime), open(tOut, "wb"))
-                print("FAST-CS", reduction, pTime, rTime, run)
+            if should_algorithm_run(enforce_algorithm, enforced_algorithm, "FAST-CS"):
+                for run in range(REPEATS):
+                    sOut = "{}/{}-{}-{}.pickle".format(
+                        sPath, "FAST-CS", reduction, run + 1
+                    )
+                    tOut = "{}/{}-{}-{}.pickle".format(
+                        tPath, "FAST-CS", reduction, run + 1
+                    )
+                    # Skip if file exists
+                    if os.path.exists(sOut) and os.path.exists(tOut):
+                        continue
+                    pTime, rTime, sel = fastr.fastCS(inputFile, dim=dim, B=B)
+                    pickle.dump(sel, open(sOut, "wb"))
+                    pickle.dump((pTime, rTime), open(tOut, "wb"))
+                    print("FAST-CS", reduction, pTime, rTime, run)
 
-            for run in range(REPEATS):
-                sOut = "{}/{}-{}-{}.pickle".format(sPath, "FAST-pw", reduction, run + 1)
-                tOut = "{}/{}-{}-{}.pickle".format(tPath, "FAST-pw", reduction, run + 1)
-                if os.path.exists(sOut) and os.path.exists(tOut):
-                    continue
-                pTime, rTime, sel = fastr.fast_pw(
-                    inputFile, r, b, bbox=True, k=k, memory=True, B=B
-                )
-                pickle.dump(sel, open(sOut, "wb"))
-                pickle.dump((pTime, rTime), open(tOut, "wb"))
-                print("FAST-pw", reduction, pTime, rTime, run)
+            if should_algorithm_run(enforce_algorithm, enforced_algorithm, "FAST-pw"):
+                for run in range(REPEATS):
+                    sOut = "{}/{}-{}-{}.pickle".format(
+                        sPath, "FAST-pw", reduction, run + 1
+                    )
+                    tOut = "{}/{}-{}-{}.pickle".format(
+                        tPath, "FAST-pw", reduction, run + 1
+                    )
+                    if os.path.exists(sOut) and os.path.exists(tOut):
+                        continue
+                    pTime, rTime, sel = fastr.fast_pw(
+                        inputFile, r, b, bbox=True, k=k, memory=True, B=B
+                    )
+                    pickle.dump(sel, open(sOut, "wb"))
+                    pickle.dump((pTime, rTime), open(tOut, "wb"))
+                    print("FAST-pw", reduction, pTime, rTime, run)
 
-            for run in range(REPEATS):
-                sOut = "{}/{}-{}-{}.pickle".format(
-                    sPath, "FAST-all", reduction, run + 1
-                )
-                tOut = "{}/{}-{}-{}.pickle".format(
-                    tPath, "FAST-all", reduction, run + 1
-                )
-                if os.path.exists(sOut) and os.path.exists(tOut):
-                    continue
-                pTime, rTime, sel = fastr.fast_(
-                    inputFile, all_, r=r, b=b, bbox=True, k=k, memory=True, B=B
-                )
-                pickle.dump(sel, open(sOut, "wb"))
-                pickle.dump((pTime, rTime), open(tOut, "wb"))
-                print("FAST-all", reduction, pTime, rTime, run)
+            if should_algorithm_run(enforce_algorithm, enforced_algorithm, "FAST-all"):
+                for run in range(REPEATS):
+                    sOut = "{}/{}-{}-{}.pickle".format(
+                        sPath, "FAST-all", reduction, run + 1
+                    )
+                    tOut = "{}/{}-{}-{}.pickle".format(
+                        tPath, "FAST-all", reduction, run + 1
+                    )
+                    # Skip if file exists
+                    if os.path.exists(sOut) and os.path.exists(tOut):
+                        continue
+                    pTime, rTime, sel = fastr.fast_(
+                        inputFile, all_, r=r, b=b, bbox=True, k=k, memory=True, B=B
+                    )
+                    pickle.dump(sel, open(sOut, "wb"))
+                    pickle.dump((pTime, rTime), open(tOut, "wb"))
+                    print("FAST-all", reduction, pTime, rTime, run)
 
     # Loose Scenario
     if setting == "loose":
@@ -198,50 +225,70 @@ def main(prog, setting):
             # reduction (percentage of test preserved)
             reduction = MIN_PERCENTAGE_OF_TEST_PRESERVED
 
-            for run in range(REPEATS):
-                sOut = "{}/{}-{}-{}.pickle".format(sPath, "FAST++", reduction, run + 1)
-                tOut = "{}/{}-{}-{}.pickle".format(tPath, "FAST++", reduction, run + 1)
-                if os.path.exists(sOut) and os.path.exists(tOut):
-                    continue
-                pTime, rTime, sel = fastr.fastPlusPlus(inputFile, dim=dim, B=B)
-                pickle.dump(sel, open(sOut, "wb"))
-                pickle.dump((pTime, rTime), open(tOut, "wb"))
-                print("FAST++", reduction, pTime, rTime)
+            if should_algorithm_run(enforce_algorithm, enforced_algorithm, "FAST++"):
+                for run in range(REPEATS):
+                    sOut = "{}/{}-{}-{}.pickle".format(
+                        sPath, "FAST++", reduction, run + 1
+                    )
+                    tOut = "{}/{}-{}-{}.pickle".format(
+                        tPath, "FAST++", reduction, run + 1
+                    )
+                    # Skip if file exists
+                    if os.path.exists(sOut) and os.path.exists(tOut):
+                        continue
+                    pTime, rTime, sel = fastr.fastPlusPlus(inputFile, dim=dim, B=B)
+                    pickle.dump(sel, open(sOut, "wb"))
+                    pickle.dump((pTime, rTime), open(tOut, "wb"))
+                    print("FAST++", reduction, pTime, rTime)
 
-            for run in range(REPEATS):
-                sOut = "{}/{}-{}-{}.pickle".format(sPath, "FAST-CS", reduction, run + 1)
-                tOut = "{}/{}-{}-{}.pickle".format(tPath, "FAST-CS", reduction, run + 1)
-                if os.path.exists(sOut) and os.path.exists(tOut):
-                    continue
-                pTime, rTime, sel = fastr.fastCS(inputFile, dim=dim, B=B)
-                pickle.dump(sel, open(sOut, "wb"))
-                pickle.dump((pTime, rTime), open(tOut, "wb"))
-                print("FAST-CS", reduction, pTime, rTime)
+            if should_algorithm_run(enforce_algorithm, enforced_algorithm, "FAST-CS"):
+                for run in range(REPEATS):
+                    sOut = "{}/{}-{}-{}.pickle".format(
+                        sPath, "FAST-CS", reduction, run + 1
+                    )
+                    tOut = "{}/{}-{}-{}.pickle".format(
+                        tPath, "FAST-CS", reduction, run + 1
+                    )
+                    # Skip if file exists
+                    if os.path.exists(sOut) and os.path.exists(tOut):
+                        continue
+                    pTime, rTime, sel = fastr.fastCS(inputFile, dim=dim, B=B)
+                    pickle.dump(sel, open(sOut, "wb"))
+                    pickle.dump((pTime, rTime), open(tOut, "wb"))
+                    print("FAST-CS", reduction, pTime, rTime)
 
-            for run in range(REPEATS):
-                sOut = "{}/{}-{}-{}.pickle".format(sPath, "FAST-pw", reduction, run + 1)
-                tOut = "{}/{}-{}-{}.pickle".format(tPath, "FAST-pw", reduction, run + 1)
-                if os.path.exists(sOut) and os.path.exists(tOut):
-                    continue
-                pTime, rTime, sel = fastr.fast_pw(
-                    inputFile, r, b, bbox=True, k=k, memory=True, B=B
-                )
-                pickle.dump(sel, open(sOut, "wb"))
-                pickle.dump((pTime, rTime), open(tOut, "wb"))
-                print("FAST-pw", reduction, pTime, rTime)
+            if should_algorithm_run(enforce_algorithm, enforced_algorithm, "FAST-pw"):
+                for run in range(REPEATS):
+                    sOut = "{}/{}-{}-{}.pickle".format(
+                        sPath, "FAST-pw", reduction, run + 1
+                    )
+                    tOut = "{}/{}-{}-{}.pickle".format(
+                        tPath, "FAST-pw", reduction, run + 1
+                    )
+                    # Skip if file exists
+                    if os.path.exists(sOut) and os.path.exists(tOut):
+                        continue
+                    pTime, rTime, sel = fastr.fast_pw(
+                        inputFile, r, b, bbox=True, k=k, memory=True, B=B
+                    )
+                    pickle.dump(sel, open(sOut, "wb"))
+                    pickle.dump((pTime, rTime), open(tOut, "wb"))
+                    print("FAST-pw", reduction, pTime, rTime)
 
-            for run in range(REPEATS):
-                sOut = "{}/{}-{}-{}.pickle".format(
-                    sPath, "FAST-all", reduction, run + 1
-                )
-                tOut = "{}/{}-{}-{}.pickle".format(
-                    tPath, "FAST-all", reduction, run + 1
-                )
-                if os.path.exists(sOut) and os.path.exists(tOut):
-                    continue
-                pTime, rTime, sel = fastr.fast_(
-                    inputFile, all_, r=r, b=b, bbox=True, k=k, memory=True, B=B
-                )
-                pickle.dump(sel, open(sOut, "wb"))
-                pickle.dump((pTime, rTime), open(tOut, "wb"))
-                print("FAST-all", reduction, pTime, rTime)
+            if should_algorithm_run(enforce_algorithm, enforced_algorithm, "FAST-all"):
+                for run in range(REPEATS):
+                    sOut = "{}/{}-{}-{}.pickle".format(
+                        sPath, "FAST-all", reduction, run + 1
+                    )
+                    tOut = "{}/{}-{}-{}.pickle".format(
+                        tPath, "FAST-all", reduction, run + 1
+                    )
+                    # Skip if file exists
+                    if os.path.exists(sOut) and os.path.exists(tOut):
+                        continue
+                    pTime, rTime, sel = fastr.fast_(
+                        inputFile, all_, r=r, b=b, bbox=True, k=k, memory=True, B=B
+                    )
+                    pickle.dump(sel, open(sOut, "wb"))
+                    pickle.dump((pTime, rTime), open(tOut, "wb"))
+                    print("FAST-all", reduction, pTime, rTime)
