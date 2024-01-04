@@ -9,10 +9,10 @@ comparing with developer reduced test sutie in loose scenario.
 projects_list = [
     "commons-lang",
     "gson",
-    # "commons-math",
+    "commons-math",
     "jfreechart",
     "joda-time",
-    # "pmd",
+    "pmd",
     #  "cts"
 ]
 

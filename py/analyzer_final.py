@@ -13,10 +13,10 @@ algos = ["FAST++", "FAST-all", "FAST-CS", "FAST-pw"]
 projects_list = [
     "commons-lang",
     "gson",
-    # "commons-math",
+    "commons-math",
     "jfreechart",
     "joda-time",
-    # "pmd",
+    "pmd",
     # "cts",
 ]
 data = {"strict": {}, "loose": {}}
