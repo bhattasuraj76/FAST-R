@@ -1,6 +1,7 @@
 import pickle
 from utils import strip_commit_url
 import json
+import os
 
 all_projects_loose_budget = json.load(open(f"./stat_loose_budget.json"))
 from config import ROOT_DIR, REPEATS
@@ -109,6 +110,9 @@ def analyzer_main(prog, setting):
                     measurement_dir, algo, FINAL_BUDGET, i
                 )
 
+                if not os.path.exists(selection_path):
+                    continue
+                
                 # Get metrics: execution and preparation time
                 with open(measurement_path, "rb") as pickle_file:
                     metrics_data = pickle.load(pickle_file)
