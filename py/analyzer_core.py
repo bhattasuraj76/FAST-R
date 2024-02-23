@@ -43,6 +43,13 @@ def analyzer_main(prog, setting):
     for index, commit in enumerate(commits_list):
         commit = strip_commit_url(commit)
 
+        # IGNORE 100% TEST DELETION CASE OF COMMONS-MATH FROM STUDY
+        if (
+            prog == "commons-math"
+            and commit == "e389289e779612c5930d7c292bbbc94027695ae5"
+        ):
+            continue
+
         # handle both strict and loose setting
         setting_dir = (
             "outputBudgetLoose" if setting == "loose" else "outputBudgetStrict"
@@ -112,13 +119,13 @@ def analyzer_main(prog, setting):
 
                 if not os.path.exists(selection_path):
                     continue
-                
+
                 # Get metrics: execution and preparation time
                 with open(measurement_path, "rb") as pickle_file:
                     metrics_data = pickle.load(pickle_file)
                     # Add total execution and preparation time
                     total_preparation.append(metrics_data[0])
-                    total_execution.append(metrics_data[1]) 
+                    total_execution.append(metrics_data[1])
 
                 with open(selection_path, "rb") as pickle_file:
                     reduced_testfiles_line_no = pickle.load(pickle_file)

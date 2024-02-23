@@ -8,7 +8,7 @@ import json
 import numpy as np
 
 # Redirect console ouput to a file
-sys.stdout = open("./stat.txt", "w")
+sys.stdout = open("./stat1.txt", "w")
 
 from config import ROOT_DIR
 from helpers import (
@@ -37,9 +37,18 @@ if __name__ == "__main__":
 
         # Strict Scenario
         MIN_PERCENTAGE_OF_TEST_PRESERVED = 100
+        MIN_PERCENTAGE_OF_TEST_PRESERVED_F = 100.00
         ALL_BUDGETS = []
+        ALL_BUDGETS_F = []
         for commit in commits_list:
             commit = strip_commit_url(commit)
+            # IGNORE 100% TEST DELETION CASE OF COMMONS-MATH FROM STUDY
+            if (
+                prog == "commons-math"
+                and commit == "e389289e779612c5930d7c292bbbc94027695ae5"
+            ):
+                continue
+
             inputFile = "{}/all_commits_all_testcases/{}/{}-{}-ts.txt".format(
                 ROOT_DIR, prog, prog, commit
             )
@@ -57,25 +66,33 @@ if __name__ == "__main__":
             repetitions = int(
                 no_of_preserved_testfiles / numOfTCS * 100
             )  # Final budget in percentage[no. of testcases remaining]
+            repetitionsF = float(
+                no_of_preserved_testfiles / numOfTCS * 100
+            )  # Final budget in percentage[no. of testcases remaining]
             # print("Computed Repetitions(% budget): ", repetitions)
 
-            if repetitions < MIN_PERCENTAGE_OF_TEST_PRESERVED:
+            if repetitions <= MIN_PERCENTAGE_OF_TEST_PRESERVED:
                 MIN_PERCENTAGE_OF_TEST_PRESERVED = repetitions
+                MIN_PERCENTAGE_OF_TEST_PRESERVED_F = repetitionsF
                 min_data = {
                     "numOfTCS": numOfTCS,
                     "no_of_deleted_testfiles": no_of_deleted_testfiles,
                     "hash": commit,
                 }
             ALL_BUDGETS.append(repetitions)
-       
+            ALL_BUDGETS_F.append(repetitionsF)
+
         # Loose Scenario
-        if MIN_PERCENTAGE_OF_TEST_PRESERVED < 100:
+        if MIN_PERCENTAGE_OF_TEST_PRESERVED <= 100:
             # print("Budget:" , MIN_PERCENTAGE_OF_TEST_PRESERVED)
             LOOSE_BUDGET[prog] = {
                 "Min Budget": MIN_PERCENTAGE_OF_TEST_PRESERVED,
+                "Min Budget F": MIN_PERCENTAGE_OF_TEST_PRESERVED_F,
                 "Min data": min_data,
                 "Max Budget": int(np.max(ALL_BUDGETS)),
+                "Max Budget F": float(np.max(ALL_BUDGETS_F)),
                 "Average Budget": int(np.mean(ALL_BUDGETS)),
+                "Average Budget F": float(np.mean(ALL_BUDGETS_F)),
             }
 
         print("================================================================")
