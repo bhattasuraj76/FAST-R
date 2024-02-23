@@ -8,11 +8,16 @@ import numpy as np
 from util_budget import get_deleted_testcases_with_whole_file_df
 
 # Redirect console ouput to a file
-sys.stdout = open("./stats_log.txt", "w")
+sys.stdout = open("./stats_refine_log.txt", "w")
 
 
 def print_stats(project):
     deleted_tc_df = get_deleted_testcases_with_whole_file_df(project)
+    
+    if project == "commons-math":
+        parsed_hash = parse_commit_as_hyperlink_by_project(project, "e389289e779612c5930d7c292bbbc94027695ae5")
+        deleted_tc_df = deleted_tc_df[deleted_tc_df["Hash"] != parsed_hash]
+        
     print("Total deleted testcases with whole file: ", len(deleted_tc_df))
     unique_deleted_testcases_df = deleted_tc_df[
         ["Hash", "Filepath", "Removed Test Case"]

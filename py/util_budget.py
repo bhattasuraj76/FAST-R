@@ -1,14 +1,9 @@
 """
-Computes budget for loose scenario
+Computes budget statistics for all the projects
 """
-
-import sys
 from utils import *
 import json
 import numpy as np
-
-# Redirect console ouput to a file
-sys.stdout = open("./stat1.txt", "w")
 
 from config import ROOT_DIR
 from helpers import (
@@ -31,8 +26,6 @@ projects_list = [
 
 if __name__ == "__main__":
     for index, prog in enumerate(projects_list):
-        print(prog)
-        print("-----------------------")
         commits_list = get_whole_file_test_deletion_parent_commits(prog)
 
         # Strict Scenario

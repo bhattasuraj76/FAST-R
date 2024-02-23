@@ -23,7 +23,7 @@
     "Max Budget": 99,
     "Max Budget F": 99.1304347826087,
     "Average Budget": 97,
-    "Average Budget F": 97.70340235826875
+    "Average Budget F": 97.70340235826872
   },
   "commons-math": {
     "Min Budget": 29,
@@ -49,7 +49,7 @@
     "Max Budget": 99,
     "Max Budget F": 99.71751412429379,
     "Average Budget": 98,
-    "Average Budget F": 99.3406678886979
+    "Average Budget F": 99.34066788869791
   },
   "joda-time": {
     "Min Budget": 92,
@@ -62,7 +62,7 @@
     "Max Budget": 99,
     "Max Budget F": 99.76744186046511,
     "Average Budget": 97,
-    "Average Budget F": 97.38659392464228
+    "Average Budget F": 97.38659392464231
   },
   "pmd": {
     "Min Budget": 69,
