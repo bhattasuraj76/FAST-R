@@ -26,7 +26,7 @@ projects_list = [
     "jfreechart",
     "joda-time",
     "pmd",
-    # "cts",
+    "cts",
 ]
 
 if __name__ == "__main__":
