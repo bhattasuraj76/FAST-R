@@ -1,9 +1,4 @@
 import json
-from functools import reduce
-from helpers import (
-    get_deleted_testcases_with_whole_file_df,
-    get_whole_file_test_deletion_parent_commits,
-)
 from math import fsum
 import pandas as pd
 import os
@@ -27,17 +22,6 @@ for index, project in enumerate(projects_list):
     strict_file = open(f"./output-strict/{project}_analyzer.json")
     algo_analyzer_strict = json.load(strict_file)
     algo_analyzer_loose = json.load(loose_file)
-
-    commits_list = get_whole_file_test_deletion_parent_commits(project)
-    print("Total whole file test deletion parent commits:", len(commits_list))
-
-    deleted_testcases_with_whole_file = get_deleted_testcases_with_whole_file_df(
-        project
-    )
-    print(
-        "Total test cases deleted with whole file:",
-        len(deleted_testcases_with_whole_file),
-    )
 
     for index, algo in enumerate(algos):
 
