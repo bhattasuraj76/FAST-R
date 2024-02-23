@@ -26,3 +26,75 @@
 22-Dec-23 20:42:54 - ERROR - help
 22-Dec-23 21:35:23 - INFO - commons-math loose took 1 day, 10:19:13.996759
 22-Dec-23 21:35:23 - ERROR - help
+03-Jan-24 04:27:16 - INFO - gson loose took 0:00:03.650708
+03-Jan-24 04:27:16 - ERROR - help
+03-Jan-24 05:39:06 - INFO - gson strict took 1:11:45.338359
+03-Jan-24 05:39:06 - ERROR - help
+03-Jan-24 05:39:39 - INFO - pmd loose took 0:00:26.543793
+03-Jan-24 05:39:39 - ERROR - help
+03-Jan-24 07:17:43 - INFO - joda-time strict took 1:05:42.561704
+03-Jan-24 07:17:43 - ERROR - help
+03-Jan-24 07:17:56 - INFO - joda-time loose took 0:00:01.347212
+03-Jan-24 07:17:56 - ERROR - help
+03-Jan-24 07:18:04 - INFO - jfreechart loose took 0:00:02.316438
+03-Jan-24 07:18:04 - ERROR - help
+03-Jan-24 07:56:10 - INFO - commons-math loose took 0:00:23.272644
+03-Jan-24 07:56:10 - ERROR - help
+03-Jan-24 09:16:14 - INFO - commons-lang loose took 0:00:06.900515
+03-Jan-24 09:16:14 - ERROR - help
+03-Jan-24 09:29:59 - INFO - jfreechart strict took 2:11:50.265775
+03-Jan-24 09:29:59 - ERROR - help
+03-Jan-24 12:21:18 - INFO - commons-lang strict took 3:05:10.903215
+03-Jan-24 12:21:18 - ERROR - help
+03-Jan-24 22:17:41 - INFO - pmd strict took 16:37:57.256539
+03-Jan-24 22:17:41 - ERROR - help
+04-Jan-24 13:40:00 - INFO - commons-math strict took 1 day, 5:43:43.672500
+04-Jan-24 13:40:00 - ERROR - help
+04-Jan-24 15:03:29 - INFO - gson strict took 0:00:03.522244
+04-Jan-24 15:03:29 - ERROR - help
+04-Jan-24 15:03:30 - INFO - gson loose took 0:00:03.735256
+04-Jan-24 15:03:30 - ERROR - help
+04-Jan-24 15:03:37 - INFO - joda-time strict took 0:00:01.230628
+04-Jan-24 15:03:37 - ERROR - help
+04-Jan-24 15:03:44 - INFO - joda-time loose took 0:00:00.911381
+04-Jan-24 15:03:44 - ERROR - help
+04-Jan-24 15:03:47 - INFO - pmd loose took 0:00:21.065147
+04-Jan-24 15:03:47 - ERROR - help
+04-Jan-24 15:03:51 - INFO - jfreechart loose took 0:00:01.129396
+04-Jan-24 15:03:51 - ERROR - help
+04-Jan-24 15:03:55 - INFO - jfreechart strict took 0:00:01.311878
+04-Jan-24 15:03:55 - ERROR - help
+04-Jan-24 15:03:57 - INFO - pmd strict took 0:00:20.806548
+04-Jan-24 15:03:57 - ERROR - help
+04-Jan-24 15:04:11 - INFO - commons-lang strict took 0:00:07.108898
+04-Jan-24 15:04:11 - ERROR - help
+04-Jan-24 15:04:15 - INFO - commons-math loose took 0:00:18.372049
+04-Jan-24 15:04:15 - ERROR - help
+04-Jan-24 15:04:18 - INFO - commons-math strict took 0:00:17.494916
+04-Jan-24 15:04:18 - ERROR - help
+04-Jan-24 15:04:22 - INFO - commons-lang loose took 0:00:05.307825
+04-Jan-24 15:04:22 - ERROR - help
+04-Jan-24 19:10:44 - INFO - jfreechart loose took 0:00:01.543788
+04-Jan-24 19:10:44 - ERROR - help
+05-Jan-24 03:28:58 - INFO - cts strict took 12:21:51.769189
+05-Jan-24 06:03:00 - INFO - cts loose took 13:05:40.211964
+07-Jan-24 03:58:19 - INFO - cts loose took 2 days, 12:16:22.467372
+08-Jan-24 04:24:15 - INFO - cts strict took 3 days, 13:17:09.203845
+11-Jan-24 20:50:32 - INFO - cts strict took 0:01:33.495049
+11-Jan-24 21:04:29 - INFO - cts strict took 0:01:34.585380
+11-Jan-24 23:52:54 - INFO - cts loose took 0:01:35.368527
+12-Jan-24 10:50:27 - INFO - cts loose took 0:01:34.034055
+19-Jan-24 15:29:18 - INFO - cts strict took 0:01:27.641858
+19-Jan-24 15:29:19 - INFO - cts strict took 0:01:28.762108
+19-Jan-24 15:31:08 - INFO - cts loose took 0:01:31.169322
+19-Jan-24 20:26:50 - INFO - cts loose took 0:01:34.369081
+23-Jan-24 05:14:19 - INFO - cts loose took 3 days, 13:42:52.704454
+24-Jan-24 08:23:27 - INFO - cts loose took 4 days, 11:55:56.115723
+01-Feb-24 13:35:39 - INFO - cts strict took 0:01:48.182367
+01-Feb-24 13:49:00 - INFO - cts strict took 0:01:38.447255
+01-Feb-24 15:53:07 - INFO - cts loose took 0:01:39.432579
+01-Feb-24 15:55:08 - INFO - cts loose took 0:01:37.054481
+01-Feb-24 15:57:09 - INFO - cts loose took 0:01:36.941583
+01-Feb-24 15:59:08 - INFO - cts loose took 0:01:35.761076
+01-Feb-24 20:22:10 - INFO - cts strict took 6:46:06.874659
+04-Feb-24 15:10:20 - INFO - cts strict took 3 days, 1:20:56.033518
