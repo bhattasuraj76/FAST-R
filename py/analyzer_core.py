@@ -46,7 +46,7 @@ def analyzer_main(prog, setting):
         # IGNORE 100% TEST DELETION CASE OF COMMONS-MATH FROM STUDY
         if (
             prog == "commons-math"
-            and commit == "e389289e779612c5930d7c292bbbc94027695ae5"
+            and commit == "991078eceb9479657094c8a4ee062d816f132446"
         ):
             continue
 
