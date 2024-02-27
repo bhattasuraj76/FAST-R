@@ -5,6 +5,7 @@ from pathlib import Path
 import os
 import pandas as pd
 
+
 def get_line_no_history_testfiles(program, commit, testfiles):
     testcase_history_file_path = (
         "{}/all_commits_all_testcases/{}/{}-{}-tsh.json".format(
@@ -42,11 +43,12 @@ def get_test_filename_by_line_no(program, commit, line_no):
     return key_list[position]
 
 
-
-
-def get_no_of_testfiles_in_commit(program, commit,):
+def get_no_of_testfiles_in_commit(
+    program,
+    commit,
+):
     testcase_file = "{}/all_commits_all_testcases/{}/{}-{}-ts.txt".format(
-            ROOT_DIR, program, program, commit
-        )
+        ROOT_DIR, program, program, commit
+    )
     numOfTCS = sum((1 for _ in open(testcase_file)))
     return numOfTCS

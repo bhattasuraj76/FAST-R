@@ -13,7 +13,7 @@ projects_list = [
     "jfreechart",
     "joda-time",
     "pmd",
-     "cts"
+    "cts",
 ]
 
 
