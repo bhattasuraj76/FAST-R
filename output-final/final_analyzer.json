@@ -1,480 +1,160 @@
 {
   "strict": {
-    "commons-lang": {
-      "FAST++": [
-        {
-          "Total Detected Deleted Testfiles": 34,
-          "Total Failed To Detect Deleted Testfiles": 36,
-          "Total Preparation Time": "0:03:51.445000",
-          "Total Execution Time": "0:00:22.383000"
-        }
-      ],
-      "FAST-all": [
-        {
-          "Total Detected Deleted Testfiles": 13,
-          "Total Failed To Detect Deleted Testfiles": 57,
-          "Total Preparation Time": "1:15:56.629000",
-          "Total Execution Time": "0:00:08.664000"
-        }
-      ],
-      "FAST-CS": [
-        {
-          "Total Detected Deleted Testfiles": 28,
-          "Total Failed To Detect Deleted Testfiles": 42,
-          "Total Preparation Time": "0:03:51.906000",
-          "Total Execution Time": "0:00:01.824000"
-        }
-      ],
-      "FAST-pw": [
-        {
-          "Total Detected Deleted Testfiles": 4,
-          "Total Failed To Detect Deleted Testfiles": 66,
-          "Total Preparation Time": "1:15:59.519000",
-          "Total Execution Time": "0:00:27.642000"
-        }
-      ]
-    },
     "gson": {
       "FAST++": [
         {
-          "Total Detected Deleted Testfiles": 23,
-          "Total Failed To Detect Deleted Testfiles": 20,
-          "Total Preparation Time": "0:01:39.873000",
-          "Total Execution Time": "0:00:09.515000"
+          "Total Detected Deleted Testfiles": 15,
+          "Total Failed To Detect Deleted Testfiles": 56,
+          "Total Detected Deleted And Redundant Tests": 13,
+          "Total Detected Obsolete And Redundant Tests": 55,
+          "Total Preparation Time": "0:00:37.782000",
+          "Total Execution Time": "0:00:02.743000",
+          "Total Avg Preparation Time": "0:00:00.032854",
+          "Total Avg Execution Time": "0:00:00.002385",
+          "Total Optimal Preparation Time": "0:00:37.782000",
+          "Total Optimal Execution Time": "0:00:02.743000",
+          "Total Avg Optimal Preparation Time": "0:00:00.001261",
+          "Total Avg Optimal Execution Time": "0:00:00.018043",
+          "Total Avg Optimal Preparation Time(U)": "1261",
+          "Total Avg Optimal Execution Time(U)": "18043",
+          "Total Avg Optimal Time(U)": "19304"
         }
       ],
       "FAST-all": [
-        {
-          "Total Detected Deleted Testfiles": 9,
-          "Total Failed To Detect Deleted Testfiles": 34,
-          "Total Preparation Time": "0:31:11.632000",
-          "Total Execution Time": "0:00:01.488000"
-        }
-      ],
-      "FAST-CS": [
         {
           "Total Detected Deleted Testfiles": 16,
-          "Total Failed To Detect Deleted Testfiles": 27,
-          "Total Preparation Time": "0:01:39.111000",
-          "Total Execution Time": "0:00:01.065000"
+          "Total Failed To Detect Deleted Testfiles": 54,
+          "Total Detected Deleted And Redundant Tests": 8,
+          "Total Detected Obsolete And Redundant Tests": 76,
+          "Total Preparation Time": "0:12:26.594000",
+          "Total Execution Time": "0:00:00.631000",
+          "Total Avg Preparation Time": "0:00:00.649212",
+          "Total Avg Execution Time": "0:00:00.000549",
+          "Total Optimal Preparation Time": "0:12:26.594000",
+          "Total Optimal Execution Time": "0:00:00.631000",
+          "Total Avg Optimal Preparation Time": "0:00:00.000391",
+          "Total Avg Optimal Execution Time": "0:00:00.409913",
+          "Total Avg Optimal Preparation Time(U)": "391",
+          "Total Avg Optimal Execution Time(U)": "409913",
+          "Total Avg Optimal Time(U)": "410304"
+        }
+      ],
+      "FAST-CS": [
+        {
+          "Total Detected Deleted Testfiles": 17,
+          "Total Failed To Detect Deleted Testfiles": 52,
+          "Total Detected Deleted And Redundant Tests": 17,
+          "Total Detected Obsolete And Redundant Tests": 67,
+          "Total Preparation Time": "0:00:38.990000",
+          "Total Execution Time": "0:00:00.378000",
+          "Total Avg Preparation Time": "0:00:00.033904",
+          "Total Avg Execution Time": "0:00:00.000329",
+          "Total Optimal Preparation Time": "0:00:38.990000",
+          "Total Optimal Execution Time": "0:00:00.378000",
+          "Total Avg Optimal Preparation Time": "0:00:00",
+          "Total Avg Optimal Execution Time": "0:00:00.021000",
+          "Total Avg Optimal Preparation Time(U)": "0",
+          "Total Avg Optimal Execution Time(U)": "21000",
+          "Total Avg Optimal Time(U)": "21000"
         }
       ],
       "FAST-pw": [
         {
           "Total Detected Deleted Testfiles": 4,
-          "Total Failed To Detect Deleted Testfiles": 39,
-          "Total Preparation Time": "0:31:18.671000",
-          "Total Execution Time": "0:00:11.327000"
-        }
-      ]
-    },
-    "commons-math": {
-      "FAST++": [
-        {
-          "Total Detected Deleted Testfiles": 68,
-          "Total Failed To Detect Deleted Testfiles": 227,
-          "Total Preparation Time": "0:22:02.954000",
-          "Total Execution Time": "0:15:12.859000"
-        }
-      ],
-      "FAST-all": [
-        {
-          "Total Detected Deleted Testfiles": 42,
-          "Total Failed To Detect Deleted Testfiles": 253,
-          "Total Preparation Time": "12:54:19.097000",
-          "Total Execution Time": "0:01:11.076000"
-        }
-      ],
-      "FAST-CS": [
-        {
-          "Total Detected Deleted Testfiles": 59,
-          "Total Failed To Detect Deleted Testfiles": 236,
-          "Total Preparation Time": "0:22:03.056000",
-          "Total Execution Time": "0:00:14.910000"
-        }
-      ],
-      "FAST-pw": [
-        {
-          "Total Detected Deleted Testfiles": 22,
-          "Total Failed To Detect Deleted Testfiles": 273,
-          "Total Preparation Time": "12:59:00.905000",
-          "Total Execution Time": "0:11:31.498000"
-        }
-      ]
-    },
-    "jfreechart": {
-      "FAST++": [
-        {
-          "Total Detected Deleted Testfiles": 3,
-          "Total Failed To Detect Deleted Testfiles": 18,
-          "Total Preparation Time": "0:01:39.074000",
-          "Total Execution Time": "0:01:04.667000"
-        }
-      ],
-      "FAST-all": [
-        {
-          "Total Detected Deleted Testfiles": 4,
-          "Total Failed To Detect Deleted Testfiles": 17,
-          "Total Preparation Time": "0:58:19.244000",
-          "Total Execution Time": "0:00:15.469000"
-        }
-      ],
-      "FAST-CS": [
-        {
-          "Total Detected Deleted Testfiles": 4,
-          "Total Failed To Detect Deleted Testfiles": 17,
-          "Total Preparation Time": "0:01:38.704000",
-          "Total Execution Time": "0:00:01.286000"
-        }
-      ],
-      "FAST-pw": [
-        {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 21,
-          "Total Preparation Time": "0:58:33.346000",
-          "Total Execution Time": "0:00:45.231000"
-        }
-      ]
-    },
-    "joda-time": {
-      "FAST++": [
-        {
-          "Total Detected Deleted Testfiles": 6,
-          "Total Failed To Detect Deleted Testfiles": 14,
-          "Total Preparation Time": "0:01:12.474000",
-          "Total Execution Time": "0:00:20.748000"
-        }
-      ],
-      "FAST-all": [
-        {
-          "Total Detected Deleted Testfiles": 7,
-          "Total Failed To Detect Deleted Testfiles": 13,
-          "Total Preparation Time": "0:27:05.256000",
-          "Total Execution Time": "0:00:02.077000"
-        }
-      ],
-      "FAST-CS": [
-        {
-          "Total Detected Deleted Testfiles": 6,
-          "Total Failed To Detect Deleted Testfiles": 14,
-          "Total Preparation Time": "0:01:12.580000",
-          "Total Execution Time": "0:00:00.564000"
-        }
-      ],
-      "FAST-pw": [
-        {
-          "Total Detected Deleted Testfiles": 5,
-          "Total Failed To Detect Deleted Testfiles": 15,
-          "Total Preparation Time": "0:27:11.128000",
-          "Total Execution Time": "0:00:12.537000"
-        }
-      ]
-    },
-    "pmd": {
-      "FAST++": [
-        {
-          "Total Detected Deleted Testfiles": 197,
-          "Total Failed To Detect Deleted Testfiles": 315,
-          "Total Preparation Time": "0:20:12.846000",
-          "Total Execution Time": "0:15:22.064000"
-        }
-      ],
-      "FAST-all": [
-        {
-          "Total Detected Deleted Testfiles": 125,
-          "Total Failed To Detect Deleted Testfiles": 387,
-          "Total Preparation Time": "6:52:38.946000",
-          "Total Execution Time": "0:01:24.049000"
-        }
-      ],
-      "FAST-CS": [
-        {
-          "Total Detected Deleted Testfiles": 134,
-          "Total Failed To Detect Deleted Testfiles": 378,
-          "Total Preparation Time": "0:20:09.823000",
-          "Total Execution Time": "0:00:29.885000"
-        }
-      ],
-      "FAST-pw": [
-        {
-          "Total Detected Deleted Testfiles": 96,
-          "Total Failed To Detect Deleted Testfiles": 416,
-          "Total Preparation Time": "6:56:20.308000",
-          "Total Execution Time": "0:33:23.163000"
-        }
-      ]
-    },
-    "cts": {
-      "FAST++": [
-        {
-          "Total Detected Deleted Testfiles": 98,
-          "Total Failed To Detect Deleted Testfiles": 2354,
-          "Total Preparation Time": "13:06:54.592000",
-          "Total Execution Time": "2 days, 23:51:06.212000"
-        }
-      ],
-      "FAST-all": [
-        {
-          "Total Detected Deleted Testfiles": 53,
-          "Total Failed To Detect Deleted Testfiles": 2399,
-          "Total Preparation Time": "18 days, 21:54:49.398000",
-          "Total Execution Time": "1:06:28.302000"
-        }
-      ],
-      "FAST-CS": [
-        {
-          "Total Detected Deleted Testfiles": 62,
-          "Total Failed To Detect Deleted Testfiles": 2390,
-          "Total Preparation Time": "12:06:44.349000",
-          "Total Execution Time": "0:08:08.671000"
-        }
-      ],
-      "FAST-pw": [
-        {
-          "Total Detected Deleted Testfiles": 149,
-          "Total Failed To Detect Deleted Testfiles": 2303,
-          "Total Preparation Time": "19 days, 8:33:11.497000",
-          "Total Execution Time": "2 days, 2:36:13.396000"
+          "Total Failed To Detect Deleted Testfiles": 78,
+          "Total Detected Deleted And Redundant Tests": 1,
+          "Total Detected Obsolete And Redundant Tests": 9,
+          "Total Preparation Time": "0:12:21.655000",
+          "Total Execution Time": "0:00:05.640000",
+          "Total Avg Preparation Time": "0:00:00.644917",
+          "Total Avg Execution Time": "0:00:00.004904",
+          "Total Optimal Preparation Time": "0:12:21.655000",
+          "Total Optimal Execution Time": "0:00:05.640000",
+          "Total Avg Optimal Preparation Time": "0:00:00.000652",
+          "Total Avg Optimal Execution Time": "0:00:00.089826",
+          "Total Avg Optimal Preparation Time(U)": "652",
+          "Total Avg Optimal Execution Time(U)": "89826",
+          "Total Avg Optimal Time(U)": "90478"
         }
       ]
     }
   },
   "loose": {
-    "commons-lang": {
-      "FAST++": [
-        {
-          "Total Detected Deleted Testfiles": 51,
-          "Total Failed To Detect Deleted Testfiles": 19,
-          "Total Preparation Time": "0:04:31.510000",
-          "Total Execution Time": "0:00:25.812000"
-        }
-      ],
-      "FAST-all": [
-        {
-          "Total Detected Deleted Testfiles": 45,
-          "Total Failed To Detect Deleted Testfiles": 25,
-          "Total Preparation Time": "1:17:18.359000",
-          "Total Execution Time": "0:00:06.162000"
-        }
-      ],
-      "FAST-CS": [
-        {
-          "Total Detected Deleted Testfiles": 43,
-          "Total Failed To Detect Deleted Testfiles": 27,
-          "Total Preparation Time": "0:04:31.010000",
-          "Total Execution Time": "0:00:02.047000"
-        }
-      ],
-      "FAST-pw": [
-        {
-          "Total Detected Deleted Testfiles": 5,
-          "Total Failed To Detect Deleted Testfiles": 65,
-          "Total Preparation Time": "1:17:35.796000",
-          "Total Execution Time": "0:00:27.849000"
-        }
-      ]
-    },
     "gson": {
       "FAST++": [
         {
-          "Total Detected Deleted Testfiles": 31,
-          "Total Failed To Detect Deleted Testfiles": 12,
-          "Total Preparation Time": "0:01:21.950000",
-          "Total Execution Time": "0:00:07.837000"
-        }
-      ],
-      "FAST-all": [
-        {
-          "Total Detected Deleted Testfiles": 28,
-          "Total Failed To Detect Deleted Testfiles": 15,
-          "Total Preparation Time": "0:28:41.651000",
-          "Total Execution Time": "0:00:01.208000"
-        }
-      ],
-      "FAST-CS": [
-        {
-          "Total Detected Deleted Testfiles": 30,
-          "Total Failed To Detect Deleted Testfiles": 13,
-          "Total Preparation Time": "0:01:21.829000",
-          "Total Execution Time": "0:00:00.927000"
-        }
-      ],
-      "FAST-pw": [
-        {
-          "Total Detected Deleted Testfiles": 8,
-          "Total Failed To Detect Deleted Testfiles": 35,
-          "Total Preparation Time": "0:28:46.160000",
-          "Total Execution Time": "0:00:10.582000"
-        }
-      ]
-    },
-    "commons-math": {
-      "FAST++": [
-        {
-          "Total Detected Deleted Testfiles": 284,
-          "Total Failed To Detect Deleted Testfiles": 11,
-          "Total Preparation Time": "0:27:50.690000",
-          "Total Execution Time": "0:09:35.093000"
-        }
-      ],
-      "FAST-all": [
-        {
-          "Total Detected Deleted Testfiles": 276,
-          "Total Failed To Detect Deleted Testfiles": 19,
-          "Total Preparation Time": "14:50:48.423000",
-          "Total Execution Time": "0:01:18.565000"
-        }
-      ],
-      "FAST-CS": [
-        {
-          "Total Detected Deleted Testfiles": 279,
-          "Total Failed To Detect Deleted Testfiles": 16,
-          "Total Preparation Time": "0:27:55.756000",
-          "Total Execution Time": "0:00:18.368000"
-        }
-      ],
-      "FAST-pw": [
-        {
-          "Total Detected Deleted Testfiles": 234,
-          "Total Failed To Detect Deleted Testfiles": 61,
-          "Total Preparation Time": "14:58:52.711000",
-          "Total Execution Time": "0:06:10.826000"
-        }
-      ]
-    },
-    "jfreechart": {
-      "FAST++": [
-        {
-          "Total Detected Deleted Testfiles": 9,
-          "Total Failed To Detect Deleted Testfiles": 12,
-          "Total Preparation Time": "0:01:43.457000",
-          "Total Execution Time": "0:01:04.520000"
-        }
-      ],
-      "FAST-all": [
-        {
-          "Total Detected Deleted Testfiles": 1,
+          "Total Detected Deleted Testfiles": 33,
           "Total Failed To Detect Deleted Testfiles": 20,
-          "Total Preparation Time": "1:00:16.581000",
-          "Total Execution Time": "0:00:16.928000"
-        }
-      ],
-      "FAST-CS": [
-        {
-          "Total Detected Deleted Testfiles": 8,
-          "Total Failed To Detect Deleted Testfiles": 13,
-          "Total Preparation Time": "0:01:42.105000",
-          "Total Execution Time": "0:00:01.312000"
-        }
-      ],
-      "FAST-pw": [
-        {
-          "Total Detected Deleted Testfiles": 0,
-          "Total Failed To Detect Deleted Testfiles": 21,
-          "Total Preparation Time": "1:00:51.960000",
-          "Total Execution Time": "0:00:53.816000"
-        }
-      ]
-    },
-    "joda-time": {
-      "FAST++": [
-        {
-          "Total Detected Deleted Testfiles": 13,
-          "Total Failed To Detect Deleted Testfiles": 7,
-          "Total Preparation Time": "0:01:15.236000",
-          "Total Execution Time": "0:00:21.627000"
+          "Total Detected Deleted And Redundant Tests": 23,
+          "Total Detected Obsolete And Redundant Tests": 158,
+          "Total Preparation Time": "0:00:37.540000",
+          "Total Execution Time": "0:00:02.630000",
+          "Total Avg Preparation Time": "0:00:00.032643",
+          "Total Avg Execution Time": "0:00:00.002287",
+          "Total Optimal Preparation Time": "0:00:37.540000",
+          "Total Optimal Execution Time": "0:00:02.630000",
+          "Total Avg Optimal Preparation Time": "0:00:00.001696",
+          "Total Avg Optimal Execution Time": "0:00:00.032522",
+          "Total Avg Optimal Preparation Time(U)": "1696",
+          "Total Avg Optimal Execution Time(U)": "32522",
+          "Total Avg Optimal Time(U)": "34217"
         }
       ],
       "FAST-all": [
         {
-          "Total Detected Deleted Testfiles": 12,
-          "Total Failed To Detect Deleted Testfiles": 8,
-          "Total Preparation Time": "0:27:40.396000",
-          "Total Execution Time": "0:00:02.291000"
+          "Total Detected Deleted Testfiles": 29,
+          "Total Failed To Detect Deleted Testfiles": 28,
+          "Total Detected Deleted And Redundant Tests": 30,
+          "Total Detected Obsolete And Redundant Tests": 142,
+          "Total Preparation Time": "0:12:29.630000",
+          "Total Execution Time": "0:00:00.596000",
+          "Total Avg Preparation Time": "0:00:00.651852",
+          "Total Avg Execution Time": "0:00:00.000518",
+          "Total Optimal Preparation Time": "0:12:29.630000",
+          "Total Optimal Execution Time": "0:00:00.596000",
+          "Total Avg Optimal Preparation Time": "0:00:00.000391",
+          "Total Avg Optimal Execution Time": "0:00:00.666783",
+          "Total Avg Optimal Preparation Time(U)": "391",
+          "Total Avg Optimal Execution Time(U)": "666783",
+          "Total Avg Optimal Time(U)": "667174"
         }
       ],
       "FAST-CS": [
+        {
+          "Total Detected Deleted Testfiles": 32,
+          "Total Failed To Detect Deleted Testfiles": 22,
+          "Total Detected Deleted And Redundant Tests": 30,
+          "Total Detected Obsolete And Redundant Tests": 139,
+          "Total Preparation Time": "0:00:37.677000",
+          "Total Execution Time": "0:00:00.352000",
+          "Total Avg Preparation Time": "0:00:00.032763",
+          "Total Avg Execution Time": "0:00:00.000306",
+          "Total Optimal Preparation Time": "0:00:37.677000",
+          "Total Optimal Execution Time": "0:00:00.352000",
+          "Total Avg Optimal Preparation Time": "0:00:00.000087",
+          "Total Avg Optimal Execution Time": "0:00:00.034522",
+          "Total Avg Optimal Preparation Time(U)": "87",
+          "Total Avg Optimal Execution Time(U)": "34522",
+          "Total Avg Optimal Time(U)": "34609"
+        }
+      ],
+      "FAST-pw": [
         {
           "Total Detected Deleted Testfiles": 10,
-          "Total Failed To Detect Deleted Testfiles": 10,
-          "Total Preparation Time": "0:01:14.707000",
-          "Total Execution Time": "0:00:00.609000"
-        }
-      ],
-      "FAST-pw": [
-        {
-          "Total Detected Deleted Testfiles": 11,
-          "Total Failed To Detect Deleted Testfiles": 9,
-          "Total Preparation Time": "0:27:53.184000",
-          "Total Execution Time": "0:00:13.917000"
-        }
-      ]
-    },
-    "pmd": {
-      "FAST++": [
-        {
-          "Total Detected Deleted Testfiles": 422,
-          "Total Failed To Detect Deleted Testfiles": 90,
-          "Total Preparation Time": "0:18:38.594000",
-          "Total Execution Time": "0:13:17.073000"
-        }
-      ],
-      "FAST-all": [
-        {
-          "Total Detected Deleted Testfiles": 329,
-          "Total Failed To Detect Deleted Testfiles": 183,
-          "Total Preparation Time": "6:36:14.102000",
-          "Total Execution Time": "0:01:11.691000"
-        }
-      ],
-      "FAST-CS": [
-        {
-          "Total Detected Deleted Testfiles": 343,
-          "Total Failed To Detect Deleted Testfiles": 169,
-          "Total Preparation Time": "0:18:36.611000",
-          "Total Execution Time": "0:00:26.668000"
-        }
-      ],
-      "FAST-pw": [
-        {
-          "Total Detected Deleted Testfiles": 144,
-          "Total Failed To Detect Deleted Testfiles": 368,
-          "Total Preparation Time": "6:39:29.300000",
-          "Total Execution Time": "0:23:09.124000"
-        }
-      ]
-    },
-    "cts": {
-      "FAST++": [
-        {
-          "Total Detected Deleted Testfiles": 222,
-          "Total Failed To Detect Deleted Testfiles": 2230,
-          "Total Preparation Time": "11:44:08.163000",
-          "Total Execution Time": "2 days, 12:09:36.227000"
-        }
-      ],
-      "FAST-all": [
-        {
-          "Total Detected Deleted Testfiles": 283,
-          "Total Failed To Detect Deleted Testfiles": 2169,
-          "Total Preparation Time": "18 days, 9:22:42.505000",
-          "Total Execution Time": "1:04:16.842000"
-        }
-      ],
-      "FAST-CS": [
-        {
-          "Total Detected Deleted Testfiles": 184,
-          "Total Failed To Detect Deleted Testfiles": 2268,
-          "Total Preparation Time": "14:44:36.925000",
-          "Total Execution Time": "0:09:42.866000"
-        }
-      ],
-      "FAST-pw": [
-        {
-          "Total Detected Deleted Testfiles": 250,
-          "Total Failed To Detect Deleted Testfiles": 2202,
-          "Total Preparation Time": "17 days, 21:00:32.987000",
-          "Total Execution Time": "1 day, 20:00:25.313000"
+          "Total Failed To Detect Deleted Testfiles": 66,
+          "Total Detected Deleted And Redundant Tests": 6,
+          "Total Detected Obsolete And Redundant Tests": 33,
+          "Total Preparation Time": "0:12:31.956000",
+          "Total Execution Time": "0:00:05.671000",
+          "Total Avg Preparation Time": "0:00:00.653875",
+          "Total Avg Execution Time": "0:00:00.004931",
+          "Total Optimal Preparation Time": "0:12:31.956000",
+          "Total Optimal Execution Time": "0:00:05.671000",
+          "Total Avg Optimal Preparation Time": "0:00:00.001826",
+          "Total Avg Optimal Execution Time": "0:00:00.219957",
+          "Total Avg Optimal Preparation Time(U)": "1826",
+          "Total Avg Optimal Execution Time(U)": "219957",
+          "Total Avg Optimal Time(U)": "221783"
         }
       ]
     }
