@@ -89,6 +89,7 @@ for index, project in enumerate(projects_list):
                     "Total Failed To Detect Deleted Testfiles"
                 ]
 
+                
                 # Total detected deleted obsolete and redundant tests
                 total_detected_obsolete_and_redundant_tests += (
                     alog_analyzer_commit_each_algo[
@@ -100,6 +101,7 @@ for index, project in enumerate(projects_list):
                         "Total Detected Deleted And Redundant Tests"
                     ]
                 )
+                
 
             # Takes into account all the 50 iterations for reducing test suite
             total_preparation_time = fsum(
