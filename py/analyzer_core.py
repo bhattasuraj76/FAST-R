@@ -9,6 +9,7 @@ from helpers import (
     get_deleted_testcases_with_whole_file_df,
     get_whole_file_test_deletion_parent_commits,
     get_deleted_testfiles_in_test_deletion_commit_parent,
+    get_deleted_obsolete_and_redundant_testcases_by_project_and_removedfilepath,
 )
 from analyzer_utils import (
     get_line_no_history_testfiles,
@@ -18,8 +19,8 @@ from analyzer_utils import (
 from math import fsum
 
 """
-This file analyzes the [all available - 1 to repetitions ~ 50/commit]reduced test suite and computes the success ratio for all Fast-R algorithms 
-comparing with developer reduced test sutie in loose scenario.
+This core file analyzes the reduced test suite and computes the success ratio for all Fast-R algorithms 
+comparing with developer reduced test sutie in both loose and strict scenario.
 """
 
 
@@ -96,6 +97,8 @@ def analyzer_main(prog, setting):
             max_repetition = 0
             max_false_detects_line_no = []
             max_false_detects_test_files = []
+            max_detects_redundant_deleted_tests = 0
+            max_detects_obsolete_deleted_tests = 0
 
             # Metrics
             total_execution = []
@@ -137,6 +140,9 @@ def analyzer_main(prog, setting):
                 detected_deleted_testfiles = []
                 failed_detected_deleted_testfiles = []
 
+                no_of_detected_deleted_obsolete_tests = 0
+                no_of_detected_deleted_redundant_tests = 0
+
                 # Detected redundant tests; not present in reduced test suite
                 redundant_tests_line_no = []
                 redundant_tests = []
@@ -154,10 +160,23 @@ def analyzer_main(prog, setting):
                         detected_deleted_testfiles_line_no.append(
                             deleted_each_testfiles_line_no
                         )
-                        detected_deleted_testfiles.append(
-                            get_test_filename_by_line_no(
-                                prog, commit, deleted_each_testfiles_line_no
-                            )
+                        filename = get_test_filename_by_line_no(
+                            prog, commit, deleted_each_testfiles_line_no
+                        )
+                        detected_deleted_testfiles.append(filename)
+
+                        # Calculate number of deleted obsolete and redundant tests detected
+                        (
+                            detected_deleted_obsolete_tests_df,
+                            detected_deleted_redundant_tests_df,
+                        ) = get_deleted_obsolete_and_redundant_testcases_by_project_and_removedfilepath(
+                            prog, commit, filename
+                        )
+                        no_of_detected_deleted_obsolete_tests += len(
+                            detected_deleted_obsolete_tests_df
+                        )
+                        no_of_detected_deleted_redundant_tests += len(
+                            detected_deleted_redundant_tests_df
                         )
                     else:
                         failed_detected_deleted_testfiles.append(
@@ -173,6 +192,13 @@ def analyzer_main(prog, setting):
                     max_detects_test_files = detected_deleted_testfiles
                     max_failed_detects_test_files = failed_detected_deleted_testfiles
                     max_repetition = i
+                    max_detects_obsolete_deleted_tests = (
+                        no_of_detected_deleted_obsolete_tests
+                    )
+                    max_detects_redundant_deleted_tests = (
+                        no_of_detected_deleted_redundant_tests
+                    )
+
                     # False detects is (detected redundant_testfiles - deleted_testfiles)
                     max_false_detects_line_no = list(
                         set(redundant_tests_line_no).difference(
@@ -198,6 +224,8 @@ def analyzer_main(prog, setting):
                 "Failed Detected Testfiles": max_failed_detects_test_files,
                 "False Detected Testfiles Line No": max_false_detects_line_no,
                 "False Detected Testfiles": max_false_detects_test_files,
+                "Total Detected Deleted And Obsolete Tests": max_detects_obsolete_deleted_tests,
+                "Total Detected Deleted And Redundant Tests": max_detects_redundant_deleted_tests,
                 "Max_repetition": max_repetition,
                 "Total execution time": fsum(total_execution),
                 "Total preparation time": fsum(total_preparation),
