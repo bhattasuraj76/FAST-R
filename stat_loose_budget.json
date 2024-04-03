@@ -79,14 +79,14 @@
   },
   "cts": {
     "Min Budget": 78,
-    "Min Budget F": 78,
+    "Min Budget F": 78.32,
     "Min data": {
       "numOfTCS": 3144,
       "no_of_deleted_testfiles": 681,
       "hash": "976971e382bbe4a0d6528bf5690baa449fde61ce"
     },
     "Max Budget": 99,
-    "Max Budget F": 99,
+    "Max Budget F": 99.93,
     "Average Budget": 98,
     "Average Budget F": 98
   }

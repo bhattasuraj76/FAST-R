@@ -42,7 +42,7 @@ for index, project in enumerate(projects_list):
             total_detected = 0
             total_failed_to_detect = 0
             total_detected_deleted_and_redundant_tests = 0
-            total_detected_obsolete_and_redundant_tests = 0
+            total_detected_deleted_and_obsolete_tests = 0
 
             # Takes into account all the 50 iterations for reducing test suite
             total_preparation_time = 0
@@ -62,6 +62,12 @@ for index, project in enumerate(projects_list):
 
             for algo_analyzer_commit in data_to_look["details"]:
                 alog_analyzer_commit_each_algo = algo_analyzer_commit["Algorithm"][algo]
+                print(project)
+                print(
+                    alog_analyzer_commit_each_algo[
+                        "Total Detected Deleted And Obsolete Tests"
+                    ]
+                )
                 total_detected += alog_analyzer_commit_each_algo[
                     "Total Detected Deleted Testfiles"
                 ]
@@ -89,9 +95,8 @@ for index, project in enumerate(projects_list):
                     "Total Failed To Detect Deleted Testfiles"
                 ]
 
-                
-                # Total detected deleted obsolete and redundant tests
-                total_detected_obsolete_and_redundant_tests += (
+                # # Total detected deleted obsolete and redundant tests
+                total_detected_deleted_and_obsolete_tests += (
                     alog_analyzer_commit_each_algo[
                         "Total Detected Deleted And Obsolete Tests"
                     ]
@@ -101,7 +106,6 @@ for index, project in enumerate(projects_list):
                         "Total Detected Deleted And Redundant Tests"
                     ]
                 )
-                
 
             # Takes into account all the 50 iterations for reducing test suite
             total_preparation_time = fsum(
@@ -148,8 +152,8 @@ for index, project in enumerate(projects_list):
                 {
                     "Total Detected Deleted Testfiles": total_detected,
                     "Total Failed To Detect Deleted Testfiles": total_failed_to_detect,
+                    "Total Detected Deleted And Obsolete Tests": total_detected_deleted_and_obsolete_tests,
                     "Total Detected Deleted And Redundant Tests": total_detected_deleted_and_redundant_tests,
-                    "Total Detected Obsolete And Redundant Tests": total_detected_obsolete_and_redundant_tests,
                     "Total Preparation Time": str(
                         timedelta(seconds=total_preparation_time)
                     ),
